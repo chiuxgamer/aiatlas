@@ -1,3 +1,5 @@
+import { ToolCard } from "@/components/tool/tool-card";
+import { tools } from "@/data/tools";
 export default function Home() {
   const categories = [
     {
@@ -148,7 +150,25 @@ export default function Home() {
             </div>
           </div>
         </section>
+{/* Herramientas destacadas */}
+<section className="px-6 py-20">
+  <div className="mx-auto max-w-6xl">
+    <div className="mb-12 text-center">
+      <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+        Herramientas destacadas
+      </h2>
+      <p className="mt-3 text-zinc-400">
+        Descubre algunas de las herramientas de IA más populares.
+      </p>
+    </div>
 
+    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {tools.slice(0, 6).map((tool) => (
+        <ToolCard key={tool.id} tool={tool} />
+      ))}
+    </div>
+  </div>
+</section>
         {/* Why AIAtlas */}
         <section id="comparativas" className="border-t border-white/5 px-6 py-20">
           <div className="mx-auto max-w-6xl">
