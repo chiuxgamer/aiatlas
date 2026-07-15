@@ -1,6 +1,15 @@
+"use client";
 import { ToolCard } from "@/components/tool/tool-card";
 import { tools } from "@/data/tools";
+import { useState } from "react";
+import { SearchBar } from "@/components/tool/search-bar"
 export default function Home() {
+  const [searchQuery, setSearchQuery] = useState("");
+  const filteredTools = tools.filter((tool) =>
+  tool.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+  tool.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
+  tool.tagline.toLowerCase().includes(searchQuery.toLowerCase())
+);
   const categories = [
     {
       emoji: "🧠",
@@ -124,9 +133,9 @@ export default function Home() {
         <section id="herramientas" className="px-6 py-20">
           <div className="mx-auto max-w-6xl">
             <div className="mb-12 text-center">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                Explora por categoría
-              </h2>
+              <div className="bg-red-500 p-4 text-white">
+  PRUEBA
+</div>
               <p className="mt-3 text-zinc-400">
                 Encuentra la herramienta ideal según lo que necesites hacer.
               </p>
@@ -160,13 +169,19 @@ export default function Home() {
       <p className="mt-3 text-zinc-400">
         Descubre algunas de las herramientas de IA más populares.
       </p>
+      <SearchBar
+  value={searchQuery}
+  onChange={setSearchQuery}
+/>
+  
+
     </div>
 
-    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      {tools.slice(0, 6).map((tool) => (
-        <ToolCard key={tool.id} tool={tool} />
-      ))}
-    </div>
+   <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+  {filteredTools.slice(0, 6).map((tool) => (
+    <ToolCard key={tool.id} tool={tool} />
+  ))}
+</div>
   </div>
 </section>
         {/* Why AIAtlas */}
