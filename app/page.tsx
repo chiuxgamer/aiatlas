@@ -5,12 +5,36 @@ import { useState } from "react";
 import { SearchBar } from "@/components/tool/search-bar"
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
-  const filteredTools = tools.filter((tool) =>
-  tool.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-  tool.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
-  tool.tagline.toLowerCase().includes(searchQuery.toLowerCase())
-);
-  const categories = [
+  const [selectedCategory, setSelectedCategory] = useState("Todas");
+const filteredTools = tools.filter((tool) => {
+  const query = searchQuery.toLowerCase();
+
+  const matchesSearch =
+    tool.name.toLowerCase().includes(query) ||
+    tool.category.toLowerCase().includes(query) ||
+    tool.tagline.toLowerCase().includes(query) ||
+    tool.description.toLowerCase().includes(query) ||
+    tool.useCases.some((useCase) =>
+      useCase.toLowerCase().includes(query)
+    );
+
+  const matchesCategory =
+    selectedCategory === "Todas" ||
+    tool.category === selectedCategory;
+
+  return matchesSearch && matchesCategory;
+});
+const categoriesFilter = [
+  "Todas",
+  "Conversación",
+  "Programación",
+  "Diseño",
+  "Vídeo",
+  "Audio",
+  "Productividad",
+  "Búsqueda",
+];
+const categories = [
     {
       emoji: "🧠",
       title: "IA para estudiar",
@@ -173,15 +197,43 @@ export default function Home() {
   value={searchQuery}
   onChange={setSearchQuery}
 />
+<div className="mt-6 flex flex-wrap justify-center gap-3">
+  {categoriesFilter.map((category) => (
+    <button
+      key={category}
+      onClick={() => setSelectedCategory(category)}
+      className={`rounded-full px-4 py-2 transition ${
+        selectedCategory === category
+          ? "bg-violet-600 text-white"
+          : "bg-white/5 text-zinc-400 hover:bg-white/10"
+      }`}
+    >
+      {category}
+    </button>
+  ))}
+</div>
   
 
     </div>
 
-   <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-  {filteredTools.slice(0, 6).map((tool) => (
+ {filteredTools.length === 0 && (
+  <div className="rounded-2xl border border-white/10 bg-white/5 p-8 text-center">
+    <h3 className="text-xl font-semibold text-white">
+      No hemos encontrado ninguna herramienta
+    </h3>
+
+    <p className="mt-2 text-zinc-400">
+      Prueba con otro nombre o categoría.
+    </p>
+  </div>
+)}
+ {filteredTools.length > 0 && (
+  <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+  {filteredTools.map((tool) => ( 
     <ToolCard key={tool.id} tool={tool} />
   ))}
 </div>
+)}
   </div>
 </section>
         {/* Why AIAtlas */}

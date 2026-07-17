@@ -15,6 +15,7 @@ export type Tool = {
   useCases: string[];
   similarTech: string[];
   relatedTools: string[];
+  features?: string[];
 };
 
 export const tools: Tool[] = [
@@ -49,7 +50,16 @@ export const tools: Tool[] = [
     ],
     similarTech: ["GPT-4o", "LLM", "OpenAI API", "RAG"],
     relatedTools: ["claude", "gemini", "perplexity"],
-  },
+  
+  features: [
+  "GPT-5",
+  "Generación de imágenes",
+  "Análisis de documentos",
+  "Programación",
+  "Memoria",
+  "Navegación web",
+],
+},
   {
     id: "claude",
     slug: "claude",

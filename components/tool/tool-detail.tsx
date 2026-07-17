@@ -7,8 +7,7 @@ type ToolDetailProps = {
   tool: Tool;
   relatedTools: Tool[];
 };
-
-export function ToolDetail({ tool, relatedTools }: ToolDetailProps) {
+ export function ToolDetail({ tool, relatedTools }: ToolDetailProps) {
   return (
     <div className="min-h-full bg-zinc-950 text-zinc-100">
       {/* Navbar */}
@@ -91,7 +90,23 @@ export function ToolDetail({ tool, relatedTools }: ToolDetailProps) {
                 {tool.description}
               </p>
             </section>
-
+{/* Características principales */}
+<section className="animate-fade-in-up animation-delay-150">
+  <h2 className="text-xl font-semibold text-white">
+    Características principales
+  </h2>
+  <div className="mt-6 flex flex-wrap gap-3">
+    {tool.features?.map((feature) => (
+      <span
+        key={feature}
+        className="rounded-full border border-violet-500/20 bg-violet-500/10 px-4 py-2 text-sm text-violet-300"
+      >
+        {feature}
+      </span>
+    ))}
+  </div>
+</section>
+{/* Pros & Cons */}
             {/* Pros & Cons */}
             <section className="animate-fade-in-up animation-delay-200 grid gap-6 sm:grid-cols-2">
               <div className="rounded-2xl border border-emerald-500/10 bg-emerald-500/5 p-6">
