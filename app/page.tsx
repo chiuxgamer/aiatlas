@@ -1,4 +1,6 @@
 "use client";
+import { Hero } from "@/components/home/hero";
+import { TrendingTools } from "@/components/home/trending-tools";
 import { ToolCard } from "@/components/tool/tool-card";
 import { tools } from "@/data/tools";
 import { useState } from "react";
@@ -6,8 +8,14 @@ import { SearchBar } from "@/components/tool/search-bar"
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("Todas");
+  const ids = tools.map((t) => t.id);
+
+console.log(ids);
+console.log("ÚNICOS:", new Set(ids).size);
+
 const filteredTools = tools.filter((tool) => {
-  const query = searchQuery.toLowerCase();
+
+ const query = searchQuery.toLowerCase();
 
   const matchesSearch =
     tool.name.toLowerCase().includes(query) ||
@@ -157,9 +165,7 @@ const categories = [
         <section id="herramientas" className="px-6 py-20">
           <div className="mx-auto max-w-6xl">
             <div className="mb-12 text-center">
-              <div className="bg-red-500 p-4 text-white">
-  PRUEBA
-</div>
+     
               <p className="mt-3 text-zinc-400">
                 Encuentra la herramienta ideal según lo que necesites hacer.
               </p>
@@ -187,16 +193,32 @@ const categories = [
 <section className="px-6 py-20">
   <div className="mx-auto max-w-6xl">
     <div className="mb-12 text-center">
-      <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-        Herramientas destacadas
-      </h2>
-      <p className="mt-3 text-zinc-400">
-        Descubre algunas de las herramientas de IA más populares.
-      </p>
-      <SearchBar
-  value={searchQuery}
-  onChange={setSearchQuery}
-/>
+     </div>
+      
+ <h2 className="text-4xl font-bold tracking-tight text-white">
+  🔥 Herramientas en tendencia
+</h2>
+
+<p className="mt-4 text-lg text-zinc-400">
+  Descubre las herramientas de inteligencia artificial más populares y mejor valoradas.
+</p>
+          </div>
+        </section>
+{/* Herramientas destacadas */}
+<section className="px-6 py-20">
+  <div className="mx-auto max-w-6xl">
+    <div className="mb-12 text-center">
+     
+      
+ <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+  Herramientas destacadas
+</h2>
+
+<p className="mt-3 text-zinc-400">
+  Explora <span className="font-semibold text-white">{tools.length}</span>{" "}
+  herramientas de IA cuidadosamente seleccionadas.
+</p>
+
 <div className="mt-6 flex flex-wrap justify-center gap-3">
   {categoriesFilter.map((category) => (
     <button
@@ -227,6 +249,9 @@ const categories = [
     </p>
   </div>
 )}
+<p className="text-red-500 text-2xl">
+  Herramientas encontradas: {filteredTools.length}
+</p>
  {filteredTools.length > 0 && (
   <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
   {filteredTools.map((tool) => ( 
@@ -234,6 +259,27 @@ const categories = [
   ))}
 </div>
 )}
+  </div>
+</section>
+{/* Herramientas más populares */}
+<section className="px-6 pb-20">
+  <div className="mx-auto max-w-6xl">
+    <h2 className="text-3xl font-bold text-white">
+      🔥 Herramientas más populares
+    </h2>
+
+    <p className="mt-3 text-zinc-400">
+      Las herramientas de IA más utilizadas por nuestra comunidad.
+    </p>
+
+    <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+     {[...tools]
+  .sort((a, b) => b.rating - a.rating)
+  .slice(0, 6)
+  .map((tool) => (
+    <ToolCard key={tool.id} tool={tool} />
+))}
+    </div>
   </div>
 </section>
         {/* Why AIAtlas */}

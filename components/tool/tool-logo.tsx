@@ -1,3 +1,4 @@
+import Image from "next/image";
 const GRADIENTS = [
   "from-violet-500 to-purple-700",
   "from-blue-500 to-cyan-600",
@@ -29,11 +30,20 @@ export function ToolLogo({ logo, name, slug, size = "lg" }: ToolLogoProps) {
       : "h-14 w-14 text-lg";
 
   return (
-    <div
-      className={`flex shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br ${gradient} font-bold text-white shadow-2xl shadow-violet-500/20 ring-1 ring-white/10 transition-transform duration-300 hover:scale-105 ${sizeClasses}`}
-      aria-label={`Logo de ${name}`}
-    >
-      {logo}
-    </div>
-  );
+  <div
+    className={`flex shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br ${gradient} font-bold text-white shadow-2xl shadow-violet-500/20 ring-1 ring-white/10 transition-transform duration-300 hover:scale-105 overflow-hidden ${sizeClasses}`}
+    aria-label={`Logo de ${name}`}
+  >
+    <Image
+      src={`/logos/${slug}.svg`}
+      alt={name}
+      width={size === "lg" ? 80 : 40}
+      height={size === "lg" ? 80 : 40}
+      className="object-contain p-3"
+    
+    />
+
+    
+  </div>
+);
 }

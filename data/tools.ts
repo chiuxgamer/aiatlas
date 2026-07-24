@@ -10,88 +10,98 @@ export type Tool = {
   logo: string;
   rating: number;
   reviewCount: number;
+
   pros: string[];
   cons: string[];
   useCases: string[];
   similarTech: string[];
   relatedTools: string[];
   features?: string[];
+  bestFor?: string[];
+  company?: string;
+  launchYear?: string;
+  platforms?: string;
+  api?: string;
+  freePlan?: string;
+  featured?: boolean;
+  editorChoice?: boolean;
+
+  // Comparativas
+  responseQuality?: number;
+  programming?: number;
+  creativity?: number;
+  speed?: number;
+  easeOfUse?: number;
+  privacy?: number;
 };
 
 export const tools: Tool[] = [
-  {
-    id: "chatgpt",
-    slug: "chatgpt",
-    name: "ChatGPT",
-    tagline: "El asistente de IA más popular del mundo",
-    category: "Conversación",
-    description:
-      "ChatGPT es el asistente conversacional de OpenAI que revolucionó el acceso público a la inteligencia artificial. Permite redactar textos, resolver problemas, programar, analizar datos y mantener conversaciones contextuales de alta calidad. Su versión Plus desbloquea modelos avanzados, navegación web, análisis de archivos y generación de imágenes.",
-    pricing: "Freemium",
-    website: "https://chat.openai.com",
-    logo: "CG",
-    rating: 4.8,
-    reviewCount: 12400,
-    pros: [
-      "Respuestas rápidas y naturales en múltiples idiomas",
-      "Ecosistema amplio con plugins, GPTs personalizados y API",
-      "Excelente para redacción, brainstorming y productividad general",
-    ],
-    cons: [
-      "El plan gratuito tiene límites de uso y modelo menos potente",
-      "Puede generar información incorrecta sin verificación",
-      "Privacidad limitada en el plan gratuito",
-    ],
-    useCases: [
-      "Redacción de emails, artículos y copy de marketing",
-      "Tutoría y resolución de dudas académicas",
-      "Asistencia en programación y depuración de código",
-      "Resumen y análisis de documentos largos",
-    ],
-    similarTech: ["GPT-4o", "LLM", "OpenAI API", "RAG"],
-    relatedTools: ["claude", "gemini", "perplexity"],
   
-  features: [
-  "GPT-5",
-  "Generación de imágenes",
-  "Análisis de documentos",
-  "Programación",
-  "Memoria",
-  "Navegación web",
-],
-},
   {
-    id: "claude",
-    slug: "claude",
-    name: "Claude",
-    tagline: "IA segura y precisa para trabajo profundo",
-    category: "Conversación",
-    description:
-      "Claude es el asistente de Anthropic diseñado para conversaciones largas, análisis detallado y razonamiento cuidadoso. Destaca en la lectura de documentos extensos, escritura con tono natural y tareas que requieren contexto amplio. Es una alternativa sólida para profesionales que priorizan calidad de respuesta sobre velocidad.",
-    pricing: "Freemium",
-    website: "https://claude.ai",
-    logo: "CL",
-    rating: 4.7,
-    reviewCount: 6800,
-    pros: [
-      "Excelente manejo de contexto largo y documentos extensos",
-      "Tono de escritura natural y bien estructurado",
-      "Enfoque en seguridad y respuestas más prudentes",
-    ],
-    cons: [
-      "Menos integraciones de terceros que ChatGPT",
-      "Sin generación de imágenes nativa",
-      "Límites estrictos en el plan gratuito",
-    ],
-    useCases: [
-      "Análisis de contratos, informes y PDFs largos",
-      "Redacción profesional y contenido editorial",
-      "Investigación y síntesis de información compleja",
-      "Asistencia en estrategia y toma de decisiones",
-    ],
-    similarTech: ["Claude 3.5", "Constitutional AI", "LLM", "Anthropic API"],
-    relatedTools: ["chatgpt", "gemini", "notion-ai"],
-  },
+  id: "claude",
+  slug: "claude",
+  name: "Claude",
+  tagline: "IA segura y precisa para trabajo profundo",
+  category: "Conversación",
+  description:
+    "Claude es el asistente de Anthropic diseñado para conversaciones largas, análisis detallado y razonamiento cuidadoso. Destaca en la lectura de documentos extensos, escritura con tono natural y tareas que requieren contexto amplio. Es una alternativa sólida para profesionales que priorizan calidad de respuesta sobre velocidad.",
+  pricing: "Freemium",
+  website: "https://claude.ai",
+  logo: "CL",
+  rating: 4.7,
+  reviewCount: 6800,
+
+  pros: [
+    "Excelente manejo de contexto largo y documentos extensos",
+    "Tono de escritura natural y bien estructurado",
+    "Enfoque en seguridad y respuestas más prudentes",
+  ],
+
+  cons: [
+    "Menos integraciones de terceros que ChatGPT",
+    "Sin generación de imágenes nativa",
+    "Límites estrictos en el plan gratuito",
+  ],
+
+  useCases: [
+    "Análisis de contratos, informes y PDFs largos",
+    "Redacción profesional y contenido editorial",
+    "Investigación y síntesis de información compleja",
+    "Asistencia en estrategia y toma de decisiones",
+  ],
+
+  similarTech: ["Claude 3.5", "Constitutional AI", "LLM", "Anthropic API"],
+  relatedTools: ["chatgpt", "gemini", "notion-ai"],
+
+  features: [
+    "Claude 4",
+    "Análisis de documentos",
+    "Contexto largo",
+    "Programación",
+    "Escritura profesional",
+    "API",
+  ],
+
+  company: "Anthropic",
+  launchYear: "2023",
+  platforms: "Web, iOS, Android",
+  api: "Sí",
+  freePlan: "Sí",
+  featured: true,
+  editorChoice: true,
+  bestFor: [
+  "estudiar",
+  "programar",
+  "escribir",
+  "trabajo",
+],
+  responseQuality: 5,
+programming: 4,
+creativity: 5,
+speed: 5,
+easeOfUse: 4,
+privacy: 5,
+},
   {
     id: "gemini",
     slug: "gemini",
@@ -348,4 +358,100 @@ export const tools: Tool[] = [
     similarTech: ["Magic Design", "Text-to-Image", "Template AI", "Graphic Design"],
     relatedTools: ["midjourney", "notion-ai", "runway"],
   },
+{
+  id: "github-copilot",
+  slug: "github-copilot",
+  name: "GitHub Copilot",
+  tagline: "Tu asistente de programación con IA",
+  category: "Programación",
+  description:
+    "GitHub Copilot ayuda a escribir código más rápido gracias a la inteligencia artificial. Se integra con Visual Studio Code y otros editores para sugerir funciones completas, explicar código y acelerar el desarrollo.",
+  pricing: "Freemium",
+  website: "https://github.com/features/copilot",
+  logo: "GC",
+  rating: 4.8,
+  reviewCount: 9200,
+  pros: [
+    "Excelente integración con VS Code",
+    "Ahorra mucho tiempo programando",
+    "Compatible con múltiples lenguajes",
+  ],
+  cons: [
+    "Requiere suscripción para uso completo",
+    "Puede sugerir código mejorable",
+    "Necesita revisar las respuestas",
+  ],
+  useCases: [
+    "Desarrollo web",
+    "Automatización",
+    "Aprender programación",
+    "Escribir funciones rápidamente",
+  ],
+  similarTech: ["Cursor", "ChatGPT", "Claude", "VS Code"],
+  relatedTools: ["cursor", "chatgpt", "claude"],
+},
+
+{
+  id: "chatgpt",
+  slug: "chatgpt",
+  name: "ChatGPT",
+  tagline: "El asistente de IA de OpenAI",
+  category: "Chatbots",
+  description:
+    "ChatGPT es un asistente de inteligencia artificial desarrollado por OpenAI. Permite responder preguntas, generar textos, programar, resumir documentos, traducir contenido y mucho más.",
+  pricing: "Freemium",
+  website: "https://chatgpt.com",
+  logo: "GPT",
+  rating: 4.9,
+  reviewCount: 2500000,
+  pros: [
+    "Muy fácil de usar",
+    "Excelente calidad de respuestas",
+    "Compatible con múltiples tareas",
+    "Gran comunidad",
+  ],
+  cons: [
+    "Algunas funciones requieren ChatGPT Plus",
+    "Puede cometer errores en temas específicos",
+  ],
+  useCases: [
+    "Redacción de contenido",
+    "Programación",
+    "Estudio",
+    "Marketing",
+    "Automatización",
+  ],
+  similarTech: ["Claude", "Gemini", "Perplexity"],
+  relatedTools: ["claude", "gemini", "perplexity"],
+  
+features: [
+  "GPT-5",
+  "Análisis de imágenes",
+  "Modo voz",
+  "Generación de texto",
+  "Programación",
+],
+company: "OpenAI",
+launchYear: "2022",
+platforms: "Web, Windows, macOS, iOS y Android",
+api: "Sí",
+freePlan: "Sí",
+featured: true,
+editorChoice: true,
+bestFor: [
+  "estudiar",
+  "programar",
+  "escribir",
+  "trabajo",
+],
+responseQuality: 5,
+programming: 5,
+creativity: 5,
+speed: 5,
+easeOfUse: 5,
+privacy: 4,
+},
+
+
 ];
+console.log("TOOLS:", tools.map(t => t.id));
