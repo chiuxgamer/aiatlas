@@ -184,21 +184,7 @@ const categories = [
             </div>
           </div>
         </section>
-{/* Herramientas destacadas */}
-<section className="px-6 py-20">
-  <div className="mx-auto max-w-6xl">
-    <div className="mb-12 text-center">
-     </div>
-      
- <h2 className="text-4xl font-bold tracking-tight text-white">
-  🔥 Herramientas en tendencia
-</h2>
 
-<p className="mt-4 text-lg text-zinc-400">
-  Descubre las herramientas de inteligencia artificial más populares y mejor valoradas.
-</p>
-          </div>
-        </section>
         {/* Rankings populares */}
 <section className="px-6 pb-20">
   <div className="mx-auto max-w-6xl">
