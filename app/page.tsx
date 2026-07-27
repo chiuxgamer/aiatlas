@@ -252,6 +252,40 @@ const categories = [
     </div>
   </div>
 </section>
+{/* Comparativas populares */}
+<section className="px-6 pb-20">
+  <div className="mx-auto max-w-6xl">
+    <h2 className="text-3xl font-bold text-white">
+      ⚔️ Comparativas populares
+    </h2>
+
+    <p className="mt-3 text-zinc-400">
+      Compara las herramientas de IA más populares.
+    </p>
+
+    <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {[
+        ["ChatGPT vs Claude", "/comparativas/chatgpt-vs-claude"],
+        ["ChatGPT vs Gemini", "/comparativas/chatgpt-vs-gemini"],
+        ["Claude vs Gemini", "/comparativas/claude-vs-gemini"],
+        ["Cursor vs GitHub Copilot", "/comparativas/cursor-vs-github-copilot"],
+        ["Midjourney vs Leonardo AI", "/comparativas/midjourney-vs-leonardo-ai"],
+        ["Suno vs Udio", "/comparativas/suno-vs-udio"],
+      ].map(([title, href]) => (
+        <a
+          key={href}
+          href={href}
+          className="rounded-2xl border border-white/5 bg-white/[0.03] p-6 transition hover:border-violet-500/30 hover:bg-white/[0.06]"
+        >
+          <h3 className="text-lg font-semibold text-white">{title}</h3>
+          <p className="mt-2 text-sm text-zinc-400">
+            Ver comparativa →
+          </p>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
 {/* Herramientas destacadas */}
 <section className="px-6 py-20">
   <div className="mx-auto max-w-6xl">
