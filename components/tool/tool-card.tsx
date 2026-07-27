@@ -50,7 +50,7 @@ export function ToolCard({ tool }: ToolCardProps) {
 </h3>
 {tool.editorChoice && (
   <span className="mt-2 inline-flex rounded-full bg-amber-500/15 px-3 py-1 text-xs font-semibold text-amber-300">
-    👑 Editor's Choice
+     👑 Selección del editor
   </span>
 )}
 
