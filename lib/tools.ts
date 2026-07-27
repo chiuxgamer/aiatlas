@@ -13,3 +13,9 @@ export function getRelatedTools(tool: Tool): Tool[] {
 export function getAllToolSlugs(): string[] {
   return tools.map((tool) => tool.slug);
 }
+
+export function getToolsByBestFor(bestFor: string): Tool[] {
+  return tools
+    .filter((tool) => tool.bestFor?.includes(bestFor))
+    .sort((a, b) => b.rating - a.rating);
+}

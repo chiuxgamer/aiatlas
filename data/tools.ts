@@ -25,6 +25,9 @@ export type Tool = {
   freePlan?: string;
   featured?: boolean;
   editorChoice?: boolean;
+  seoTitle?: string;
+seoDescription?: string;
+keywords?: string[];
 
   // Comparativas
   responseQuality?: number;
@@ -438,6 +441,15 @@ api: "Sí",
 freePlan: "Sí",
 featured: true,
 editorChoice: true,
+seoTitle: "ChatGPT: análisis completo, precio y opiniones (2026)",
+seoDescription:
+  "Descubre qué es ChatGPT, sus funciones, precio, ventajas, inconvenientes y alternativas.",
+keywords: [
+  "chatgpt",
+  "chatgpt gratis",
+  "chatgpt precio",
+  "chatgpt opiniones",
+],
 bestFor: [
   "estudiar",
   "programar",
