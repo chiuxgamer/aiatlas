@@ -1,17 +1,12 @@
 "use client";
-import { Hero } from "@/components/home/hero";
-import { TrendingTools } from "@/components/home/trending-tools";
 import { ToolCard } from "@/components/tool/tool-card";
 import { tools } from "@/data/tools";
 import { useState } from "react";
-import { SearchBar } from "@/components/tool/search-bar"
 export default function Home() {
-  const [searchQuery, setSearchQuery] = useState("");
+  const [searchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("Todas");
   const ids = tools.map((t) => t.id);
 
-console.log(ids);
-console.log("ÚNICOS:", new Set(ids).size);
 
 const filteredTools = tools.filter((tool) => {
 
@@ -204,6 +199,59 @@ const categories = [
 </p>
           </div>
         </section>
+        {/* Rankings populares */}
+<section className="px-6 pb-20">
+  <div className="mx-auto max-w-6xl">
+    <h2 className="text-3xl font-bold text-white">
+      🏆 Rankings más populares
+    </h2>
+
+    <p className="mt-3 text-zinc-400">
+      Descubre las mejores herramientas de IA para cada necesidad.
+    </p>
+
+    <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      {[
+        {
+          title: "Programar",
+          emoji: "💻",
+          href: "/rankings/programar",
+        },
+        {
+          title: "Estudiar",
+          emoji: "📚",
+          href: "/rankings/estudiar",
+        },
+        {
+          title: "Escribir",
+          emoji: "✍️",
+          href: "/rankings/escribir",
+        },
+        {
+          title: "Trabajo",
+          emoji: "💼",
+          href: "/rankings/trabajo",
+        },
+      ].map((item) => (
+        <a
+          key={item.href}
+          href={item.href}
+          className="rounded-2xl border border-white/5 bg-white/[0.03] p-6 transition hover:border-violet-500/30 hover:bg-white/[0.06]"
+        >
+          <div className="text-5xl">{item.emoji}</div>
+
+          <h3 className="mt-4 text-xl font-bold text-white">
+            Mejor IA para {item.title.toLowerCase()}
+          </h3>
+
+          <p className="mt-2 text-sm text-zinc-400">
+            Ver ranking completo →
+          </p>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
 {/* Herramientas destacadas */}
 <section className="px-6 py-20">
   <div className="mx-auto max-w-6xl">
@@ -249,9 +297,6 @@ const categories = [
     </p>
   </div>
 )}
-<p className="text-red-500 text-2xl">
-  Herramientas encontradas: {filteredTools.length}
-</p>
  {filteredTools.length > 0 && (
   <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
   {filteredTools.map((tool) => ( 
