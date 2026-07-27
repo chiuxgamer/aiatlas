@@ -315,35 +315,7 @@ const categories = [
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-white/5 px-6 py-10">
-        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 sm:flex-row">
-          <div className="flex items-center gap-2.5">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-violet-500 to-indigo-600 text-xs font-bold text-white">
-              AI
-            </span>
-            <span className="font-semibold">
-              AI<span className="text-violet-400">Atlas</span>
-            </span>
-          </div>
-
-          <p className="text-sm text-zinc-500">
-            © {new Date().getFullYear()} AIAtlas. Todos los derechos reservados.
-          </p>
-
-          <div className="flex gap-6 text-sm text-zinc-500">
-            <a href="#" className="transition-colors hover:text-zinc-300">
-              Privacidad
-            </a>
-            <a href="#" className="transition-colors hover:text-zinc-300">
-              Términos
-            </a>
-            <a href="#" className="transition-colors hover:text-zinc-300">
-              Contacto
-            </a>
-          </div>
-        </div>
-      </footer>
+     
     </div>
   );
 }
