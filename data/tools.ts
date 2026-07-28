@@ -45,23 +45,44 @@ export const tools: Tool[] = [
   name: "ChatGPT",
   tagline: "El asistente de IA de OpenAI",
   category: "Chatbots",
+
   description:
-    "ChatGPT es un asistente de inteligencia artificial desarrollado por OpenAI. Permite responder preguntas, generar textos, programar, resumir documentos, traducir contenido y mucho más.",
+    "ChatGPT es el asistente de inteligencia artificial desarrollado por OpenAI. Permite responder preguntas, generar textos, programar, resumir documentos, traducucir contenido, analizar imágenes y automatizar tareas. Es una de las herramientas de IA más utilizadas del mundo tanto por estudiantes como por empresas.",
+
   pricing: "Freemium",
   website: "https://chatgpt.com",
   logo: "GPT",
+
   rating: 4.9,
   reviewCount: 2500000,
+
+  company: "OpenAI",
+  launchYear: "2022",
+  platforms: "Web, Windows, macOS, iOS y Android",
+  api: "Sí",
+  freePlan: "Sí",
+
   pros: [
-    "Muy fácil de usar",
     "Excelente calidad de respuestas",
-    "Compatible con múltiples tareas",
-    "Gran comunidad",
+    "Muy fácil de utilizar",
+    "Ideal para programación y escritura",
+    "Gran ecosistema de herramientas",
   ],
+
   cons: [
-    "Algunas funciones requieren ChatGPT Plus",
-    "Puede cometer errores en temas específicos",
+    "Las funciones más avanzadas requieren ChatGPT Plus",
+    "Puede cometer errores o inventar información",
   ],
+
+  features: [
+    "GPT-5",
+    "Modo voz",
+    "Análisis de imágenes",
+    "Generación de texto",
+    "Programación",
+    "Carga de documentos",
+  ],
+
   useCases: [
     "Redacción de contenido",
     "Programación",
@@ -69,531 +90,820 @@ export const tools: Tool[] = [
     "Marketing",
     "Automatización",
   ],
-  similarTech: ["Claude", "Gemini", "Perplexity"],
-  relatedTools: ["claude", "gemini", "perplexity"],
-  
-features: [
-  "GPT-5",
-  "Análisis de imágenes",
-  "Modo voz",
-  "Generación de texto",
-  "Programación",
-],
-company: "OpenAI",
-launchYear: "2022",
-platforms: "Web, Windows, macOS, iOS y Android",
-api: "Sí",
-freePlan: "Sí",
-featured: true,
-editorChoice: true,
-seoTitle: "ChatGPT: análisis completo, precio y opiniones (2026)",
-seoDescription:
-  "Descubre qué es ChatGPT, sus funciones, precio, ventajas, inconvenientes y alternativas.",
-keywords: [
-  "chatgpt",
-  "chatgpt gratis",
-  "chatgpt precio",
-  "chatgpt opiniones",
-],
-bestFor: [
-  "estudiar",
-  "programar",
-  "escribir",
-  "trabajo",
-],
-responseQuality: 5,
-programming: 5,
-creativity: 5,
-speed: 5,
-easeOfUse: 5,
-privacy: 4,
+
+  bestFor: [
+    "estudiar",
+    "programar",
+    "escribir",
+    "trabajo",
+  ],
+
+  similarTech: [
+    "Claude",
+    "Gemini",
+    "DeepSeek",
+    "Perplexity",
+  ],
+
+  relatedTools: [
+    "claude",
+    "gemini",
+    "perplexity",
+    "deepseek",
+  ],
+
+  featured: true,
+  editorChoice: true,
+
+  seoTitle:
+    "ChatGPT: análisis, precio, funciones y alternativas (2026)",
+
+  seoDescription:
+    "Descubre ChatGPT de OpenAI. Analizamos sus funciones, precio, ventajas, inconvenientes y las mejores alternativas disponibles.",
+
+  keywords: [
+    "chatgpt",
+    "chatgpt gratis",
+    "chatgpt precio",
+    "chatgpt opiniones",
+    "openai",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 5,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
 },
   
   {
   id: "claude",
   slug: "claude",
   name: "Claude",
-  tagline: "IA segura y precisa para trabajo profundo",
-  category: "Conversación",
+  tagline: "La IA de Anthropic especializada en razonamiento y escritura",
+  category: "Chatbots",
+
   description:
-    "Claude es el asistente de Anthropic diseñado para conversaciones largas, análisis detallado y razonamiento cuidadoso. Destaca en la lectura de documentos extensos, escritura con tono natural y tareas que requieren contexto amplio. Es una alternativa sólida para profesionales que priorizan calidad de respuesta sobre velocidad.",
+    "Claude es el asistente de inteligencia artificial desarrollado por Anthropic. Destaca por su excelente razonamiento, su capacidad para analizar documentos largos y generar textos naturales. Es una de las mejores alternativas a ChatGPT para profesionales, desarrolladores y empresas.",
+
   pricing: "Freemium",
   website: "https://claude.ai",
   logo: "CL",
-  rating: 4.7,
+
+  rating: 4.8,
   reviewCount: 6800,
 
+  company: "Anthropic",
+  launchYear: "2023",
+  platforms: "Web, iOS y Android",
+  api: "Sí",
+  freePlan: "Sí",
+
   pros: [
-    "Excelente manejo de contexto largo y documentos extensos",
-    "Tono de escritura natural y bien estructurado",
-    "Enfoque en seguridad y respuestas más prudentes",
+    "Excelente comprensión de documentos largos",
+    "Respuestas muy naturales",
+    "Gran capacidad de razonamiento",
+    "Muy útil para programación y escritura",
   ],
 
   cons: [
-    "Menos integraciones de terceros que ChatGPT",
-    "Sin generación de imágenes nativa",
-    "Límites estrictos en el plan gratuito",
+    "Menos integraciones que ChatGPT",
+    "No genera imágenes de forma nativa",
+    "El plan gratuito tiene límites diarios",
   ],
-
-  useCases: [
-    "Análisis de contratos, informes y PDFs largos",
-    "Redacción profesional y contenido editorial",
-    "Investigación y síntesis de información compleja",
-    "Asistencia en estrategia y toma de decisiones",
-  ],
-
-  similarTech: ["Claude 3.5", "Constitutional AI", "LLM", "Anthropic API"],
-  relatedTools: ["chatgpt", "gemini", "notion-ai"],
 
   features: [
     "Claude 4",
-    "Análisis de documentos",
     "Contexto largo",
+    "Análisis de documentos",
     "Programación",
     "Escritura profesional",
     "API",
   ],
 
-  company: "Anthropic",
-  launchYear: "2023",
-  platforms: "Web, iOS, Android",
-  api: "Sí",
-  freePlan: "Sí",
-  featured: true,
-  editorChoice: true,
-  bestFor: [
-  "estudiar",
-  "programar",
-  "escribir",
-  "trabajo",
-],
-  responseQuality: 5,
-programming: 4,
-creativity: 5,
-speed: 5,
-easeOfUse: 4,
-privacy: 5,
-},
-  {
-    id: "gemini",
-    slug: "gemini",
-    name: "Gemini",
-    tagline: "IA multimodal integrada con Google",
-    category: "Conversación",
-    description:
-      "Gemini es el modelo de inteligencia artificial de Google con capacidades multimodales: texto, imágenes, audio y video. Se integra nativamente con Gmail, Docs, Drive y el buscador de Google, lo que lo convierte en una opción potente para usuarios del ecosistema Google que necesitan IA en su flujo de trabajo diario.",
-    pricing: "Freemium",
-    website: "https://gemini.google.com",
-    logo: "GM",
-    rating: 4.5,
-  
-    reviewCount: 5200,
-    pros: [
-      "Integración profunda con productos de Google",
-      "Capacidades multimodales nativas",
-      "Acceso gratuito generoso para uso personal",
-    ],
-    cons: [
-      "Resultados variables en tareas de razonamiento complejo",
-      "Menos maduro que competidores en programación",
-      "Disponibilidad de funciones según región",
-    ],
-    useCases: [
-      "Resumir emails y redactar respuestas en Gmail",
-      "Investigación con acceso a información actualizada",
-      "Análisis de imágenes y contenido visual",
-      "Productividad en Google Workspace",
-    ],
-    similarTech: ["Gemini 1.5", "Multimodal AI", "Google AI", "Bard"],
-    relatedTools: ["chatgpt", "claude", "perplexity"],
-  },
-  {
-    id: "perplexity",
-    slug: "perplexity",
-    name: "Perplexity",
-    tagline: "Búsqueda con IA y fuentes verificables",
-    category: "Búsqueda",
-    description:
-      "Perplexity combina un motor de búsqueda con modelos de lenguaje para ofrecer respuestas directas con citas y fuentes enlazadas. Es ideal para investigación, verificación de hechos y obtención de información actualizada, superando a los chatbots tradicionales cuando la precisión factual es prioritaria.",
-    pricing: "Freemium",
-    website: "https://www.perplexity.ai",
-    logo: "PX",
-    rating: 4.6,
-    reviewCount: 4100,
-    pros: [
-      "Respuestas con fuentes citadas y enlaces verificables",
-      "Información actualizada en tiempo real",
-      "Interfaz limpia orientada a investigación",
-    ],
-    cons: [
-      "Menos versátil para tareas creativas o de programación",
-      "Pro Mode requiere suscripción de pago",
-      "Dependiente de la calidad de las fuentes indexadas",
-    ],
-    useCases: [
-      "Investigación de mercado y competencia",
-      "Verificación de noticias y datos actuales",
-      "Preparación de informes con referencias",
-      "Aprendizaje rápido sobre temas nuevos",
-    ],
-    similarTech: ["RAG", "Web Search AI", "Citation Engine", "LLM"],
-    relatedTools: ["chatgpt", "gemini", "claude"],
-  },
-  {
-    id: "cursor",
-    slug: "cursor",
-    name: "Cursor",
-    tagline: "El IDE definitivo para programar con IA",
-    category: "Programación",
-    description:
-      "Cursor es un editor de código basado en VS Code con IA profundamente integrada. Ofrece autocompletado inteligente, chat contextual sobre tu codebase, edición multi-archivo con agentes y refactorización automática. Es la herramienta preferida por desarrolladores que quieren multiplicar su productividad sin salir del editor.",
-    pricing: "Freemium",
-    website: "https://cursor.com",
-    logo: "CR",
-    rating: 4.9,
-    reviewCount: 8900,
-    pros: [
-      "Comprensión profunda del contexto del proyecto completo",
-      "Agentes que editan múltiples archivos automáticamente",
-      "Experiencia familiar basada en VS Code",
-    ],
-    cons: [
-      "Curva de aprendizaje para aprovechar agentes al máximo",
-      "Uso intensivo consume créditos rápidamente",
-      "Requiere conexión a internet para funciones de IA",
-    ],
-    useCases: [
-      "Desarrollo full-stack con asistencia de IA",
-      "Refactorización y migración de código legacy",
-      "Generación de tests y documentación técnica",
-      "Debugging asistido con contexto del proyecto",
-    ],
-    similarTech: ["Copilot", "Code LLM", "Agentic IDE", "VS Code"],
-    relatedTools: ["chatgpt", "claude", "notion-ai"],
-  },
-  {
-    id: "midjourney",
-    slug: "midjourney",
-    name: "Midjourney",
-    tagline: "Arte e imágenes de calidad profesional con IA",
-    category: "Diseño",
-    description:
-      "Midjourney es el referente en generación de imágenes artísticas por IA. Produce resultados estéticamente superiores en ilustración, concept art, fotografía sintética y diseño visual. Opera principalmente a través de Discord y ofrece control avanzado mediante prompts, parámetros y estilos personalizados.",
-    pricing: "De pago",
-    website: "https://www.midjourney.com",
-    logo: "MJ",
-    rating: 4.8,
-    reviewCount: 7600,
-    pros: [
-      "Calidad artística superior a la mayoría de competidores",
-      "Estilos visuales consistentes y altamente pulidos",
-      "Comunidad activa con recursos y prompts compartidos",
-    ],
-    cons: [
-      "Sin plan gratuito permanente",
-      "Interfaz basada en Discord puede resultar poco intuitiva",
-      "Control preciso de texto en imágenes es limitado",
-    ],
-    useCases: [
-      "Concept art para videojuegos y cine",
-      "Ilustraciones para redes sociales y marketing",
-      "Diseño de portadas y material visual editorial",
-      "Moodboards y exploración creativa de marca",
-    ],
-    similarTech: ["Diffusion Models", "Text-to-Image", "Discord Bot", "Generative AI"],
-    relatedTools: ["canva-ai", "runway", "elevenlabs"],
-  },
-  {
-    id: "runway",
-    slug: "runway",
-    name: "Runway",
-    tagline: "Creación y edición de video con IA generativa",
-    category: "Video",
-    description:
-      "Runway es una plataforma de creación audiovisual que permite generar, editar y transformar videos con inteligencia artificial. Incluye generación de video desde texto, eliminación de fondos, motion tracking y efectos visuales asistidos por IA. Es la herramienta de referencia para creadores de contenido y profesionales del vídeo.",
-    pricing: "Freemium",
-    website: "https://runwayml.com",
-    logo: "RW",
-    rating: 4.6,
-    reviewCount: 3400,
-    pros: [
-      "Generación de video de alta calidad desde texto o imagen",
-      "Suite completa de edición con herramientas de IA",
-      "Usado por estudios profesionales y creadores",
-    ],
-    cons: [
-      "Los créditos gratuitos se agotan rápidamente",
-      "Generación de video puede ser lenta",
-      "Curva de aprendizaje en herramientas avanzadas",
-    ],
-    useCases: [
-      "Videos promocionales y contenido para redes",
-      "Efectos visuales y postproducción rápida",
-      "Prototipado de escenas para cine y publicidad",
-      "Eliminación de fondos y rotoscopia automática",
-    ],
-    similarTech: ["Gen-3", "Video Diffusion", "Text-to-Video", "VFX AI"],
-    relatedTools: ["midjourney", "elevenlabs", "canva-ai"],
-  },
-  {
-    id: "elevenlabs",
-    slug: "elevenlabs",
-    name: "ElevenLabs",
-    tagline: "Voces sintéticas indistinguibles de humanos reales",
-    category: "Audio",
-    description:
-      "ElevenLabs lidera la síntesis de voz con IA, ofreciendo locuciones ultrarrealistas, clonación de voz, doblaje multilingüe y efectos de audio. Es la solución preferida para podcasts, audiolibros, vídeos narrados y accesibilidad, con voces que capturan emoción, ritmo y matices naturales.",
-    pricing: "Freemium",
-    website: "https://elevenlabs.io",
-    logo: "EL",
-    rating: 4.7,
-
-    reviewCount: 5100,
-    pros: [
-      "Calidad de voz líder en la industria",
-      "Clonación de voz con pocos minutos de audio",
-      "Doblaje automático a múltiples idiomas",
-    ],
-    cons: [
-      "Riesgo de uso indebido en deepfakes de voz",
-      "Plan gratuito muy limitado en caracteres",
-      "Clonación de voz requiere verificación en planes avanzados",
-    ],
-    useCases: [
-      "Narración de vídeos y contenido de YouTube",
-      "Producción de audiolibros y podcasts",
-      "Doblaje de contenido a otros idiomas",
-      "Asistentes de voz y experiencias interactivas",
-    ],
-    similarTech: ["TTS", "Voice Cloning", "Speech Synthesis", "Audio AI"],
-    relatedTools: ["runway", "midjourney", "notion-ai"],
-  },
-  {
-    id: "notion-ai",
-    slug: "notion-ai",
-    name: "Notion AI",
-    tagline: "IA integrada en tu espacio de trabajo",
-    category: "Productividad",
-    description:
-      "Notion AI lleva la inteligencia artificial directamente al espacio de trabajo más popular para notas, wikis y gestión de proyectos. Permite redactar, resumir, traducir, generar tablas y automatizar tareas sin salir de Notion, ideal para equipos que ya organizan su trabajo en la plataforma.",
-    pricing: "De pago",
-    website: "https://www.notion.so/product/ai",
-    logo: "NA",
-    rating: 4.4,
-    reviewCount: 2900,
-    pros: [
-      "Integración nativa sin cambiar de herramienta",
-      "Perfecto para equipos que ya usan Notion",
-      "Resúmenes y acciones rápidas sobre cualquier página",
-    ],
-    cons: [
-      "Requiere suscripción de Notion además del add-on de IA",
-      "Menos potente que asistentes dedicados como ChatGPT",
-      "Funciones limitadas fuera del ecosistema Notion",
-    ],
-    useCases: [
-      "Documentación de equipos y wikis internas",
-      "Resumen de reuniones y notas de proyecto",
-      "Generación de briefs y planes de contenido",
-      "Organización de bases de conocimiento empresarial",
-    ],
-    similarTech: ["Workspace AI", "Knowledge Base", "LLM", "Productivity"],
-    relatedTools: ["chatgpt", "claude", "canva-ai"],
-  },
-  {
-    id: "canva-ai",
-    slug: "canva-ai",
-    name: "Canva AI",
-    tagline: "Diseño gráfico accesible potenciado por IA",
-    category: "Diseño",
-    description:
-      "Canva AI integra generación de imágenes, redacción de textos, edición mágica y diseño automático en la plataforma de diseño más accesible del mercado. Permite a cualquier persona crear contenido visual profesional para redes sociales, presentaciones y marketing sin experiencia en diseño gráfico.",
-    pricing: "Freemium",
-    website: "https://www.canva.com/ai",
-    logo: "CA",
-    rating: 4.5,
-    reviewCount: 9800,
-    pros: [
-      "Interfaz intuitiva sin curva de aprendizaje",
-      "Plantillas profesionales combinadas con IA generativa",
-      "Ideal para marketing y redes sociales",
-    ],
-    cons: [
-      "Menor calidad artística que herramientas especializadas",
-      "Funciones avanzadas de IA requieren plan Pro",
-      "Personalización limitada para diseño muy específico",
-    ],
-    useCases: [
-      "Posts y stories para Instagram, LinkedIn y TikTok",
-      "Presentaciones y pitch decks corporativos",
-      "Material gráfico para campañas de marketing",
-      "Diseño rápido de logos y branding básico",
-    ],
-    similarTech: ["Magic Design", "Text-to-Image", "Template AI", "Graphic Design"],
-    relatedTools: ["midjourney", "notion-ai", "runway"],
-  },
-{
-  id: "github-copilot",
-  slug: "github-copilot",
-  name: "GitHub Copilot",
-  tagline: "Tu asistente de programación con IA",
-  category: "Programación",
-  description:
-    "GitHub Copilot ayuda a escribir código más rápido gracias a la inteligencia artificial. Se integra con Visual Studio Code y otros editores para sugerir funciones completas, explicar código y acelerar el desarrollo.",
-  pricing: "Freemium",
-  website: "https://github.com/features/copilot",
-  logo: "GC",
-  rating: 4.8,
-  reviewCount: 9200,
-  pros: [
-    "Excelente integración con VS Code",
-    "Ahorra mucho tiempo programando",
-    "Compatible con múltiples lenguajes",
-  ],
-  cons: [
-    "Requiere suscripción para uso completo",
-    "Puede sugerir código mejorable",
-    "Necesita revisar las respuestas",
-  ],
-  useCases: [
-    "Desarrollo web",
-    "Automatización",
-    "Aprender programación",
-    "Escribir funciones rápidamente",
-  ],
-  similarTech: ["Cursor", "ChatGPT", "Claude", "VS Code"],
-  relatedTools: ["cursor", "chatgpt", "claude"],
-},
-
-{
-  id: "deepseek",
-  slug: "deepseek",
-  name: "DeepSeek",
-  tagline: "Modelo de IA potente y económico para programar y razonar",
-  category: "Chatbots",
-  description:
-    "DeepSeek es un asistente de inteligencia artificial conocido por su gran rendimiento en programación, razonamiento y matemáticas. Destaca por ofrecer capacidades avanzadas con un coste muy competitivo.",
-  pricing: "Freemium",
-  website: "https://www.deepseek.com",
-  logo: "DS",
-  rating: 4.8,
-  reviewCount: 9500,
-
-  pros: [
-    "Excelente para programación",
-    "Muy buen razonamiento",
-    "Modelo rápido y económico",
-  ],
-
-  cons: [
-    "Menos integraciones que ChatGPT",
-    "Puede tener límites de uso",
-    "Algunas funciones cambian según la región",
-  ],
-
   useCases: [
     "Programación",
-    "Estudio",
-    "Resolución de problemas",
-    "Análisis técnico",
-  ],
-
-  similarTech: ["ChatGPT", "Claude", "Gemini"],
-  relatedTools: ["chatgpt", "claude", "gemini"],
-
-  features: [
-    "Programación",
-    "Razonamiento",
-    "Matemáticas",
-    "API",
-  ],
-
-  company: "DeepSeek AI",
-  launchYear: "2024",
-  platforms: "Web",
-  api: "Sí",
-  freePlan: "Sí",
-  featured: true,
-  editorChoice: true,
-
-  seoTitle: "DeepSeek: análisis, precio y opiniones (2026)",
-  seoDescription:
-    "Descubre DeepSeek, una de las mejores IA para programar, resolver problemas y razonar.",
-  keywords: [
-    "deepseek",
-    "deepseek ia",
-    "deepseek chat",
-    "deepseek opiniones",
+    "Análisis de documentos",
+    "Redacción profesional",
+    "Investigación",
   ],
 
   bestFor: [
     "programar",
+    "escribir",
     "estudiar",
-    "trabajo",
+    "empresas",
+  ],
+
+  similarTech: [
+    "ChatGPT",
+    "Gemini",
+    "DeepSeek",
+    "Perplexity",
+  ],
+
+  relatedTools: [
+    "chatgpt",
+    "gemini",
+    "deepseek",
+    "perplexity",
+  ],
+
+  featured: true,
+  editorChoice: true,
+
+  seoTitle:
+    "Claude AI: análisis, precio, funciones y alternativas (2026)",
+
+  seoDescription:
+    "Conoce Claude AI de Anthropic. Descubre sus funciones, ventajas, precio, opiniones y las mejores alternativas a ChatGPT.",
+
+  keywords: [
+    "claude",
+    "claude ai",
+    "anthropic",
+    "claude precio",
+    "claude opiniones",
   ],
 
   responseQuality: 5,
   programming: 5,
+  creativity: 5,
+  speed: 5,
+  easeOfUse: 4,
+  privacy: 5,
+},
+  {
+  id: "gemini",
+  slug: "gemini",
+  name: "Gemini",
+  tagline: "La inteligencia artificial multimodal de Google",
+  category: "Chatbots",
+
+  description:
+    "Gemini es el asistente de inteligencia artificial desarrollado por Google. Gracias a sus capacidades multimodales puede comprender texto, imágenes, audio y documentos, además de integrarse con Gmail, Google Docs, Drive y el resto del ecosistema Google.",
+
+  pricing: "Freemium",
+  website: "https://gemini.google.com",
+  logo: "GM",
+
+  rating: 4.7,
+  reviewCount: 5200,
+
+  company: "Google",
+  launchYear: "2023",
+  platforms: "Web, Android, iOS",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Excelente integración con Google Workspace",
+    "Capacidades multimodales",
+    "Muy útil para estudiar y trabajar",
+    "Acceso gratuito bastante completo",
+  ],
+
+  cons: [
+    "El razonamiento todavía puede ser irregular",
+    "Algunas funciones solo están disponibles en Gemini Advanced",
+    "Menos preciso que ChatGPT en programación compleja",
+  ],
+
+  features: [
+    "Gemini 2.5",
+    "Análisis de imágenes",
+    "Google Workspace",
+    "Carga de documentos",
+    "Programación",
+    "API",
+  ],
+
+  useCases: [
+    "Estudiar",
+    "Productividad",
+    "Análisis de documentos",
+    "Investigación",
+    "Automatización",
+  ],
+
+  bestFor: [
+    "estudiar",
+    "trabajo",
+    "google workspace",
+    "investigación",
+  ],
+
+  similarTech: [
+    "ChatGPT",
+    "Claude",
+    "DeepSeek",
+    "Perplexity",
+  ],
+
+  relatedTools: [
+    "chatgpt",
+    "claude",
+    "perplexity",
+    "deepseek",
+  ],
+
+  featured: true,
+  editorChoice: true,
+
+  seoTitle:
+    "Gemini AI: análisis, precio, funciones y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Gemini de Google. Analizamos sus funciones, ventajas, precio, opiniones y alternativas.",
+
+  keywords: [
+    "gemini",
+    "google gemini",
+    "gemini ai",
+    "gemini precio",
+    "gemini opiniones",
+  ],
+
+  responseQuality: 4,
+  programming: 4,
   creativity: 4,
   speed: 5,
   easeOfUse: 5,
   privacy: 4,
-},{
-  id: "grok",
-  slug: "grok",
-  name: "Grok",
-  tagline: "La IA de xAI integrada con X",
-  category: "Chatbots",
+},
+
+{
+  id: "perplexity",
+  slug: "perplexity",
+  name: "Perplexity",
+  tagline: "El buscador con inteligencia artificial y fuentes verificadas",
+  category: "Investigación",
+
   description:
-    "Grok es el asistente de inteligencia artificial desarrollado por xAI. Destaca por responder con información actualizada, integrar contenido de X y ofrecer un estilo conversacional directo.",
+    "Perplexity combina un motor de búsqueda con inteligencia artificial para ofrecer respuestas actualizadas acompañadas de fuentes verificables. Es una de las mejores herramientas para investigar, contrastar información y encontrar datos fiables en pocos segundos.",
+
   pricing: "Freemium",
-  website: "https://grok.com",
-  logo: "GK",
-  rating: 4.7,
-  reviewCount: 7200,
+  website: "https://www.perplexity.ai",
+  logo: "PX",
+
+  rating: 4.8,
+  reviewCount: 4100,
+
+  company: "Perplexity AI",
+  launchYear: "2022",
+  platforms: "Web, iOS y Android",
+  api: "Sí",
+  freePlan: "Sí",
 
   pros: [
+    "Incluye fuentes verificadas",
     "Información actualizada",
-    "Integración con X",
-    "Buen razonamiento",
+    "Excelente para investigación",
+    "Muy rápida",
   ],
 
   cons: [
-    "Algunas funciones requieren suscripción",
-    "Menos integraciones que ChatGPT",
-    "Disponibilidad limitada en algunos países",
+    "No destaca tanto en creatividad",
+    "Las mejores funciones requieren Pro",
+    "Depende de las fuentes disponibles",
   ],
-
-  useCases: [
-    "Noticias",
-    "Investigación",
-    "Programación",
-    "Escritura",
-  ],
-
-  similarTech: ["ChatGPT", "Claude", "Gemini"],
-  relatedTools: ["chatgpt", "claude", "gemini"],
 
   features: [
     "Búsqueda web",
-    "Programación",
-    "Análisis",
-    "IA conversacional",
+    "Fuentes verificadas",
+    "Investigación",
+    "Modo Pro",
+    "API",
   ],
+
+  useCases: [
+    "Investigación",
+    "Verificación de información",
+    "Estudio",
+    "Noticias",
+    "Investigación de mercado",
+  ],
+
+  bestFor: [
+    "investigar",
+    "estudiar",
+    "periodismo",
+    "empresas",
+  ],
+
+  similarTech: [
+    "ChatGPT",
+    "Gemini",
+    "Claude",
+    "DeepSeek",
+  ],
+
+  relatedTools: [
+    "chatgpt",
+    "gemini",
+    "claude",
+    "deepseek",
+  ],
+
+  featured: true,
+
+  seoTitle:
+    "Perplexity AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Perplexity AI, el buscador con inteligencia artificial que responde utilizando fuentes verificadas.",
+
+  keywords: [
+    "perplexity",
+    "perplexity ai",
+    "buscador ia",
+    "perplexity opiniones",
+    "perplexity precio",
+  ],
+
+  responseQuality: 5,
+  programming: 3,
+  creativity: 3,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},
+
+{
+  id: "cursor",
+  slug: "cursor",
+  name: "Cursor",
+  tagline: "El editor de código con inteligencia artificial más avanzado",
+  category: "Programación",
+
+  description:
+    "Cursor es un editor basado en Visual Studio Code que incorpora inteligencia artificial para programar más rápido. Permite generar código, modificar proyectos completos, explicar funciones y trabajar con agentes inteligentes directamente desde el editor.",
+
+  pricing: "Freemium",
+  website: "https://cursor.com",
+  logo: "CR",
+
+  rating: 4.9,
+  reviewCount: 8900,
+
+  company: "Cursor",
+  launchYear: "2023",
+  platforms: "Windows, macOS y Linux",
+  api: "No",
+  freePlan: "Sí",
+
+  pros: [
+    "Excelente para desarrollar software",
+    "Entiende proyectos completos",
+    "Muy rápido",
+    "Compatible con VS Code",
+  ],
+
+  cons: [
+    "Consume créditos rápidamente",
+    "Requiere conexión a internet",
+    "Puede resultar complejo para principiantes",
+  ],
+
+  features: [
+    "Autocompletado",
+    "Agentes IA",
+    "Edición de múltiples archivos",
+    "Chat integrado",
+    "Refactorización",
+  ],
+
+  useCases: [
+    "Desarrollo web",
+    "Aplicaciones móviles",
+    "Refactorización",
+    "Debugging",
+    "Programación diaria",
+  ],
+
+  bestFor: [
+    "programadores",
+    "desarrolladores",
+    "startups",
+    "empresas",
+  ],
+
+  similarTech: [
+    "GitHub Copilot",
+    "ChatGPT",
+    "Claude",
+    "Windsurf",
+  ],
+
+  relatedTools: [
+    "github-copilot",
+    "chatgpt",
+    "claude",
+    "deepseek",
+  ],
+
+  featured: true,
+  editorChoice: true,
+
+  seoTitle:
+    "Cursor AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Cursor AI, uno de los mejores editores de código con inteligencia artificial para programadores.",
+
+  keywords: [
+    "cursor ai",
+    "cursor editor",
+    "cursor ia",
+    "cursor opiniones",
+    "cursor precio",
+  ],
+
+  responseQuality: 4,
+  programming: 5,
+  creativity: 3,
+  speed: 5,
+  easeOfUse: 4,
+  privacy: 4,
+},
+  {
+  id: "midjourney",
+  slug: "midjourney",
+  name: "Midjourney",
+  tagline: "La referencia en generación de imágenes con inteligencia artificial",
+  category: "Diseño",
+
+  description:
+    "Midjourney es una de las mejores herramientas de generación de imágenes mediante inteligencia artificial. Destaca por crear ilustraciones, arte conceptual, fotografías y diseños con un nivel de calidad excepcional, siendo una de las opciones favoritas de diseñadores, artistas y estudios creativos.",
+
+  pricing: "De pago",
+  website: "https://www.midjourney.com",
+  logo: "MJ",
+
+  rating: 4.9,
+  reviewCount: 7600,
+
+  company: "Midjourney",
+  launchYear: "2022",
+  platforms: "Web (Discord)",
+  api: "No",
+  freePlan: "No",
+
+  pros: [
+    "Calidad artística líder del mercado",
+    "Resultados muy realistas y creativos",
+    "Gran comunidad de usuarios",
+    "Ideal para diseño profesional",
+  ],
+
+  cons: [
+    "No dispone de plan gratuito",
+    "Se utiliza principalmente desde Discord",
+    "No permite editar imágenes con tanta precisión como otras herramientas",
+  ],
+
+  features: [
+    "Generación de imágenes",
+    "Arte conceptual",
+    "Fotografía IA",
+    "Estilos personalizados",
+    "Upscaling",
+  ],
+
+  useCases: [
+    "Concept Art",
+    "Marketing",
+    "Diseño gráfico",
+    "Redes sociales",
+    "Branding",
+  ],
+
+  bestFor: [
+    "diseñadores",
+    "artistas",
+    "marketing",
+    "creadores de contenido",
+  ],
+
+  similarTech: [
+    "Flux",
+    "Ideogram",
+    "Adobe Firefly",
+    "Canva AI",
+  ],
+
+  relatedTools: [
+    "flux",
+    "ideogram",
+    "adobe-firefly",
+    "canva-ai",
+  ],
+
+  featured: true,
+  editorChoice: true,
+
+  seoTitle:
+    "Midjourney: análisis, precio, funciones y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Midjourney, una de las mejores IA para generar imágenes. Analizamos sus funciones, ventajas, precio y alternativas.",
+
+  keywords: [
+    "midjourney",
+    "midjourney ai",
+    "generador de imágenes ia",
+    "midjourney precio",
+    "midjourney opiniones",
+  ],
+
+  responseQuality: 5,
+  programming: 1,
+  creativity: 5,
+  speed: 4,
+  easeOfUse: 3,
+  privacy: 4,
+},
+{
+  id: "runway",
+  slug: "runway",
+  name: "Runway",
+  tagline: "La plataforma líder para crear vídeos con inteligencia artificial",
+  category: "Vídeo",
+
+  description:
+    "Runway permite generar, editar y mejorar vídeos mediante inteligencia artificial. Es una de las plataformas más utilizadas para crear contenido audiovisual, anuncios, cortometrajes y vídeos para redes sociales gracias a sus modelos de generación de vídeo y herramientas de edición avanzadas.",
+
+  pricing: "Freemium",
+  website: "https://runwayml.com",
+  logo: "RW",
+
+  rating: 4.8,
+  reviewCount: 3400,
+
+  company: "Runway",
+  launchYear: "2018",
+  platforms: "Web",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Excelente calidad de vídeo",
+    "Generación de vídeo desde texto e imágenes",
+    "Herramientas profesionales de edición",
+    "Muy utilizado por creadores de contenido",
+  ],
+
+  cons: [
+    "Los créditos gratuitos se agotan rápido",
+    "La generación puede tardar varios minutos",
+    "Funciones avanzadas solo disponibles en planes de pago",
+  ],
+
+  features: [
+    "Texto a vídeo",
+    "Imagen a vídeo",
+    "Edición IA",
+    "Eliminación de fondos",
+    "Motion Tracking",
+  ],
+
+  useCases: [
+    "YouTube",
+    "TikTok",
+    "Publicidad",
+    "Cine",
+    "Marketing",
+  ],
+
+  bestFor: [
+    "creadores de contenido",
+    "empresas",
+    "agencias",
+    "marketing",
+  ],
+
+  similarTech: [
+    "Kling AI",
+    "Pika",
+    "Luma AI",
+    "Canva AI",
+  ],
+
+  relatedTools: [
+    "kling-ai",
+    "pika",
+    "luma-ai",
+    "canva-ai",
+  ],
+
+  featured: true,
+
+  seoTitle:
+    "Runway AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Runway AI, una de las mejores plataformas para crear y editar vídeos con inteligencia artificial.",
+
+  keywords: [
+    "runway",
+    "runway ai",
+    "video ia",
+    "texto a video",
+    "runway precio",
+  ],
+
+  responseQuality: 4,
+  programming: 1,
+  creativity: 5,
+  speed: 4,
+  easeOfUse: 4,
+  privacy: 4,
+},
+{
+  id: "elevenlabs",
+  slug: "elevenlabs",
+  name: "ElevenLabs",
+  tagline: "La mejor inteligencia artificial para generar voces realistas",
+  category: "Audio",
+
+  description:
+    "ElevenLabs es una plataforma especializada en síntesis de voz mediante inteligencia artificial. Permite crear voces extremadamente realistas, clonar voces, doblar vídeos a otros idiomas y generar narraciones con calidad profesional para todo tipo de proyectos.",
+
+  pricing: "Freemium",
+  website: "https://elevenlabs.io",
+  logo: "EL",
+
+  rating: 4.9,
+  reviewCount: 5100,
+
+  company: "ElevenLabs",
+  launchYear: "2022",
+  platforms: "Web",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Voces muy naturales",
+    "Excelente clonación de voz",
+    "Compatible con múltiples idiomas",
+    "Muy utilizado por creadores de contenido",
+  ],
+
+  cons: [
+    "El plan gratuito tiene bastantes límites",
+    "La clonación de voz requiere verificación",
+    "Puede utilizarse de forma indebida si no se controla",
+  ],
+
+  features: [
+    "Texto a voz",
+    "Clonación de voz",
+    "Doblaje IA",
+    "Más de 30 idiomas",
+    "API",
+  ],
+
+  useCases: [
+    "YouTube",
+    "Podcasts",
+    "Audiolibros",
+    "Narraciones",
+    "Asistentes virtuales",
+  ],
+
+  bestFor: [
+    "creadores de contenido",
+    "podcasters",
+    "empresas",
+    "youtube",
+  ],
+
+  similarTech: [
+    "Murf AI",
+    "PlayHT",
+    "Speechify",
+    "Google AI Studio",
+  ],
+
+  relatedTools: [
+    "murf-ai",
+    "playht",
+    "speechify",
+    "runway",
+  ],
+
+  featured: true,
+  editorChoice: true,
+
+  seoTitle:
+    "ElevenLabs: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre ElevenLabs, la plataforma líder para generar voces con inteligencia artificial y clonación de voz.",
+
+  keywords: [
+    "elevenlabs",
+    "texto a voz",
+    "voz ia",
+    "clonar voz",
+    "elevenlabs opiniones",
+  ],
+
+  responseQuality: 5,
+  programming: 2,
+  creativity: 5,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},
+ {
+  id: "grok",
+  slug: "grok",
+  name: "Grok",
+  tagline: "La inteligencia artificial de xAI con información en tiempo real",
+  category: "Chatbots",
+
+  description:
+    "Grok es el asistente de inteligencia artificial desarrollado por xAI. Destaca por su integración con X (Twitter), el acceso a información en tiempo real y su capacidad para responder preguntas, programar, analizar documentos y generar contenido con un estilo conversacional.",
+
+  pricing: "Freemium",
+  website: "https://grok.com",
+  logo: "GK",
+
+  rating: 4.7,
+  reviewCount: 7200,
 
   company: "xAI",
   launchYear: "2023",
   platforms: "Web, iOS y Android",
   api: "Sí",
   freePlan: "Sí",
+
+  pros: [
+    "Información actualizada en tiempo real",
+    "Excelente integración con X",
+    "Buen razonamiento",
+    "Muy rápido respondiendo",
+  ],
+
+  cons: [
+    "Algunas funciones requieren suscripción",
+    "Menos integraciones que ChatGPT",
+    "Todavía en evolución",
+  ],
+
+  features: [
+    "Búsqueda web",
+    "Programación",
+    "Análisis de documentos",
+    "IA conversacional",
+    "API",
+  ],
+
+  useCases: [
+    "Noticias",
+    "Investigación",
+    "Programación",
+    "Creación de contenido",
+  ],
+
+  bestFor: [
+    "investigar",
+    "programar",
+    "trabajo",
+    "actualidad",
+  ],
+
+  similarTech: [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "DeepSeek",
+  ],
+
+  relatedTools: [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "deepseek",
+  ],
+
   featured: true,
 
-  seoTitle: "Grok: análisis, precio y opiniones (2026)",
-  seoDescription:
-    "Todo sobre Grok, la inteligencia artificial creada por xAI.",
-  keywords: ["grok", "grok ia", "xai", "grok chat"],
+  seoTitle:
+    "Grok AI: análisis, precio, funciones y opiniones (2026)",
 
-  bestFor: ["programar", "trabajo", "escribir"],
+  seoDescription:
+    "Descubre Grok, la inteligencia artificial de xAI. Analizamos sus funciones, ventajas, precio y alternativas.",
+
+  keywords: [
+    "grok",
+    "grok ai",
+    "xai",
+    "grok chat",
+    "grok opiniones",
+  ],
 
   responseQuality: 5,
   programming: 4,
@@ -605,63 +915,90 @@ privacy: 5,
   id: "microsoft-copilot",
   slug: "microsoft-copilot",
   name: "Microsoft Copilot",
-  tagline: "La IA integrada en Windows y Microsoft 365",
+  tagline: "El asistente de IA integrado en Microsoft 365 y Windows",
   category: "Productividad",
+
   description:
-    "Microsoft Copilot es el asistente de inteligencia artificial de Microsoft integrado en Windows, Edge y Microsoft 365. Ayuda a redactar documentos, analizar datos, crear presentaciones y responder preguntas utilizando IA.",
+    "Microsoft Copilot es el asistente de inteligencia artificial de Microsoft. Está integrado en Windows, Microsoft 365, Edge y otras aplicaciones para ayudar a redactar documentos, analizar datos, crear presentaciones y mejorar la productividad diaria.",
+
   pricing: "Freemium",
   website: "https://copilot.microsoft.com",
   logo: "MC",
+
   rating: 4.7,
   reviewCount: 8400,
-
-  pros: [
-    "Excelente integración con Microsoft 365",
-    "Muy útil para productividad",
-    "Compatible con Windows",
-  ],
-
-  cons: [
-    "Algunas funciones requieren Microsoft 365",
-    "Menos creativo que ChatGPT",
-    "Depende del ecosistema Microsoft",
-  ],
-
-  useCases: [
-    "Word",
-    "Excel",
-    "PowerPoint",
-    "Productividad empresarial",
-  ],
-
-  similarTech: ["ChatGPT", "Claude", "Gemini"],
-  relatedTools: ["chatgpt", "claude", "gemini"],
-
-  features: [
-    "Microsoft 365",
-    "Windows",
-    "Programación",
-    "IA conversacional",
-  ],
 
   company: "Microsoft",
   launchYear: "2023",
   platforms: "Web, Windows, iOS y Android",
   api: "Sí",
   freePlan: "Sí",
-  featured: true,
 
-  seoTitle: "Microsoft Copilot: análisis, precio y opiniones (2026)",
-  seoDescription:
-    "Descubre Microsoft Copilot, el asistente de IA integrado en Windows y Microsoft 365.",
-  keywords: [
-    "microsoft copilot",
-    "copilot ia",
-    "copilot microsoft",
-    "windows copilot",
+  pros: [
+    "Integración excelente con Microsoft 365",
+    "Muy útil para empresas",
+    "Compatible con Windows",
+    "Fácil de utilizar",
   ],
 
-  bestFor: ["trabajo", "escribir", "programar"],
+  cons: [
+    "Las funciones avanzadas requieren Microsoft 365",
+    "Menos creativo que ChatGPT",
+    "Su potencial depende del ecosistema Microsoft",
+  ],
+
+  features: [
+    "Microsoft 365",
+    "Word",
+    "Excel",
+    "PowerPoint",
+    "IA conversacional",
+    "API",
+  ],
+
+  useCases: [
+    "Trabajo de oficina",
+    "Presentaciones",
+    "Análisis de datos",
+    "Productividad",
+  ],
+
+  bestFor: [
+    "empresas",
+    "trabajo",
+    "oficina",
+    "productividad",
+  ],
+
+  similarTech: [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Notion AI",
+  ],
+
+  relatedTools: [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "notion-ai",
+  ],
+
+  featured: true,
+
+  seoTitle:
+    "Microsoft Copilot: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Microsoft Copilot, el asistente de inteligencia artificial integrado en Windows y Microsoft 365.",
+
+  keywords: [
+    "microsoft copilot",
+    "copilot",
+    "copilot microsoft",
+    "windows copilot",
+    "microsoft ia",
+  ],
 
   responseQuality: 5,
   programming: 4,
@@ -673,63 +1010,88 @@ privacy: 5,
   id: "poe",
   slug: "poe",
   name: "Poe",
-  tagline: "Accede a múltiples modelos de IA desde una sola plataforma",
+  tagline: "Accede a los mejores modelos de IA desde una sola aplicación",
   category: "Chatbots",
+
   description:
-    "Poe es una plataforma desarrollada por Quora que reúne modelos como ChatGPT, Claude, Gemini y otros en una única aplicación. Permite comparar respuestas y crear bots personalizados.",
+    "Poe es una plataforma desarrollada por Quora que reúne modelos de inteligencia artificial como ChatGPT, Claude, Gemini, Grok y muchos más. Permite comparar respuestas entre diferentes modelos y crear bots personalizados desde una única interfaz.",
+
   pricing: "Freemium",
   website: "https://poe.com",
   logo: "PO",
+
   rating: 4.6,
   reviewCount: 5400,
-
-  pros: [
-    "Acceso a múltiples modelos",
-    "Interfaz sencilla",
-    "Permite crear bots personalizados",
-  ],
-
-  cons: [
-    "Algunos modelos requieren suscripción",
-    "Límites diarios en el plan gratuito",
-    "Depende de servicios externos",
-  ],
-
-  useCases: [
-    "Comparar modelos de IA",
-    "Programación",
-    "Escritura",
-    "Estudio",
-  ],
-
-  similarTech: ["ChatGPT", "Claude", "Gemini"],
-  relatedTools: ["chatgpt", "claude", "gemini"],
-
-  features: [
-    "Múltiples modelos",
-    "Bots personalizados",
-    "Programación",
-    "Chat IA",
-  ],
 
   company: "Quora",
   launchYear: "2022",
   platforms: "Web, iOS y Android",
   api: "No",
   freePlan: "Sí",
-  featured: true,
 
-  seoTitle: "Poe AI: análisis, precio y opiniones (2026)",
-  seoDescription:
-    "Descubre Poe, la plataforma que reúne ChatGPT, Claude, Gemini y muchos más.",
-  keywords: [
-    "poe ai",
-    "poe chat",
-    "quora poe",
-    "poe inteligencia artificial",
+  pros: [
+    "Acceso a múltiples modelos",
+    "Muy fácil de utilizar",
+    "Permite comparar respuestas",
+    "Creación de bots personalizados",
   ],
 
-  bestFor: ["estudiar", "programar", "escribir"],
+  cons: [
+    "Los mejores modelos requieren suscripción",
+    "Límite diario en el plan gratuito",
+    "Depende de servicios externos",
+  ],
+
+  features: [
+    "Múltiples modelos",
+    "Bots personalizados",
+    "Comparación de respuestas",
+    "Chat IA",
+  ],
+
+  useCases: [
+    "Comparar modelos",
+    "Programación",
+    "Estudio",
+    "Creación de contenido",
+  ],
+
+  bestFor: [
+    "estudiar",
+    "programar",
+    "comparar modelos",
+    "escribir",
+  ],
+
+  similarTech: [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Grok",
+  ],
+
+  relatedTools: [
+    "chatgpt",
+    "claude",
+    "gemini",
+    "grok",
+  ],
+
+  featured: true,
+
+  seoTitle:
+    "Poe AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Poe AI, la plataforma que permite utilizar ChatGPT, Claude, Gemini, Grok y muchos otros modelos desde un único lugar.",
+
+  keywords: [
+    "poe ai",
+    "poe",
+    "quora poe",
+    "chatbots ia",
+    "poe opiniones",
+  ],
 
   responseQuality: 4,
   programming: 4,
@@ -738,191 +1100,94 @@ privacy: 5,
   easeOfUse: 5,
   privacy: 4,
 },{
-  id: "pi-ai",
-  slug: "pi-ai",
-  name: "Pi AI",
-  tagline: "Una IA conversacional centrada en conversaciones naturales",
-  category: "Chatbots",
-  description:
-    "Pi AI, desarrollada por Inflection AI, está diseñada para mantener conversaciones naturales, ofrecer apoyo, responder preguntas y acompañar al usuario con un tono cercano y humano.",
-
-  pricing: "Gratis",
-  website: "https://pi.ai",
-  logo: "PI",
-  rating: 4.5,
-  reviewCount: 3900,
-
-  pros: [
-    "Conversaciones muy naturales",
-    "Excelente experiencia de usuario",
-    "Completamente gratuita",
-  ],
-
-  cons: [
-    "No está enfocada en programación",
-    "No dispone de generación de imágenes",
-    "Menos funciones avanzadas que otros asistentes",
-  ],
-
-  useCases: [
-    "Conversaciones",
-    "Aprendizaje",
-    "Productividad",
-    "Apoyo personal",
-  ],
-
-  similarTech: ["ChatGPT", "Claude", "Gemini"],
-  relatedTools: ["chatgpt", "claude", "grok"],
-
-  features: [
-    "Chat IA",
-    "Conversación natural",
-    "Asistente personal",
-  ],
-
-  company: "Inflection AI",
-  launchYear: "2023",
-  platforms: "Web, iOS y Android",
-  api: "No",
-  freePlan: "Sí",
-  featured: false,
-
-  seoTitle: "Pi AI: análisis, precio y opiniones (2026)",
-  seoDescription:
-    "Descubre Pi AI, el asistente conversacional creado por Inflection AI con un enfoque humano y natural.",
-  keywords: [
-    "pi ai",
-    "pi inteligencia artificial",
-    "inflection ai",
-    "pi chat",
-  ],
-
-  bestFor: ["estudiar", "escribir"],
-
-  responseQuality: 4,
-  programming: 2,
-  creativity: 4,
-  speed: 5,
-  easeOfUse: 5,
-  privacy: 4,
-},{
-  id: "notebooklm",
-  slug: "notebooklm",
-  name: "NotebookLM",
-  tagline: "Tu asistente de investigación con IA de Google",
-  category: "Productividad",
-  description:
-    "NotebookLM es una herramienta de Google que analiza tus propios documentos y genera resúmenes, respuestas y guías de estudio basadas en tus fuentes.",
-  pricing: "Gratis",
-  website: "https://notebooklm.google",
-  logo: "NB",
-  rating: 4.8,
-  reviewCount: 4800,
-  pros: ["Analiza documentos", "Excelente para estudiar", "Muy preciso"],
-  cons: ["Depende de los documentos subidos", "No genera imágenes"],
-  useCases: ["Estudiar", "Investigación", "Resúmenes", "Trabajo"],
-  similarTech: ["ChatGPT", "Claude"],
-  relatedTools: ["chatgpt", "claude", "gemini"],
-  company: "Google",
-  launchYear: "2023",
-  platforms: "Web",
-  api: "No",
-  freePlan: "Sí",
-  featured: true,
-  bestFor: ["estudiar", "trabajo"],
-  responseQuality: 5,
-  programming: 3,
-  creativity: 4,
-  speed: 5,
-  easeOfUse: 5,
-  privacy: 4,
-},{
-  id: "leonardo-ai",
-  slug: "leonardo-ai",
-  name: "Leonardo AI",
-  tagline: "Generador profesional de imágenes con IA",
-  category: "Diseño",
-  description:
-    "Leonardo AI permite crear imágenes de alta calidad para marketing, videojuegos y diseño utilizando inteligencia artificial.",
-  pricing: "Freemium",
-  website: "https://leonardo.ai",
-  logo: "LA",
-  rating: 4.8,
-  reviewCount: 6200,
-  pros: ["Gran calidad", "Muchos estilos", "Rápido"],
-  cons: ["Créditos limitados", "Funciones Pro de pago"],
-  useCases: ["Diseño", "Marketing", "Videojuegos", "Concept Art"],
-  similarTech: ["Midjourney", "Ideogram"],
-  relatedTools: ["midjourney", "canva-ai"],
-  company: "Leonardo AI",
-  launchYear: "2023",
-  platforms: "Web",
-  api: "Sí",
-  freePlan: "Sí",
-  featured: true,
-  bestFor: ["diseño"],
-  responseQuality: 5,
-  programming: 1,
-  creativity: 5,
-  speed: 5,
-  easeOfUse: 5,
-  privacy: 4,
-},{
-  id: "ideogram",
-  slug: "ideogram",
-  name: "Ideogram",
-  tagline: "Generación de imágenes con texto perfecto",
-  category: "Diseño",
-  description:
-    "Ideogram destaca por generar imágenes con texto integrado de forma muy precisa, ideal para carteles, logotipos y anuncios.",
-  pricing: "Freemium",
-  website: "https://ideogram.ai",
-  logo: "ID",
-  rating: 4.7,
-  reviewCount: 3900,
-  pros: ["Excelente texto", "Muy fácil de usar", "Gran calidad"],
-  cons: ["Límites diarios", "Menos estilos que Midjourney"],
-  useCases: ["Logos", "Publicidad", "Redes sociales"],
-  similarTech: ["Midjourney", "Leonardo AI"],
-  relatedTools: ["midjourney", "leonardo-ai"],
-  company: "Ideogram",
-  launchYear: "2023",
-  platforms: "Web",
-  api: "Sí",
-  freePlan: "Sí",
-  featured: true,
-  bestFor: ["diseño"],
-  responseQuality: 5,
-  programming: 1,
-  creativity: 5,
-  speed: 5,
-  easeOfUse: 5,
-  privacy: 4,
-},{
   id: "adobe-firefly",
   slug: "adobe-firefly",
   name: "Adobe Firefly",
-  tagline: "La IA generativa integrada en Adobe",
+  tagline: "La inteligencia artificial generativa integrada en Adobe",
   category: "Diseño",
+
   description:
-    "Adobe Firefly permite crear imágenes, efectos y contenido gráfico mediante IA directamente desde Photoshop, Illustrator y otras aplicaciones de Adobe.",
+    "Adobe Firefly es la plataforma de inteligencia artificial generativa de Adobe. Permite crear imágenes, efectos, ilustraciones y contenido gráfico directamente desde Photoshop, Illustrator y el resto de aplicaciones de Creative Cloud, convirtiéndose en una de las mejores opciones para diseñadores profesionales.",
+
   pricing: "Freemium",
   website: "https://firefly.adobe.com",
   logo: "AF",
-  rating: 4.7,
+
+  rating: 4.8,
   reviewCount: 5100,
-  pros: ["Integración con Adobe", "Muy profesional", "Resultados consistentes"],
-  cons: ["Mejor con Creative Cloud", "Funciones premium de pago"],
-  useCases: ["Diseño", "Fotografía", "Marketing"],
-  similarTech: ["Canva AI", "Midjourney"],
-  relatedTools: ["midjourney", "canva-ai"],
+
   company: "Adobe",
   launchYear: "2023",
   platforms: "Web",
   api: "Sí",
   freePlan: "Sí",
+
+  pros: [
+    "Integración perfecta con Creative Cloud",
+    "Resultados muy profesionales",
+    "Generación rápida de imágenes",
+    "Uso comercial seguro con Adobe",
+  ],
+
+  cons: [
+    "Se aprovecha mejor con Creative Cloud",
+    "Funciones avanzadas requieren suscripción",
+    "Menos libertad creativa que Midjourney",
+  ],
+
+  features: [
+    "Texto a imagen",
+    "Relleno generativo",
+    "Edición IA",
+    "Photoshop",
+    "Illustrator",
+    "API",
+  ],
+
+  useCases: [
+    "Diseño gráfico",
+    "Marketing",
+    "Fotografía",
+    "Publicidad",
+  ],
+
+  bestFor: [
+    "diseñadores",
+    "empresas",
+    "marketing",
+    "fotografía",
+  ],
+
+  similarTech: [
+    "Midjourney",
+    "Leonardo AI",
+    "Ideogram",
+    "Canva AI",
+  ],
+
+  relatedTools: [
+    "midjourney",
+    "leonardo-ai",
+    "ideogram",
+    "canva-ai",
+  ],
+
   featured: true,
-  bestFor: ["diseño"],
+
+  seoTitle:
+    "Adobe Firefly: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Adobe Firefly, la plataforma de inteligencia artificial generativa integrada en Photoshop e Illustrator.",
+
+  keywords: [
+    "adobe firefly",
+    "firefly ai",
+    "photoshop ia",
+    "adobe inteligencia artificial",
+    "firefly opiniones",
+  ],
+
   responseQuality: 5,
   programming: 1,
   creativity: 5,
@@ -933,27 +1198,88 @@ privacy: 5,
   id: "flux",
   slug: "flux",
   name: "Flux",
-  tagline: "Modelo de imágenes de Black Forest Labs",
+  tagline: "Uno de los mejores modelos de generación de imágenes con IA",
   category: "Diseño",
+
   description:
-    "Flux es un modelo de generación de imágenes de alta calidad desarrollado por Black Forest Labs, reconocido por su realismo y rapidez.",
+    "Flux es un modelo de generación de imágenes desarrollado por Black Forest Labs. Destaca por ofrecer imágenes muy realistas, una excelente calidad visual y una velocidad superior a muchos modelos de difusión tradicionales.",
+
   pricing: "Freemium",
   website: "https://blackforestlabs.ai",
   logo: "FX",
+
   rating: 4.8,
   reviewCount: 3200,
-  pros: ["Muy realista", "Gran calidad", "Generación rápida"],
-  cons: ["Pocas herramientas propias", "Depende de plataformas compatibles"],
-  useCases: ["Arte", "Diseño", "Publicidad"],
-  similarTech: ["Stable Diffusion", "Midjourney"],
-  relatedTools: ["midjourney", "leonardo-ai"],
+
   company: "Black Forest Labs",
   launchYear: "2024",
   platforms: "Web",
   api: "Sí",
   freePlan: "Sí",
+
+  pros: [
+    "Imágenes muy realistas",
+    "Excelente calidad",
+    "Muy rápido generando contenido",
+    "Compatible con numerosas plataformas",
+  ],
+
+  cons: [
+    "No dispone de aplicación propia completa",
+    "Depende de servicios compatibles",
+    "Menos conocido que Midjourney",
+  ],
+
+  features: [
+    "Texto a imagen",
+    "Alta resolución",
+    "Generación rápida",
+    "API",
+  ],
+
+  useCases: [
+    "Diseño gráfico",
+    "Publicidad",
+    "Concept Art",
+    "Marketing",
+  ],
+
+  bestFor: [
+    "diseñadores",
+    "marketing",
+    "creadores",
+    "publicidad",
+  ],
+
+  similarTech: [
+    "Midjourney",
+    "Leonardo AI",
+    "Stable Diffusion",
+    "Ideogram",
+  ],
+
+  relatedTools: [
+    "midjourney",
+    "stable-diffusion",
+    "leonardo-ai",
+    "ideogram",
+  ],
+
   featured: true,
-  bestFor: ["diseño"],
+
+  seoTitle:
+    "Flux AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Flux, uno de los modelos de inteligencia artificial más avanzados para generar imágenes realistas.",
+
+  keywords: [
+    "flux ai",
+    "black forest labs",
+    "generador imágenes ia",
+    "flux opiniones",
+  ],
+
   responseQuality: 5,
   programming: 1,
   creativity: 5,
@@ -966,25 +1292,87 @@ privacy: 5,
   name: "Stable Diffusion",
   tagline: "El modelo open source más popular para generar imágenes",
   category: "Diseño",
+
   description:
-    "Stable Diffusion es un modelo de código abierto para crear imágenes mediante IA. Es altamente personalizable y ampliamente utilizado por desarrolladores y artistas.",
+    "Stable Diffusion es uno de los modelos de generación de imágenes mediante inteligencia artificial más populares del mundo. Al ser de código abierto, permite personalizar modelos, entrenar estilos propios y utilizar la IA tanto en la nube como de forma local.",
+
   pricing: "Gratis",
   website: "https://stability.ai",
   logo: "SD",
+
   rating: 4.8,
   reviewCount: 11200,
-  pros: ["Open source", "Muy personalizable", "Gran comunidad"],
-  cons: ["Requiere configuración", "Puede necesitar GPU potente"],
-  useCases: ["Arte", "Diseño", "Concept Art", "Marketing"],
-  similarTech: ["Flux", "Midjourney"],
-  relatedTools: ["flux", "midjourney"],
+
   company: "Stability AI",
   launchYear: "2022",
-  platforms: "Web, Local",
+  platforms: "Web, Windows, macOS y Linux",
   api: "Sí",
   freePlan: "Sí",
+
+  pros: [
+    "Completamente open source",
+    "Muy personalizable",
+    "Gran comunidad",
+    "Compatible con miles de modelos",
+  ],
+
+  cons: [
+    "Requiere conocimientos técnicos",
+    "Necesita hardware potente para uso local",
+    "Curva de aprendizaje elevada",
+  ],
+
+  features: [
+    "Texto a imagen",
+    "Modelos personalizados",
+    "Open Source",
+    "API",
+  ],
+
+  useCases: [
+    "Concept Art",
+    "Marketing",
+    "Diseño",
+    "Videojuegos",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "artistas",
+    "diseñadores",
+    "usuarios avanzados",
+  ],
+
+  similarTech: [
+    "Flux",
+    "Midjourney",
+    "Leonardo AI",
+    "Ideogram",
+  ],
+
+  relatedTools: [
+    "flux",
+    "midjourney",
+    "leonardo-ai",
+    "ideogram",
+  ],
+
   featured: true,
-  bestFor: ["diseño"],
+  editorChoice: true,
+
+  seoTitle:
+    "Stable Diffusion: análisis, funciones y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Stable Diffusion, el modelo open source más utilizado para generar imágenes con inteligencia artificial.",
+
+  keywords: [
+    "stable diffusion",
+    "stability ai",
+    "ia imágenes",
+    "stable diffusion opiniones",
+  ],
+
   responseQuality: 5,
   programming: 2,
   creativity: 5,
@@ -992,155 +1380,91 @@ privacy: 5,
   easeOfUse: 3,
   privacy: 5,
 },{
-  id: "kling-ai",
-  slug: "kling-ai",
-  name: "Kling AI",
-  tagline: "Generación de vídeo con IA de última generación",
-  category: "Video",
-  description:
-    "Kling AI permite crear vídeos realistas a partir de texto e imágenes con una calidad muy alta.",
-  pricing: "Freemium",
-  website: "https://klingai.com",
-  logo: "KL",
-  rating: 4.8,
-  reviewCount: 4300,
-  pros: ["Vídeos muy realistas", "Alta calidad", "Fácil de usar"],
-  cons: ["Colas de espera", "Créditos limitados"],
-  useCases: ["Publicidad", "Redes sociales", "Marketing"],
-  similarTech: ["Runway", "Pika"],
-  relatedTools: ["runway", "pika"],
-  company: "Kuaishou",
-  launchYear: "2024",
-  platforms: "Web",
-  api: "No",
-  freePlan: "Sí",
-  featured: true,
-  bestFor: ["video"],
-  responseQuality: 5,
-  programming: 1,
-  creativity: 5,
-  speed: 4,
-  easeOfUse: 5,
-  privacy: 4,
-},{
   id: "pika",
   slug: "pika",
   name: "Pika",
-  tagline: "Crea vídeos con IA en segundos",
-  category: "Video",
+  tagline: "Crea vídeos con inteligencia artificial en cuestión de segundos",
+  category: "Vídeo",
+
   description:
-    "Pika transforma texto e imágenes en vídeos con efectos cinematográficos mediante inteligencia artificial.",
+    "Pika es una plataforma de generación de vídeo mediante inteligencia artificial que transforma texto e imágenes en vídeos dinámicos con efectos cinematográficos. Es especialmente popular entre creadores de contenido que necesitan producir vídeos para redes sociales de forma rápida.",
+
   pricing: "Freemium",
   website: "https://pika.art",
   logo: "PK",
+
   rating: 4.7,
   reviewCount: 3900,
-  pros: ["Muy sencillo", "Buenos resultados", "Ideal para redes"],
-  cons: ["Créditos limitados", "Funciones Pro de pago"],
-  useCases: ["TikTok", "Instagram", "Publicidad"],
-  similarTech: ["Runway", "Kling AI"],
-  relatedTools: ["runway", "kling-ai"],
+
   company: "Pika Labs",
   launchYear: "2023",
   platforms: "Web",
   api: "No",
   freePlan: "Sí",
+
+  pros: [
+    "Muy fácil de utilizar",
+    "Generación rápida de vídeos",
+    "Ideal para contenido en redes sociales",
+    "Resultados visualmente atractivos",
+  ],
+
+  cons: [
+    "Créditos gratuitos limitados",
+    "Funciones avanzadas reservadas al plan de pago",
+    "Menos opciones de edición que Runway",
+  ],
+
+  features: [
+    "Texto a vídeo",
+    "Imagen a vídeo",
+    "Animaciones IA",
+    "Efectos visuales",
+  ],
+
+  useCases: [
+    "TikTok",
+    "Instagram",
+    "Publicidad",
+    "Marketing",
+  ],
+
+  bestFor: [
+    "creadores de contenido",
+    "redes sociales",
+    "marketing",
+    "vídeo",
+  ],
+
+  similarTech: [
+    "Runway",
+    "Kling AI",
+    "Luma AI",
+    "Sora",
+  ],
+
+  relatedTools: [
+    "runway",
+    "kling-ai",
+    "luma-ai",
+  ],
+
   featured: true,
-  bestFor: ["video"],
+
+  seoTitle:
+    "Pika AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Pika AI, una plataforma para crear vídeos mediante inteligencia artificial de forma rápida y sencilla.",
+
+  keywords: [
+    "pika ai",
+    "pika labs",
+    "texto a vídeo",
+    "pika opiniones",
+  ],
+
   responseQuality: 4,
-  programming: 1,
-  creativity: 5,
-  speed: 5,
-  easeOfUse: 5,
-  privacy: 4,
-},{
-  id: "luma-ai",
-  slug: "luma-ai",
-  name: "Luma AI",
-  tagline: "Vídeos e imágenes realistas con IA",
-  category: "Video",
-  description:
-    "Luma AI permite generar vídeos, escenas y modelos 3D mediante inteligencia artificial.",
-  pricing: "Freemium",
-  website: "https://lumalabs.ai",
-  logo: "LU",
-  rating: 4.8,
-  reviewCount: 3400,
-  pros: ["Excelente calidad", "Generación 3D", "Muy innovador"],
-  cons: ["Funciones avanzadas de pago", "Puede tardar en generar"],
-  useCases: ["Cine", "Publicidad", "Modelado 3D"],
-  similarTech: ["Runway", "Kling AI"],
-  relatedTools: ["runway", "kling-ai"],
-  company: "Luma Labs",
-  launchYear: "2023",
-  platforms: "Web",
-  api: "Sí",
-  freePlan: "Sí",
-  featured: true,
-  bestFor: ["video"],
-  responseQuality: 5,
-  programming: 1,
-  creativity: 5,
-  speed: 4,
-  easeOfUse: 4,
-  privacy: 4,
-},{
-  id: "synthesia",
-  slug: "synthesia",
-  name: "Synthesia",
-  tagline: "Crea vídeos con avatares de IA",
-  category: "Video",
-  description:
-    "Synthesia permite crear vídeos profesionales con avatares virtuales y voces generadas por inteligencia artificial.",
-  pricing: "De pago",
-  website: "https://www.synthesia.io",
-  logo: "SY",
-  rating: 4.7,
-  reviewCount: 6100,
-  pros: ["Avatares muy realistas", "Ideal para empresas", "Muchos idiomas"],
-  cons: ["No tiene plan gratuito completo", "Menos flexible para cine"],
-  useCases: ["Formación", "Marketing", "Presentaciones"],
-  similarTech: ["Runway", "HeyGen"],
-  relatedTools: ["runway"],
-  company: "Synthesia",
-  launchYear: "2019",
-  platforms: "Web",
-  api: "Sí",
-  freePlan: "No",
-  featured: true,
-  bestFor: ["video", "trabajo"],
-  responseQuality: 5,
-  programming: 1,
-  creativity: 4,
-  speed: 5,
-  easeOfUse: 5,
-  privacy: 5,
-},{
-  id: "suno",
-  slug: "suno",
-  name: "Suno",
-  tagline: "Genera canciones completas con IA",
-  category: "Audio",
-  description:
-    "Suno crea canciones completas con letra, voz e instrumentación a partir de una simple descripción.",
-  pricing: "Freemium",
-  website: "https://suno.com",
-  logo: "SU",
-  rating: 4.9,
-  reviewCount: 9800,
-  pros: ["Calidad excelente", "Muy fácil", "Canciones completas"],
-  cons: ["Créditos limitados", "Funciones Pro de pago"],
-  useCases: ["Música", "YouTube", "TikTok"],
-  similarTech: ["Udio"],
-  relatedTools: ["udio", "elevenlabs"],
-  company: "Suno",
-  launchYear: "2023",
-  platforms: "Web",
-  api: "No",
-  freePlan: "Sí",
-  featured: true,
-  bestFor: ["audio"],
-  responseQuality: 5,
   programming: 1,
   creativity: 5,
   speed: 5,
@@ -1304,102 +1628,6 @@ privacy: 5,
   privacy: 4,
 },
 {
-  id: "grok",
-  slug: "grok",
-  name: "Grok",
-  tagline: "La inteligencia artificial de xAI",
-  category: "Conversación",
-  description:
-    "Grok es el asistente de inteligencia artificial desarrollado por xAI con acceso a información en tiempo real desde X.",
-  pricing: "Freemium",
-  website: "https://grok.com",
-  logo: "GR",
-  rating: 4.7,
-  reviewCount: 7600,
-  pros: ["Información en tiempo real", "Muy rápido", "Buen razonamiento"],
-  cons: ["Algunas funciones son de pago", "Menos integraciones"],
-  useCases: ["Chat", "Noticias", "Programación", "Investigación"],
-  similarTech: ["ChatGPT", "Claude"],
-  relatedTools: ["chatgpt", "claude", "gemini"],
-  company: "xAI",
-  launchYear: "2023",
-  platforms: "Web, iOS, Android",
-  api: "Sí",
-  freePlan: "Sí",
-  featured: true,
-  bestFor: ["chat"],
-  responseQuality: 5,
-  programming: 4,
-  creativity: 5,
-  speed: 5,
-  easeOfUse: 5,
-  privacy: 4,
-},
-{
-  id: "microsoft-copilot",
-  slug: "microsoft-copilot",
-  name: "Microsoft Copilot",
-  tagline: "IA integrada en Microsoft 365",
-  category: "Productividad",
-  description:
-    "Microsoft Copilot ayuda a escribir documentos, crear presentaciones, analizar datos y trabajar con Office usando IA.",
-  pricing: "Freemium",
-  website: "https://copilot.microsoft.com",
-  logo: "MC",
-  rating: 4.8,
-  reviewCount: 9800,
-  pros: ["Excelente con Office", "Muy útil para empresas", "Gran integración"],
-  cons: ["Algunas funciones requieren suscripción", "Depende del ecosistema Microsoft"],
-  useCases: ["Word", "Excel", "PowerPoint", "Empresas"],
-  similarTech: ["ChatGPT", "Gemini"],
-  relatedTools: ["chatgpt", "gemini"],
-  company: "Microsoft",
-  launchYear: "2023",
-  platforms: "Web, Windows",
-  api: "Sí",
-  freePlan: "Sí",
-  featured: true,
-  bestFor: ["productividad"],
-  responseQuality: 5,
-  programming: 4,
-  creativity: 4,
-  speed: 5,
-  easeOfUse: 5,
-  privacy: 5,
-},
-{
-  id: "poe",
-  slug: "poe",
-  name: "Poe",
-  tagline: "Accede a múltiples modelos de IA en una sola plataforma",
-  category: "Conversación",
-  description:
-    "Poe permite utilizar ChatGPT, Claude, Gemini y otros modelos desde una única interfaz.",
-  pricing: "Freemium",
-  website: "https://poe.com",
-  logo: "PO",
-  rating: 4.7,
-  reviewCount: 5200,
-  pros: ["Muchos modelos", "Muy fácil de usar", "Ideal para comparar IA"],
-  cons: ["Límites diarios", "Funciones premium"],
-  useCases: ["Comparar IA", "Chat", "Estudiar"],
-  similarTech: ["ChatGPT", "Claude"],
-  relatedTools: ["chatgpt", "claude", "gemini"],
-  company: "Quora",
-  launchYear: "2022",
-  platforms: "Web, iOS, Android",
-  api: "No",
-  freePlan: "Sí",
-  featured: false,
-  bestFor: ["chat"],
-  responseQuality: 5,
-  programming: 4,
-  creativity: 5,
-  speed: 5,
-  easeOfUse: 5,
-  privacy: 4,
-},
-{
   id: "pi-ai",
   slug: "pi-ai",
   name: "Pi AI",
@@ -1559,38 +1787,6 @@ privacy: 5,
   privacy: 4,
 },
 {
-  id: "flux",
-  slug: "flux",
-  name: "FLUX",
-  tagline: "Generador de imágenes con inteligencia artificial",
-  category: "Diseño",
-  description:
-    "FLUX crea imágenes de alta calidad a partir de texto con un gran nivel de detalle y realismo.",
-  pricing: "Freemium",
-  website: "https://blackforestlabs.ai",
-  logo: "FX",
-  rating: 4.8,
-  reviewCount: 5400,
-  pros: ["Gran calidad", "Muy realista", "Rápido"],
-  cons: ["Algunas funciones son de pago", "Pocas opciones de edición"],
-  useCases: ["Arte", "Marketing", "Logotipos", "Ilustraciones"],
-  similarTech: ["Midjourney", "Ideogram"],
-  relatedTools: ["midjourney", "ideogram"],
-  company: "Black Forest Labs",
-  launchYear: "2024",
-  platforms: "Web",
-  api: "Sí",
-  freePlan: "Sí",
-  featured: true,
-  bestFor: ["imagenes"],
-  responseQuality: 5,
-  programming: 1,
-  creativity: 5,
-  speed: 5,
-  easeOfUse: 5,
-  privacy: 4,
-},
-{
   id: "ideogram",
   slug: "ideogram",
   name: "Ideogram",
@@ -1620,37 +1816,6 @@ privacy: 5,
   speed: 5,
   easeOfUse: 5,
   privacy: 4,
-},
-{
-  id: "adobe-firefly",
-  slug: "adobe-firefly",
-  name: "Adobe Firefly",
-  tagline: "IA generativa para creadores",
-  category: "Diseño",
-  description: "Adobe Firefly permite generar imágenes y editar contenido con inteligencia artificial integrada en Adobe.",
-  pricing: "Freemium",
-  website: "https://firefly.adobe.com",
-  logo: "AF",
-  rating: 4.8,
-  reviewCount: 9400,
-  pros: ["Integración con Adobe", "Alta calidad", "Uso profesional"],
-  cons: ["Mejor con Creative Cloud", "Funciones premium"],
-  useCases: ["Photoshop", "Diseño", "Marketing"],
-  similarTech: ["Canva AI", "Midjourney"],
-  relatedTools: ["canva-ai", "midjourney"],
-  company: "Adobe",
-  launchYear: "2023",
-  platforms: "Web",
-  api: "Sí",
-  freePlan: "Sí",
-  featured: true,
-  bestFor: ["imagenes"],
-  responseQuality: 5,
-  programming: 1,
-  creativity: 5,
-  speed: 4,
-  easeOfUse: 5,
-  privacy: 5,
 },
 {
   id: "canva-ai",
@@ -1684,153 +1849,456 @@ privacy: 5,
   privacy: 4,
 },
 {
-  id: "pika",
-  slug: "pika",
-  name: "Pika",
-  tagline: "Generador de vídeos con IA",
+  id: "luma-ai",
+  slug: "luma-ai",
+  name: "Luma AI",
+  tagline: "Generación de vídeos y modelos 3D con inteligencia artificial",
   category: "Vídeo",
-  description: "Pika transforma texto e imágenes en vídeos de alta calidad mediante inteligencia artificial.",
+
+  description:
+    "Luma AI es una plataforma especializada en generación de vídeo y creación de escenas 3D mediante inteligencia artificial. Gracias a sus modelos avanzados permite producir vídeos realistas, animaciones y reconstrucciones tridimensionales con calidad profesional.",
+
   pricing: "Freemium",
-  website: "https://pika.art",
-  logo: "PK",
+  website: "https://lumalabs.ai",
+  logo: "LU",
+
   rating: 4.8,
-  reviewCount: 5300,
-  pros: ["Vídeos espectaculares", "Muy sencillo", "Rápido"],
-  cons: ["Créditos limitados", "Render lento en horas punta"],
-  useCases: ["Publicidad", "TikTok", "YouTube"],
-  similarTech: ["Runway", "Kling AI"],
-  relatedTools: ["runway", "kling-ai"],
-  company: "Pika Labs",
+  reviewCount: 3400,
+
+  company: "Luma Labs",
   launchYear: "2023",
   platforms: "Web",
-  api: "No",
+  api: "Sí",
   freePlan: "Sí",
+
+  pros: [
+    "Excelente calidad visual",
+    "Generación de escenas 3D",
+    "Muy innovador",
+    "Compatible con flujos profesionales",
+  ],
+
+  cons: [
+    "Funciones avanzadas de pago",
+    "La generación puede tardar varios minutos",
+    "Curva de aprendizaje superior a otras plataformas",
+  ],
+
+  features: [
+    "Texto a vídeo",
+    "Escenas 3D",
+    "Imagen a vídeo",
+    "API",
+  ],
+
+  useCases: [
+    "Cine",
+    "Publicidad",
+    "Modelado 3D",
+    "Marketing",
+  ],
+
+  bestFor: [
+    "cine",
+    "empresas",
+    "vídeo",
+    "3d",
+  ],
+
+  similarTech: [
+    "Runway",
+    "Kling AI",
+    "Pika",
+    "Sora",
+  ],
+
+  relatedTools: [
+    "runway",
+    "kling-ai",
+    "pika",
+  ],
+
   featured: true,
-  bestFor: ["video"],
+
+  seoTitle:
+    "Luma AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Luma AI, una de las plataformas más avanzadas para generar vídeos y escenas 3D con inteligencia artificial.",
+
+  keywords: [
+    "luma ai",
+    "luma labs",
+    "vídeo ia",
+    "3d ia",
+  ],
+
   responseQuality: 5,
   programming: 1,
   creativity: 5,
   speed: 4,
-  easeOfUse: 5,
+  easeOfUse: 4,
   privacy: 4,
-},
-{
-  id: "kling-ai",
-  slug: "kling-ai",
-  name: "Kling AI",
-  tagline: "Vídeos hiperrealistas con IA",
+},{
+  id: "synthesia",
+  slug: "synthesia",
+  name: "Synthesia",
+  tagline: "Crea vídeos profesionales con avatares de inteligencia artificial",
   category: "Vídeo",
-  description: "Kling AI permite crear vídeos realistas mediante prompts con una calidad visual muy alta.",
-  pricing: "Freemium",
-  website: "https://klingai.com",
-  logo: "KL",
-  rating: 4.9,
-  reviewCount: 4700,
-  pros: ["Calidad increíble", "Muy realista", "Última tecnología"],
-  cons: ["Colas de espera", "Funciones premium"],
-  useCases: ["Cine", "Publicidad", "Contenido"],
-  similarTech: ["Runway", "Pika"],
-  relatedTools: ["runway", "pika"],
-  company: "Kuaishou",
-  launchYear: "2024",
+
+  description:
+    "Synthesia permite crear vídeos con presentadores virtuales generados por inteligencia artificial en decenas de idiomas. Es una de las plataformas más utilizadas por empresas para formación, comunicación interna, ventas y marketing.",
+
+  pricing: "De pago",
+  website: "https://www.synthesia.io",
+  logo: "SY",
+
+  rating: 4.8,
+  reviewCount: 6100,
+
+  company: "Synthesia",
+  launchYear: "2019",
   platforms: "Web",
-  api: "No",
-  freePlan: "Sí",
+  api: "Sí",
+  freePlan: "No",
+
+  pros: [
+    "Avatares muy realistas",
+    "Compatible con numerosos idiomas",
+    "Ideal para empresas",
+    "No requiere conocimientos de edición",
+  ],
+
+  cons: [
+    "No dispone de un plan gratuito completo",
+    "Menos flexible para proyectos cinematográficos",
+    "Los mejores avatares requieren planes superiores",
+  ],
+
+  features: [
+    "Avatares IA",
+    "Texto a vídeo",
+    "Doblaje",
+    "API",
+  ],
+
+  useCases: [
+    "Formación",
+    "Presentaciones",
+    "Marketing",
+    "Empresas",
+  ],
+
+  bestFor: [
+    "empresas",
+    "formación",
+    "marketing",
+    "presentaciones",
+  ],
+
+  similarTech: [
+    "HeyGen",
+    "Runway",
+    "Pika",
+    "Luma AI",
+  ],
+
+  relatedTools: [
+    "runway",
+    "pika",
+    "luma-ai",
+  ],
+
   featured: true,
-  bestFor: ["video"],
+
+  seoTitle:
+    "Synthesia: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Synthesia, la plataforma líder para crear vídeos con avatares de inteligencia artificial.",
+
+  keywords: [
+    "synthesia",
+    "avatares ia",
+    "video ia",
+    "synthesia opiniones",
+  ],
+
   responseQuality: 5,
   programming: 1,
-  creativity: 5,
-  speed: 4,
-  easeOfUse: 5,
-  privacy: 4,
-},
-{
-  id: "notebooklm",
-  slug: "notebooklm",
-  name: "NotebookLM",
-  tagline: "La IA de Google para estudiar documentos",
-  category: "Productividad",
-  description: "NotebookLM analiza documentos y responde preguntas utilizando únicamente tus fuentes.",
-  pricing: "Gratis",
-  website: "https://notebooklm.google.com",
-  logo: "NB",
-  rating: 4.9,
-  reviewCount: 8200,
-  pros: ["Ideal para estudiar", "Basado en tus documentos", "Muy preciso"],
-  cons: ["Depende de las fuentes", "Solo web"],
-  useCases: ["Estudiar", "Investigación", "PDF"],
-  similarTech: ["ChatGPT", "Gemini"],
-  relatedTools: ["chatgpt", "gemini"],
-  company: "Google",
-  launchYear: "2023",
-  platforms: "Web",
-  api: "No",
-  freePlan: "Sí",
-  featured: true,
-  bestFor: ["estudiar"],
-  responseQuality: 5,
-  programming: 2,
   creativity: 4,
   speed: 5,
   easeOfUse: 5,
-  privacy: 5,
+ privacy: 5,
+},{
+  id: "suno",
+  slug: "suno",
+  name: "Suno",
+  tagline: "Genera canciones completas con inteligencia artificial",
+  category: "Audio",
+
+  description:
+    "Suno permite crear canciones completas a partir de una simple descripción. Genera automáticamente letra, voz e instrumentación con una calidad sorprendente, convirtiéndose en una de las herramientas de IA musical más populares del mercado.",
+
+  pricing: "Freemium",
+  website: "https://suno.com",
+  logo: "SU",
+
+  rating: 4.9,
+  reviewCount: 9800,
+
+  company: "Suno",
+  launchYear: "2023",
+  platforms: "Web",
+  api: "No",
+  freePlan: "Sí",
+
+  pros: [
+    "Calidad musical excelente",
+    "Muy fácil de utilizar",
+    "Genera canciones completas",
+    "Gran variedad de estilos musicales",
+  ],
+
+  cons: [
+    "Créditos gratuitos limitados",
+    "Funciones avanzadas reservadas al plan Pro",
+    "No permite un control tan detallado como un DAW profesional",
+  ],
+
+  features: [
+    "Generación de canciones",
+    "Letra automática",
+    "Voces IA",
+    "Música instrumental",
+  ],
+
+  useCases: [
+    "Música",
+    "YouTube",
+    "TikTok",
+    "Publicidad",
+  ],
+
+  bestFor: [
+    "músicos",
+    "creadores de contenido",
+    "youtube",
+    "marketing",
+  ],
+
+  similarTech: [
+    "Udio",
+    "ElevenLabs",
+    "AIVA",
+    "Soundraw",
+  ],
+
+ relatedTools: [
+    "elevenlabs",
+  ],
+
+  featured: true,
+  editorChoice: true,
+
+  seoTitle:
+    "Suno AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Suno AI, una de las mejores herramientas para generar canciones con inteligencia artificial.",
+
+  keywords: [
+    "suno ai",
+    "generar canciones ia",
+    "música ia",
+    "suno opiniones",
+  ],
+
+  responseQuality: 5,
+  programming: 1,
+  creativity: 5,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
 },
 {
   id: "descript",
   slug: "descript",
   name: "Descript",
-  tagline: "Edita audio y vídeo con IA",
+  tagline: "Edita audio y vídeo como si editaras un documento",
+
   category: "Audio",
-  description: "Descript permite editar audio y vídeo como si estuvieras editando un documento de texto.",
+
+  description:
+    "Descript es una plataforma de edición de audio y vídeo impulsada por inteligencia artificial que permite modificar grabaciones simplemente editando el texto transcrito. También incorpora clonación de voz, eliminación de palabras de relleno y herramientas para creadores de contenido y podcasts.",
+
   pricing: "Freemium",
   website: "https://www.descript.com",
   logo: "DE",
+
   rating: 4.8,
   reviewCount: 6100,
-  pros: ["Muy intuitivo", "Transcripción excelente", "Clonado de voz"],
-  cons: ["Plan gratuito limitado", "Consumo de recursos"],
-  useCases: ["Podcast", "YouTube", "Entrevistas"],
-  similarTech: ["ElevenLabs"],
-  relatedTools: ["elevenlabs"],
+
   company: "Descript",
   launchYear: "2019",
-  platforms: "Windows, macOS",
+  platforms: "Windows y macOS",
   api: "Sí",
   freePlan: "Sí",
-  featured: false,
-  bestFor: ["audio"],
+
+  pros: [
+    "Edición muy intuitiva",
+    "Transcripción automática muy precisa",
+    "Clonación de voz integrada",
+    "Ideal para podcasts y YouTube",
+  ],
+
+  cons: [
+    "Plan gratuito limitado",
+    "Puede consumir bastantes recursos",
+    "Las mejores funciones requieren suscripción",
+  ],
+
+  features: [
+    "Transcripción automática",
+    "Edición mediante texto",
+    "Clonación de voz",
+    "Eliminación de muletillas",
+    "API",
+  ],
+
+  useCases: [
+    "Podcasts",
+    "YouTube",
+    "Entrevistas",
+    "Edición de vídeo",
+  ],
+
+  bestFor: [
+    "podcasters",
+    "creadores de contenido",
+    "youtube",
+    "edición",
+  ],
+
+  similarTech: [
+    "ElevenLabs",
+    "Adobe Podcast",
+    "CapCut",
+    "Audacity",
+  ],
+
+  relatedTools: [
+    "elevenlabs",
+  ],
+
+  seoTitle:
+    "Descript: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Descript, una de las mejores herramientas para editar audio y vídeo mediante inteligencia artificial.",
+
+  keywords: [
+    "descript",
+    "descript ai",
+    "editar podcast",
+    "transcripción ia",
+    "descript opiniones",
+  ],
+
   responseQuality: 4,
   programming: 1,
   creativity: 5,
   speed: 5,
   easeOfUse: 5,
   privacy: 4,
-},
-{
+},{
   id: "heygen",
   slug: "heygen",
   name: "HeyGen",
-  tagline: "Avatares con inteligencia artificial",
+  tagline: "Crea vídeos con avatares realistas mediante inteligencia artificial",
+
   category: "Vídeo",
-  description: "HeyGen crea vídeos con avatares realistas y traducción automática mediante IA.",
+
+  description:
+    "HeyGen permite crear vídeos profesionales utilizando avatares generados por inteligencia artificial. Incluye traducción automática, sincronización labial, clonación de voz y herramientas pensadas para marketing, formación y comunicación empresarial.",
+
   pricing: "Freemium",
   website: "https://www.heygen.com",
   logo: "HG",
-  rating: 4.9,
+
+  rating: 4.8,
   reviewCount: 7800,
-  pros: ["Avatares muy realistas", "Doblaje IA", "Muy profesional"],
-  cons: ["Plan gratuito limitado", "Precio elevado"],
-  useCases: ["Marketing", "Formación", "Empresas"],
-  similarTech: ["Synthesia"],
-  relatedTools: ["runway"],
+
   company: "HeyGen",
   launchYear: "2023",
   platforms: "Web",
   api: "Sí",
   freePlan: "Sí",
+
+  pros: [
+    "Avatares muy realistas",
+    "Excelente doblaje mediante IA",
+    "Muy fácil de utilizar",
+    "Ideal para empresas",
+  ],
+
+  cons: [
+    "El plan gratuito es limitado",
+    "Los planes avanzados son relativamente caros",
+    "Menos flexible para edición cinematográfica",
+  ],
+
+  features: [
+    "Avatares IA",
+    "Texto a vídeo",
+    "Traducción automática",
+    "Clonación de voz",
+    "API",
+  ],
+
+  useCases: [
+    "Marketing",
+    "Empresas",
+    "Formación",
+    "Presentaciones",
+  ],
+
+  bestFor: [
+    "empresas",
+    "marketing",
+    "formación",
+    "presentaciones",
+  ],
+
+  similarTech: [
+    "Synthesia",
+    "Runway",
+    "Pika",
+    "Luma AI",
+  ],
+
+  relatedTools: [
+    "synthesia",
+    "runway",
+    "pika",
+  ],
+
   featured: true,
-  bestFor: ["video"],
+
+  seoTitle:
+    "HeyGen: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos HeyGen, una de las plataformas más populares para crear vídeos con avatares mediante inteligencia artificial.",
+
+  keywords: [
+    "heygen",
+    "heygen ai",
+    "avatares ia",
+    "video ia",
+    "heygen opiniones",
+  ],
+
   responseQuality: 5,
   programming: 1,
   creativity: 5,
@@ -1838,7 +2306,6 @@ privacy: 5,
   easeOfUse: 5,
   privacy: 4,
 },
-
-
 ];
+
 console.log("TOOLS:", tools.map(t => t.id));
