@@ -13,7 +13,7 @@ export default function ContactoPage() {
 
         <div className="mt-8 space-y-4 text-zinc-300">
           <p>
-            <strong>Email:</strong> contacto@aiatlas.es
+            <strong>Email:</strong> aiatlasapp@gmail.com
           </p>
 
           <p>
