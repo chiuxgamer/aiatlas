@@ -1,4 +1,5 @@
 import Script from "next/script";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
@@ -96,6 +97,20 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8609847753474556"
           crossOrigin="anonymous"
         />
+        <Script
+  src="https://www.googletagmanager.com/gtag/js?id=G-K0117VRW4D"
+  strategy="afterInteractive"
+/>
+
+<Script id="google-analytics" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-K0117VRW4D');
+  `}
+</Script>
       </body>
     </html>
   );
