@@ -5,12 +5,9 @@ import { useState } from "react";
 export default function Home() {
   const [searchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("Todas");
-  const ids = tools.map((t) => t.id);
-
 
 const filteredTools = tools.filter((tool) => {
-
- const query = searchQuery.toLowerCase();
+  const query = searchQuery.toLowerCase();
 
   const matchesSearch =
     tool.name.toLowerCase().includes(query) ||
@@ -27,6 +24,30 @@ const filteredTools = tools.filter((tool) => {
 
   return matchesSearch && matchesCategory;
 });
+const sortedTools = [...filteredTools].sort((a, b) => {
+  if (!!a.featured !== !!b.featured) {
+    return a.featured ? -1 : 1;
+  }
+
+  const order = [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+  ];
+
+  const aIndex = order.indexOf(a.name);
+  const bIndex = order.indexOf(b.name);
+
+  if (aIndex !== -1 && bIndex !== -1) {
+    return aIndex - bIndex;
+  }
+
+  if (aIndex !== -1) return -1;
+  if (bIndex !== -1) return 1;
+
+  return b.rating - a.rating;
+});
+
 const categoriesFilter = [
   "Todas",
   "Conversación",
@@ -319,32 +340,11 @@ const categories = [
 )}
  {filteredTools.length > 0 && (
   <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-  {filteredTools.map((tool) => ( 
-    <ToolCard key={tool.id} tool={tool} />
-  ))}
+  {sortedTools.map((tool) => (
+  <ToolCard key={tool.id} tool={tool} />
+))}
 </div>
 )}
-  </div>
-</section>
-{/* Herramientas más populares */}
-<section className="px-6 pb-20">
-  <div className="mx-auto max-w-6xl">
-    <h2 className="text-3xl font-bold text-white">
-      🔥 Herramientas más populares
-    </h2>
-
-    <p className="mt-3 text-zinc-400">
-      Las herramientas de IA más utilizadas por nuestra comunidad.
-    </p>
-
-    <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-     {[...tools]
-  .sort((a, b) => b.rating - a.rating)
-  .slice(0, 6)
-  .map((tool) => (
-    <ToolCard key={tool.id} tool={tool} />
-))}
-    </div>
   </div>
 </section>
         {/* Why AIAtlas */}
