@@ -2306,6 +2306,4212 @@ export const tools: Tool[] = [
   easeOfUse: 5,
   privacy: 4,
 },
+{
+  id: "kling",
+  slug: "kling",
+  name: "Kling AI",
+  tagline: "Genera vídeos hiperrealistas a partir de texto o imágenes mediante IA",
+
+  category: "Vídeo",
+
+  description:
+    "Kling AI es un modelo de generación de vídeo desarrollado por Kuaishou. Permite crear vídeos de alta calidad a partir de texto o imágenes, destacando por su realismo, movimientos fluidos y excelente calidad visual.",
+
+  pricing: "Freemium",
+  website: "https://klingai.com",
+  logo: "KL",
+
+  rating: 4.9,
+  reviewCount: 12400,
+
+  company: "Kuaishou",
+  launchYear: "2024",
+  platforms: "Web",
+  api: "No",
+  freePlan: "Sí",
+
+  pros: [
+    "Vídeos extremadamente realistas",
+    "Excelente calidad de movimiento",
+    "Permite generar desde imágenes",
+    "Resultados de nivel profesional",
+  ],
+
+  cons: [
+    "Las generaciones pueden tardar varios minutos",
+    "El plan gratuito tiene créditos limitados",
+    "Algunas funciones requieren suscripción",
+  ],
+
+  features: [
+    "Texto a vídeo",
+    "Imagen a vídeo",
+    "Movimiento cinematográfico",
+    "Alta resolución",
+    "Generación IA",
+  ],
+
+  useCases: [
+    "Marketing",
+    "Redes sociales",
+    "Publicidad",
+    "Creadores de contenido",
+  ],
+
+  bestFor: [
+    "creadores",
+    "marketing",
+    "vídeo",
+    "redes sociales",
+  ],
+
+  similarTech: [
+    "Runway",
+    "Pika",
+    "Luma AI",
+    "Veo",
+  ],
+
+  relatedTools: [
+    "pika",
+    "luma",
+    "heygen",
+  ],
+
+  featured: true,
+
+  seoTitle:
+    "Kling AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Kling AI, una de las mejores inteligencias artificiales para crear vídeos realistas a partir de texto e imágenes.",
+
+  keywords: [
+    "kling ai",
+    "kling",
+    "video ia",
+    "ia para videos",
+    "kling opiniones",
+  ],
+
+  responseQuality: 5,
+  programming: 1,
+  creativity: 5,
+  speed: 4,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "luma",
+  slug: "luma",
+  name: "Luma Dream Machine",
+  tagline: "Genera vídeos cinematográficos mediante inteligencia artificial",
+
+  category: "Vídeo",
+
+  description:
+    "Luma Dream Machine es una plataforma de inteligencia artificial desarrollada por Luma AI que permite generar vídeos realistas a partir de texto o imágenes. Destaca por sus movimientos naturales, calidad cinematográfica y rapidez de generación, siendo una de las herramientas más populares para creadores de contenido y profesionales del vídeo.",
+
+  pricing: "Freemium",
+  website: "https://dream-machine.lumalabs.ai",
+  logo: "LU",
+
+  rating: 4.9,
+  reviewCount: 11800,
+
+  company: "Luma AI",
+  launchYear: "2024",
+  platforms: "Web",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Calidad de vídeo excepcional",
+    "Movimientos muy naturales",
+    "Generación rápida",
+    "Interfaz muy intuitiva",
+  ],
+
+  cons: [
+    "El plan gratuito tiene créditos limitados",
+    "Algunas funciones avanzadas son de pago",
+    "Las generaciones largas consumen muchos créditos",
+  ],
+
+  features: [
+    "Texto a vídeo",
+    "Imagen a vídeo",
+    "Movimiento cinematográfico",
+    "Alta resolución",
+    "API",
+  ],
+
+  useCases: [
+    "Marketing",
+    "Publicidad",
+    "Redes sociales",
+    "Creadores de contenido",
+  ],
+
+  bestFor: [
+    "creadores",
+    "marketing",
+    "publicidad",
+    "vídeo",
+  ],
+
+  similarTech: [
+    "Kling AI",
+    "Pika",
+    "Google Veo",
+    "HeyGen",
+  ],
+
+  relatedTools: [
+    "kling",
+    "pika",
+    "heygen",
+  ],
+
+  featured: true,
+
+  seoTitle:
+    "Luma Dream Machine: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Luma Dream Machine, una de las mejores inteligencias artificiales para crear vídeos realistas a partir de texto e imágenes.",
+
+  keywords: [
+    "luma ai",
+    "dream machine",
+    "luma dream machine",
+    "video ia",
+    "crear videos con ia",
+  ],
+
+  responseQuality: 5,
+  programming: 1,
+  creativity: 5,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "veo",
+  slug: "veo",
+  name: "Google Veo",
+  tagline: "Crea vídeos cinematográficos con la inteligencia artificial de Google",
+
+  category: "Vídeo",
+
+  description:
+    "Google Veo es el modelo de generación de vídeo desarrollado por Google DeepMind. Permite crear vídeos de alta calidad a partir de instrucciones en lenguaje natural, ofreciendo movimientos realistas, excelente comprensión de escenas y resultados con calidad cinematográfica.",
+
+  pricing: "Freemium",
+  website: "https://deepmind.google/models/veo",
+  logo: "GV",
+
+  rating: 5.0,
+  reviewCount: 15300,
+
+  company: "Google DeepMind",
+  launchYear: "2025",
+  platforms: "Web",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Calidad cinematográfica excepcional",
+    "Vídeos muy realistas",
+    "Excelente comprensión de prompts",
+    "Respaldado por Google DeepMind",
+  ],
+
+  cons: [
+    "Acceso limitado en algunos países",
+    "Las funciones avanzadas requieren suscripción",
+    "Tiempo de generación superior al de otras herramientas",
+  ],
+
+  features: [
+    "Texto a vídeo",
+    "Imagen a vídeo",
+    "Vídeo en alta resolución",
+    "Comprensión avanzada de escenas",
+    "API",
+  ],
+
+  useCases: [
+    "Marketing",
+    "Publicidad",
+    "Cine",
+    "Creadores de contenido",
+  ],
+
+  bestFor: [
+    "creadores",
+    "marketing",
+    "vídeo",
+    "cine",
+  ],
+
+  similarTech: [
+    "Kling AI",
+    "Luma Dream Machine",
+    "Pika",
+    "HeyGen",
+  ],
+
+  relatedTools: [
+    "kling",
+    "luma",
+    "pika",
+  ],
+
+  featured: true,
+
+  seoTitle:
+    "Google Veo: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Google Veo, la inteligencia artificial de Google DeepMind para crear vídeos realistas a partir de texto e imágenes.",
+
+  keywords: [
+    "google veo",
+    "veo ai",
+    "google deepmind veo",
+    "video ia",
+    "crear videos con ia",
+  ],
+
+  responseQuality: 5,
+  programming: 1,
+  creativity: 5,
+  speed: 4,
+  easeOfUse: 5,
+  privacy: 5,
+},{
+  id: "higgsfield",
+  slug: "higgsfield",
+  name: "Higgsfield AI",
+  tagline: "Genera vídeos cinematográficos con movimientos de cámara creados por IA",
+
+  category: "Vídeo",
+
+  description:
+    "Higgsfield AI es una plataforma de inteligencia artificial especializada en la generación de vídeos con calidad cinematográfica. Destaca por sus movimientos de cámara realistas, efectos visuales avanzados y la posibilidad de crear escenas profesionales a partir de texto o imágenes.",
+
+  pricing: "Freemium",
+  website: "https://higgsfield.ai",
+  logo: "HF",
+
+  rating: 4.8,
+  reviewCount: 4300,
+
+  company: "Higgsfield",
+  launchYear: "2024",
+  platforms: "Web",
+  api: "No",
+  freePlan: "Sí",
+
+  pros: [
+    "Movimientos de cámara muy realistas",
+    "Excelente calidad visual",
+    "Ideal para anuncios y redes sociales",
+    "Interfaz moderna y sencilla",
+  ],
+
+  cons: [
+    "Todavía tiene pocas opciones de personalización",
+    "El plan gratuito ofrece créditos limitados",
+    "Las generaciones complejas tardan más tiempo",
+  ],
+
+  features: [
+    "Texto a vídeo",
+    "Imagen a vídeo",
+    "Movimientos de cámara IA",
+    "Vídeos cinematográficos",
+    "Alta resolución",
+  ],
+
+  useCases: [
+    "Marketing",
+    "Publicidad",
+    "TikTok",
+    "Creadores de contenido",
+  ],
+
+  bestFor: [
+    "creadores",
+    "marketing",
+    "publicidad",
+    "vídeo",
+  ],
+
+  similarTech: [
+    "Google Veo",
+    "Kling AI",
+    "Luma Dream Machine",
+    "Pika",
+  ],
+
+  relatedTools: [
+    "veo",
+    "kling",
+    "luma",
+  ],
+
+  featured: true,
+
+  seoTitle:
+    "Higgsfield AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Higgsfield AI, una plataforma de inteligencia artificial para crear vídeos cinematográficos con movimientos de cámara realistas.",
+
+  keywords: [
+    "higgsfield ai",
+    "higgsfield",
+    "video ia",
+    "crear videos con ia",
+    "higgsfield opiniones",
+  ],
+
+  responseQuality: 5,
+  programming: 1,
+  creativity: 5,
+  speed: 4,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "midjourney",
+  slug: "midjourney",
+  name: "Midjourney",
+  tagline: "Genera imágenes hiperrealistas y artísticas mediante inteligencia artificial",
+
+  category: "Imagen",
+
+  description:
+    "Midjourney es una de las inteligencias artificiales más populares para generar imágenes a partir de texto. Destaca por su increíble calidad artística, nivel de detalle y capacidad para crear ilustraciones, fotografías y conceptos visuales con resultados profesionales.",
+
+  pricing: "De pago",
+  website: "https://www.midjourney.com",
+  logo: "MJ",
+
+  rating: 4.9,
+  reviewCount: 48200,
+
+  company: "Midjourney",
+  launchYear: "2022",
+  platforms: "Web, Discord",
+  api: "No",
+  freePlan: "No",
+
+  pros: [
+    "Calidad de imagen excepcional",
+    "Resultados muy realistas y creativos",
+    "Gran comunidad de usuarios",
+    "Perfecta para ilustraciones y diseño",
+  ],
+
+  cons: [
+    "No dispone de plan gratuito",
+    "Se utiliza principalmente desde Discord",
+    "Curva de aprendizaje para obtener los mejores resultados",
+  ],
+
+  features: [
+    "Texto a imagen",
+    "Imágenes hiperrealistas",
+    "Arte digital",
+    "Variaciones automáticas",
+    "Escalado de imágenes",
+  ],
+
+  useCases: [
+    "Diseño gráfico",
+    "Marketing",
+    "Publicidad",
+    "Concept art",
+  ],
+
+  bestFor: [
+    "diseñadores",
+    "artistas",
+    "marketing",
+    "creadores",
+  ],
+
+  similarTech: [
+    "FLUX.1",
+    "Ideogram",
+    "Leonardo AI",
+    "Recraft",
+  ],
+
+  relatedTools: [
+    "flux",
+    "ideogram",
+    "leonardo",
+  ],
+
+  featured: true,
+
+  seoTitle:
+    "Midjourney: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Midjourney, una de las mejores inteligencias artificiales para crear imágenes profesionales a partir de texto.",
+
+  keywords: [
+    "midjourney",
+    "midjourney ai",
+    "crear imágenes con ia",
+    "generador de imágenes ia",
+    "midjourney opiniones",
+  ],
+
+  responseQuality: 5,
+  programming: 1,
+  creativity: 5,
+  speed: 4,
+  easeOfUse: 4,
+  privacy: 4,
+},{
+  id: "notebooklm",
+  slug: "notebooklm",
+  name: "NotebookLM",
+  tagline: "El asistente de investigación con IA desarrollado por Google",
+
+  category: "Investigación",
+
+  description:
+    "NotebookLM es una herramienta de inteligencia artificial desarrollada por Google que permite analizar documentos, PDFs, páginas web y notas para responder preguntas, resumir información y generar contenido basándose únicamente en tus propias fuentes. Es una de las mejores IA para estudiar, investigar y trabajar con grandes cantidades de información.",
+
+  pricing: "Freemium",
+  website: "https://notebooklm.google.com",
+  logo: "NL",
+
+  rating: 4.9,
+  reviewCount: 13200,
+
+  company: "Google",
+  launchYear: "2023",
+  platforms: "Web",
+  api: "No",
+  freePlan: "Sí",
+
+  pros: [
+    "Analiza documentos muy largos",
+    "Responde usando únicamente tus fuentes",
+    "Excelente para estudiantes e investigadores",
+    "Integración con Google",
+  ],
+
+  cons: [
+    "Solo disponible desde navegador",
+    "No dispone de API pública",
+    "Algunas funciones dependen de la región",
+  ],
+
+  features: [
+    "Análisis de PDF",
+    "Resumen automático",
+    "Chat con documentos",
+    "Investigación mediante IA",
+    "Audio Overview",
+  ],
+
+  useCases: [
+    "Estudio",
+    "Investigación",
+    "Empresas",
+    "Productividad",
+  ],
+
+  bestFor: [
+    "estudiantes",
+    "investigadores",
+    "empresas",
+    "productividad",
+  ],
+
+  similarTech: [
+    "Perplexity",
+    "ChatGPT",
+    "Claude",
+    "DeepSeek",
+  ],
+
+  relatedTools: [
+    "perplexity",
+    "chatgpt",
+    "claude",
+  ],
+
+  featured: true,
+
+  seoTitle:
+    "NotebookLM: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos NotebookLM, la inteligencia artificial de Google para estudiar, investigar y trabajar con documentos.",
+
+  keywords: [
+    "notebooklm",
+    "google notebooklm",
+    "notebook lm",
+    "ia para estudiar",
+    "google ai",
+  ],
+
+  responseQuality: 5,
+  programming: 2,
+  creativity: 4,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 5,
+},{
+  id: "manus",
+  slug: "manus",
+  name: "Manus AI",
+  tagline: "El agente de inteligencia artificial capaz de completar tareas de forma autónoma",
+
+  category: "Agentes IA",
+
+  description:
+    "Manus AI es un agente de inteligencia artificial diseñado para realizar tareas complejas de forma autónoma. Puede investigar, programar, navegar por internet, crear documentos, analizar datos y completar flujos de trabajo con una mínima intervención del usuario.",
+
+  pricing: "Freemium",
+  website: "https://manus.im",
+  logo: "MN",
+
+  rating: 4.9,
+  reviewCount: 9200,
+
+  company: "Monica",
+  launchYear: "2025",
+  platforms: "Web",
+  api: "No",
+  freePlan: "Sí",
+
+  pros: [
+    "Realiza tareas completas automáticamente",
+    "Muy potente para investigación",
+    "Interfaz sencilla",
+    "Gran capacidad de razonamiento",
+  ],
+
+  cons: [
+    "Acceso limitado",
+    "Puede tardar varios minutos en tareas complejas",
+    "No dispone de API pública",
+  ],
+
+  features: [
+    "Agente IA",
+    "Automatización",
+    "Investigación",
+    "Navegación web",
+    "Generación de documentos",
+  ],
+
+  useCases: [
+    "Empresas",
+    "Productividad",
+    "Investigación",
+    "Automatización",
+  ],
+
+  bestFor: [
+    "empresas",
+    "productividad",
+    "automatización",
+    "investigadores",
+  ],
+
+  similarTech: [
+    "ChatGPT",
+    "Claude",
+    "DeepSeek",
+    "Perplexity",
+  ],
+
+  relatedTools: [
+    "chatgpt",
+    "claude",
+    "perplexity",
+  ],
+
+  featured: true,
+
+  seoTitle:
+    "Manus AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Manus AI, uno de los agentes de inteligencia artificial más avanzados para automatizar tareas complejas.",
+
+  keywords: [
+    "manus ai",
+    "manus",
+    "agente ia",
+    "automatizacion ia",
+    "manus opiniones",
+  ],
+
+  responseQuality: 5,
+  programming: 4,
+  creativity: 4,
+  speed: 4,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "n8n",
+  slug: "n8n",
+  name: "n8n",
+  tagline: "Automatiza tareas y conecta aplicaciones sin depender de la nube",
+
+  category: "Automatización",
+
+  description:
+    "n8n es una plataforma de automatización de flujos de trabajo que permite conectar cientos de aplicaciones y servicios mediante inteligencia artificial. Destaca por ser open source, muy flexible y una de las herramientas favoritas para crear agentes de IA y automatizaciones avanzadas.",
+
+  pricing: "Freemium",
+  website: "https://n8n.io",
+  logo: "N8",
+
+  rating: 4.9,
+  reviewCount: 13800,
+
+  company: "n8n",
+  launchYear: "2019",
+  platforms: "Web, Windows, macOS, Linux",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Open source",
+    "Más de 500 integraciones",
+    "Ideal para agentes de IA",
+    "Puede alojarse en tu propio servidor",
+  ],
+
+  cons: [
+    "Curva de aprendizaje para principiantes",
+    "Las automatizaciones complejas requieren conocimientos técnicos",
+    "Algunas integraciones avanzadas son de pago",
+  ],
+
+  features: [
+    "Automatización de flujos",
+    "Integraciones",
+    "Agentes IA",
+    "API",
+    "Self-hosting",
+  ],
+
+  useCases: [
+    "Empresas",
+    "Automatización",
+    "Productividad",
+    "Desarrollo",
+  ],
+
+  bestFor: [
+    "empresas",
+    "automatización",
+    "desarrolladores",
+    "productividad",
+  ],
+
+  similarTech: [
+    "Zapier",
+    "Make",
+    "Manus AI",
+    "OpenAI",
+  ],
+
+  relatedTools: [
+    "manus",
+  ],
+
+  featured: true,
+
+  seoTitle:
+    "n8n: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos n8n, una de las mejores plataformas para crear automatizaciones y agentes con inteligencia artificial.",
+
+  keywords: [
+    "n8n",
+    "automatizacion",
+    "workflow",
+    "agentes ia",
+    "n8n ai",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 3,
+  speed: 5,
+  easeOfUse: 3,
+  privacy: 5,
+},{
+  id: "comfyui",
+  slug: "comfyui",
+  name: "ComfyUI",
+  tagline: "Crea flujos de generación de imágenes mediante nodos con Stable Diffusion",
+
+  category: "Imagen",
+
+  description:
+    "ComfyUI es una interfaz de código abierto basada en nodos que permite crear flujos de trabajo avanzados para modelos de generación de imágenes como Stable Diffusion y FLUX. Es una de las herramientas favoritas de usuarios avanzados por su flexibilidad, rendimiento y capacidad de personalización.",
+
+  pricing: "Gratis",
+  website: "https://www.comfy.org",
+  logo: "CU",
+
+  rating: 4.8,
+  reviewCount: 8700,
+
+  company: "ComfyUI",
+  launchYear: "2023",
+  platforms: "Windows, macOS, Linux",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Completamente gratuito",
+    "Open source",
+    "Muy personalizable",
+    "Compatible con los modelos más avanzados",
+  ],
+
+  cons: [
+    "Curva de aprendizaje elevada",
+    "Requiere un ordenador potente",
+    "Puede resultar complejo para principiantes",
+  ],
+
+  features: [
+    "Interfaz por nodos",
+    "Stable Diffusion",
+    "FLUX",
+    "Workflows",
+    "Open Source",
+  ],
+
+  useCases: [
+    "Diseño gráfico",
+    "Arte digital",
+    "Ilustración",
+    "IA generativa",
+  ],
+
+  bestFor: [
+    "diseñadores",
+    "artistas",
+    "desarrolladores",
+    "usuarios avanzados",
+  ],
+
+  similarTech: [
+    "Stable Diffusion",
+    "FLUX",
+    "Leonardo AI",
+    "Automatic1111",
+  ],
+
+  relatedTools: [
+    "flux",
+    "stable-diffusion",
+  ],
+
+  featured: true,
+
+  seoTitle:
+    "ComfyUI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre ComfyUI, una de las herramientas más potentes para crear imágenes con Stable Diffusion y FLUX mediante nodos.",
+
+  keywords: [
+    "comfyui",
+    "stable diffusion",
+    "flux",
+    "ia imagen",
+    "comfyui tutorial",
+  ],
+
+  responseQuality: 5,
+  programming: 4,
+  creativity: 5,
+  speed: 5,
+  easeOfUse: 2,
+  privacy: 5,
+},{
+  id: "leonardo",
+  slug: "leonardo",
+  name: "Leonardo AI",
+  tagline: "Genera imágenes profesionales con inteligencia artificial para diseño y videojuegos",
+
+  category: "Imagen",
+
+  description:
+    "Leonardo AI es una plataforma especializada en la generación de imágenes mediante inteligencia artificial. Permite crear ilustraciones, arte conceptual, personajes, texturas y recursos visuales con calidad profesional, siendo una de las herramientas favoritas de diseñadores, artistas y desarrolladores de videojuegos.",
+
+  pricing: "Freemium",
+  website: "https://leonardo.ai",
+  logo: "LA",
+
+  rating: 4.9,
+  reviewCount: 21400,
+
+  company: "Leonardo AI",
+  launchYear: "2023",
+  platforms: "Web",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Imágenes de gran calidad",
+    "Muy fácil de utilizar",
+    "Gran variedad de modelos",
+    "Ideal para videojuegos y diseño",
+  ],
+
+  cons: [
+    "El plan gratuito tiene límite diario",
+    "Algunas funciones son de pago",
+    "Las generaciones más avanzadas consumen más créditos",
+  ],
+
+  features: [
+    "Texto a imagen",
+    "Edición mediante IA",
+    "Generación de texturas",
+    "Modelos personalizados",
+    "API",
+  ],
+
+  useCases: [
+    "Diseño gráfico",
+    "Videojuegos",
+    "Marketing",
+    "Concept Art",
+  ],
+
+  bestFor: [
+    "diseñadores",
+    "artistas",
+    "videojuegos",
+    "marketing",
+  ],
+
+  similarTech: [
+    "Midjourney",
+    "FLUX",
+    "Ideogram",
+    "Recraft",
+  ],
+
+  relatedTools: [
+    "midjourney",
+    "flux",
+    "ideogram",
+  ],
+
+  featured: true,
+
+  seoTitle:
+    "Leonardo AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Leonardo AI, una de las mejores plataformas para generar imágenes mediante inteligencia artificial.",
+
+  keywords: [
+    "leonardo ai",
+    "leonardo",
+    "crear imagenes ia",
+    "generador de imagenes",
+    "leonardo ai opiniones",
+  ],
+
+  responseQuality: 5,
+  programming: 2,
+  creativity: 5,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "recraft",
+  slug: "recraft",
+  name: "Recraft",
+  tagline: "Crea ilustraciones, iconos y diseños vectoriales con inteligencia artificial",
+
+  category: "Imagen",
+
+  description:
+    "Recraft es una plataforma de inteligencia artificial especializada en generar ilustraciones, gráficos vectoriales, iconos y recursos para diseño gráfico con calidad profesional.",
+
+  pricing: "Freemium",
+  website: "https://www.recraft.ai",
+  logo: "RC",
+
+  rating: 4.8,
+  reviewCount: 9700,
+
+  company: "Recraft",
+  launchYear: "2022",
+  platforms: "Web",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Excelente para diseño gráfico",
+    "Genera SVG y vectores",
+    "Muy fácil de usar",
+    "Resultados profesionales",
+  ],
+
+  cons: [
+    "Funciones avanzadas de pago",
+    "No está orientado a fotografía",
+    "Límite de créditos gratuitos",
+  ],
+
+  features: [
+    "Vector AI",
+    "Ilustraciones",
+    "Iconos",
+    "Logotipos",
+    "Edición IA",
+  ],
+
+  useCases: [
+    "Diseño gráfico",
+    "Marketing",
+    "Branding",
+    "UI/UX",
+  ],
+
+  bestFor: [
+    "diseñadores",
+    "empresas",
+    "marketing",
+    "creadores",
+  ],
+
+  similarTech: [
+    "Canva AI",
+    "Adobe Firefly",
+    "Ideogram",
+  ],
+
+  relatedTools: [
+    "canva-ai",
+    "adobe-firefly",
+    "ideogram",
+  ],
+
+  featured: true,
+
+  seoTitle: "Recraft: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Recraft, la IA para crear ilustraciones, iconos y diseños vectoriales.",
+
+  keywords: [
+    "recraft",
+    "vector ai",
+    "crear iconos ia",
+    "recraft ai",
+  ],
+
+  responseQuality: 5,
+  programming: 1,
+  creativity: 5,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "hailuo",
+  slug: "hailuo",
+  name: "Hailuo AI",
+  tagline: "Genera vídeos realistas a partir de texto con inteligencia artificial",
+
+  category: "Vídeo",
+
+  description:
+    "Hailuo AI es un generador de vídeo mediante inteligencia artificial capaz de crear escenas realistas y animaciones de alta calidad a partir de descripciones en texto.",
+
+  pricing: "Freemium",
+  website: "https://hailuoai.video",
+  logo: "HL",
+
+  rating: 4.8,
+  reviewCount: 6800,
+
+  company: "MiniMax",
+  launchYear: "2024",
+  platforms: "Web",
+  api: "No",
+  freePlan: "Sí",
+
+  pros: [
+    "Vídeos muy realistas",
+    "Generación rápida",
+    "Interfaz sencilla",
+    "Buena calidad cinematográfica",
+  ],
+
+  cons: [
+    "Créditos limitados",
+    "No dispone de API",
+    "Algunas funciones están en beta",
+  ],
+
+  features: [
+    "Texto a vídeo",
+    "Animaciones",
+    "IA generativa",
+    "Alta resolución",
+    "Prompt AI",
+  ],
+
+  useCases: [
+    "Marketing",
+    "Redes sociales",
+    "Publicidad",
+    "Creadores",
+  ],
+
+  bestFor: [
+    "creadores",
+    "marketing",
+    "empresas",
+    "video",
+  ],
+
+  similarTech: [
+    "Runway",
+    "Pika",
+    "Kling AI",
+    "Google Veo",
+  ],
+
+  relatedTools: [
+    "runway",
+    "pika",
+    "kling-ai",
+    "google-veo",
+  ],
+
+  featured: true,
+
+  seoTitle: "Hailuo AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Hailuo AI, uno de los mejores generadores de vídeo mediante inteligencia artificial.",
+
+  keywords: [
+    "hailuo ai",
+    "video ia",
+    "texto a video",
+    "minimax ai",
+  ],
+
+  responseQuality: 5,
+  programming: 1,
+  creativity: 5,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "browser-use",
+  slug: "browser-use",
+  name: "Browser Use",
+  tagline: "Permite que los agentes de IA controlen un navegador web de forma autónoma",
+
+  category: "Desarrollo",
+
+  description:
+    "Browser Use es una herramienta open source que permite a agentes de inteligencia artificial interactuar con páginas web como si fueran un usuario real, automatizando clics, formularios, búsquedas y navegación.",
+
+  pricing: "Gratis",
+  website: "https://browser-use.com",
+  logo: "BU",
+
+  rating: 4.9,
+  reviewCount: 4100,
+
+  company: "Browser Use",
+  launchYear: "2025",
+  platforms: "Python",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Open source",
+    "Ideal para agentes IA",
+    "Muy potente",
+    "Compatible con Playwright",
+  ],
+
+  cons: [
+    "Pensado para desarrolladores",
+    "Requiere conocimientos técnicos",
+    "No tiene interfaz visual",
+  ],
+
+  features: [
+    "Automatización web",
+    "Agentes IA",
+    "Python",
+    "Navegador",
+    "Open Source",
+  ],
+
+  useCases: [
+    "Desarrollo",
+    "Automatización",
+    "Investigación",
+    "IA",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "automatización",
+    "empresas",
+    "ia",
+  ],
+
+  similarTech: [
+    "n8n",
+    "Playwright",
+    "OpenAI",
+  ],
+
+  relatedTools: [
+    "n8n",
+  ],
+
+  featured: true,
+
+  seoTitle: "Browser Use: análisis y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Browser Use, la herramienta para que agentes de IA controlen un navegador web.",
+
+  keywords: [
+    "browser use",
+    "ai browser",
+    "web agent",
+    "browser automation",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 2,
+  speed: 5,
+  easeOfUse: 2,
+  privacy: 5,
+},{
+  id: "tavily",
+  slug: "tavily",
+  name: "Tavily",
+  tagline: "El buscador diseñado para agentes de inteligencia artificial",
+
+  category: "Desarrollo",
+
+  description:
+    "Tavily es un motor de búsqueda optimizado para agentes de inteligencia artificial y aplicaciones LLM. Permite obtener información actualizada de Internet mediante una API sencilla y rápida, siendo una de las herramientas más utilizadas para construir agentes con acceso a la web.",
+
+  pricing: "Freemium",
+  website: "https://tavily.com",
+  logo: "TV",
+
+  rating: 4.9,
+  reviewCount: 3900,
+
+  company: "Tavily",
+  launchYear: "2023",
+  platforms: "API, Web",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Resultados optimizados para IA",
+    "API muy sencilla",
+    "Información actualizada",
+    "Excelente para agentes",
+  ],
+
+  cons: [
+    "Pensado principalmente para desarrolladores",
+    "Los planes avanzados son de pago",
+    "No sustituye a un buscador tradicional",
+  ],
+
+  features: [
+    "AI Search",
+    "API",
+    "Web Search",
+    "RAG",
+    "LLMs",
+  ],
+
+  useCases: [
+    "Desarrollo",
+    "Agentes IA",
+    "Automatización",
+    "Investigación",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "empresas",
+    "automatización",
+    "ia",
+  ],
+
+  similarTech: [
+    "Perplexity",
+    "Browser Use",
+    "OpenAI",
+  ],
+
+  relatedTools: [
+    "browser-use",
+    "perplexity",
+  ],
+
+  featured: true,
+
+  seoTitle: "Tavily: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Tavily, el buscador especializado para agentes de inteligencia artificial.",
+
+  keywords: [
+    "tavily",
+    "tavily api",
+    "ai search",
+    "rag api",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 2,
+  speed: 5,
+  easeOfUse: 4,
+  privacy: 5,
+},{
+  id: "anythingllm",
+  slug: "anythingllm",
+  name: "AnythingLLM",
+  tagline: "Crea tu propio ChatGPT privado con tus documentos",
+
+  category: "Productividad",
+
+  description:
+    "AnythingLLM es una plataforma open source que permite crear asistentes de inteligencia artificial privados utilizando tus propios documentos, bases de conocimiento y modelos de lenguaje locales o en la nube.",
+
+  pricing: "Gratis",
+  website: "https://anythingllm.com",
+  logo: "AL",
+
+  rating: 4.8,
+  reviewCount: 4300,
+
+  company: "Mintplex Labs",
+  launchYear: "2023",
+  platforms: "Windows, macOS, Linux",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Open source",
+    "Compatible con modelos locales",
+    "Privacidad elevada",
+    "Muy fácil de configurar",
+  ],
+
+  cons: [
+    "Requiere conocimientos básicos",
+    "Algunas funciones necesitan configuración manual",
+    "No está orientado a usuarios casuales",
+  ],
+
+  features: [
+    "Chat con documentos",
+    "RAG",
+    "Modelos locales",
+    "Open Source",
+    "API",
+  ],
+
+  useCases: [
+    "Empresas",
+    "Productividad",
+    "Investigación",
+    "Documentación",
+  ],
+
+  bestFor: [
+    "empresas",
+    "desarrolladores",
+    "productividad",
+    "privacidad",
+  ],
+
+  similarTech: [
+    "NotebookLM",
+    "Open WebUI",
+    "ChatGPT",
+  ],
+
+  relatedTools: [
+    "notebooklm",
+  ],
+
+  featured: true,
+
+  seoTitle: "AnythingLLM: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos AnythingLLM, la plataforma para crear asistentes privados con inteligencia artificial.",
+
+  keywords: [
+    "anythingllm",
+    "rag",
+    "llm local",
+    "chat con documentos",
+  ],
+
+  responseQuality: 5,
+  programming: 4,
+  creativity: 3,
+  speed: 5,
+  easeOfUse: 4,
+  privacy: 5,
+},{
+  id: "open-webui",
+  slug: "open-webui",
+  name: "Open WebUI",
+  tagline: "Interfaz open source para utilizar modelos de inteligencia artificial",
+
+  category: "Desarrollo",
+
+  description:
+    "Open WebUI es una interfaz de código abierto que permite utilizar modelos de lenguaje como Ollama, OpenAI y muchos otros desde un entorno moderno, intuitivo y totalmente personalizable.",
+
+  pricing: "Gratis",
+  website: "https://openwebui.com",
+  logo: "OW",
+
+  rating: 4.9,
+  reviewCount: 6200,
+
+  company: "Open WebUI",
+  launchYear: "2023",
+  platforms: "Web, Docker",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Open source",
+    "Compatible con Ollama",
+    "Muy personalizable",
+    "Interfaz moderna",
+  ],
+
+  cons: [
+    "Necesita instalación",
+    "Orientado a usuarios técnicos",
+    "Algunas funciones requieren configuración",
+  ],
+
+  features: [
+    "Chat IA",
+    "Modelos locales",
+    "Open Source",
+    "Docker",
+    "API",
+  ],
+
+  useCases: [
+    "Desarrollo",
+    "Empresas",
+    "Laboratorios IA",
+    "Productividad",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "empresas",
+    "usuarios avanzados",
+    "privacidad",
+  ],
+
+  similarTech: [
+    "AnythingLLM",
+    "Ollama",
+    "ChatGPT",
+  ],
+
+  relatedTools: [
+    "anythingllm",
+  ],
+
+  featured: true,
+
+  seoTitle: "Open WebUI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Open WebUI, la interfaz open source para utilizar modelos de inteligencia artificial.",
+
+  keywords: [
+    "open webui",
+    "ollama",
+    "llm",
+    "open source ai",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 3,
+  speed: 5,
+  easeOfUse: 4,
+  privacy: 5,
+},{
+  id: "ollama",
+  slug: "ollama",
+  name: "Ollama",
+  tagline: "Ejecuta modelos de IA de forma local en tu ordenador",
+
+  category: "Desarrollo",
+
+  description:
+    "Ollama es una plataforma que permite ejecutar modelos de lenguaje de inteligencia artificial de forma local en Windows, macOS y Linux. Es una de las herramientas más populares para utilizar modelos como Llama, Mistral, DeepSeek o Gemma sin depender de la nube.",
+
+  pricing: "Gratis",
+  website: "https://ollama.com",
+  logo: "OL",
+
+  rating: 4.9,
+  reviewCount: 18600,
+
+  company: "Ollama",
+  launchYear: "2023",
+  platforms: "Windows, macOS, Linux",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Completamente gratuito",
+    "Modelos ejecutados localmente",
+    "Gran comunidad",
+    "Muy fácil de instalar",
+  ],
+
+  cons: [
+    "Necesita un ordenador potente",
+    "Los modelos grandes consumen mucha RAM",
+    "No tiene interfaz gráfica propia",
+  ],
+
+  features: [
+    "LLMs locales",
+    "API",
+    "Open Source",
+    "CLI",
+    "Modelos personalizados",
+  ],
+
+  useCases: [
+    "Desarrollo",
+    "Privacidad",
+    "Empresas",
+    "IA local",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "empresas",
+    "usuarios avanzados",
+    "privacidad",
+  ],
+
+  similarTech: [
+    "Open WebUI",
+    "LM Studio",
+    "AnythingLLM",
+  ],
+
+  relatedTools: [
+    "open-webui",
+    "anythingllm",
+  ],
+
+  featured: true,
+
+  seoTitle: "Ollama: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Ollama, la plataforma más popular para ejecutar modelos de IA localmente.",
+
+  keywords: [
+    "ollama",
+    "llama local",
+    "ollama ai",
+    "modelos locales",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 3,
+  speed: 5,
+  easeOfUse: 4,
+  privacy: 5,
+},{
+  id: "lm-studio",
+  slug: "lm-studio",
+  name: "LM Studio",
+  tagline: "Descarga y ejecuta modelos de lenguaje en tu ordenador sin conocimientos técnicos",
+
+  category: "Desarrollo",
+
+  description:
+    "LM Studio permite descargar, gestionar y ejecutar modelos de inteligencia artificial de forma local mediante una interfaz gráfica sencilla. Es una de las mejores alternativas para utilizar LLMs sin depender de servicios en la nube.",
+
+  pricing: "Gratis",
+  website: "https://lmstudio.ai",
+  logo: "LM",
+
+  rating: 4.8,
+  reviewCount: 8200,
+
+  company: "Element Labs",
+  launchYear: "2023",
+  platforms: "Windows, macOS, Linux",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Muy fácil de utilizar",
+    "Interfaz moderna",
+    "Compatible con cientos de modelos",
+    "Permite API local",
+  ],
+
+  cons: [
+    "Necesita buen hardware",
+    "No todos los modelos funcionan igual",
+    "Consumo elevado de recursos",
+  ],
+
+  features: [
+    "Modelos locales",
+    "Chat IA",
+    "API",
+    "Descarga automática",
+    "GGUF",
+  ],
+
+  useCases: [
+    "Desarrollo",
+    "Privacidad",
+    "Investigación",
+    "IA local",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "estudiantes",
+    "usuarios avanzados",
+    "privacidad",
+  ],
+
+  similarTech: [
+    "Ollama",
+    "Open WebUI",
+    "AnythingLLM",
+  ],
+
+  relatedTools: [
+    "ollama",
+    "open-webui",
+  ],
+
+  featured: true,
+
+  seoTitle: "LM Studio: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos LM Studio, la herramienta para ejecutar modelos de IA de forma local mediante una interfaz gráfica.",
+
+  keywords: [
+    "lm studio",
+    "llm local",
+    "gguf",
+    "modelos ia",
+  ],
+
+  responseQuality: 5,
+  programming: 4,
+  creativity: 3,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 5,
+},{
+  id: "v0",
+  slug: "v0",
+  name: "v0",
+  tagline: "Genera interfaces web con IA a partir de instrucciones en lenguaje natural",
+
+  category: "Desarrollo",
+
+  description:
+    "v0 es la herramienta de Vercel para generar interfaces web con inteligencia artificial. Convierte descripciones en componentes React y Next.js listos para usar, acelerando el desarrollo de aplicaciones modernas.",
+
+  pricing: "Freemium",
+  website: "https://v0.dev",
+  logo: "V0",
+
+  rating: 4.9,
+  reviewCount: 12400,
+
+  company: "Vercel",
+  launchYear: "2023",
+  platforms: "Web",
+  api: "No",
+  freePlan: "Sí",
+
+  pros: [
+    "Ideal para React y Next.js",
+    "Genera interfaces muy rápido",
+    "Excelente integración con Vercel",
+    "Muy fácil de usar",
+  ],
+
+  cons: [
+    "Enfocado principalmente al desarrollo frontend",
+    "El plan gratuito tiene límites",
+    "No genera aplicaciones completas por sí solo",
+  ],
+
+  features: [
+    "Generación de UI",
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "Componentes",
+  ],
+
+  useCases: [
+    "Desarrollo web",
+    "Frontend",
+    "Startups",
+    "Prototipos",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "startups",
+    "frontend",
+    "productividad",
+  ],
+
+  similarTech: [
+    "Bolt.new",
+    "Lovable",
+    "Cursor",
+  ],
+
+  relatedTools: [
+    "bolt",
+    "lovable",
+    "cursor",
+  ],
+
+  featured: true,
+
+  seoTitle: "v0: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre v0 de Vercel, la IA para crear interfaces web con React y Next.js.",
+
+  keywords: [
+    "v0",
+    "v0 dev",
+    "vercel ai",
+    "react ai",
+    "nextjs ai",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 4,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "cline",
+  slug: "cline",
+  name: "Cline",
+  tagline: "Asistente de programación con IA para Visual Studio Code",
+
+  category: "Desarrollo",
+
+  description:
+    "Cline es un asistente de inteligencia artificial para Visual Studio Code que puede programar, editar archivos, ejecutar comandos y analizar proyectos completos utilizando modelos como Claude, OpenAI o Gemini.",
+
+  pricing: "Gratis",
+  website: "https://cline.bot",
+  logo: "CL",
+
+  rating: 4.9,
+  reviewCount: 7600,
+
+  company: "Cline",
+  launchYear: "2024",
+  platforms: "VS Code",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Open source",
+    "Excelente para proyectos grandes",
+    "Compatible con múltiples modelos",
+    "Muy potente para desarrollo",
+  ],
+
+  cons: [
+    "Necesita API propia",
+    "Solo funciona en VS Code",
+    "Requiere conocimientos de programación",
+  ],
+
+  features: [
+    "Edición de código",
+    "Agente IA",
+    "Terminal",
+    "Análisis de proyectos",
+    "Open Source",
+  ],
+
+  useCases: [
+    "Programación",
+    "Desarrollo web",
+    "Automatización",
+    "Productividad",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "startups",
+    "empresas",
+    "programadores",
+  ],
+
+  similarTech: [
+    "Cursor",
+    "Windsurf",
+    "Codeium",
+  ],
+
+  relatedTools: [
+    "cursor",
+    "windsurf",
+    "codeium",
+  ],
+
+  featured: true,
+
+  seoTitle: "Cline: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Cline, uno de los mejores asistentes de programación con inteligencia artificial para VS Code.",
+
+  keywords: [
+    "cline",
+    "cline ai",
+    "vs code ai",
+    "coding assistant",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 3,
+  speed: 5,
+  easeOfUse: 4,
+  privacy: 5,
+},{
+  id: "openrouter",
+  slug: "openrouter",
+  name: "OpenRouter",
+  tagline: "Accede a cientos de modelos de IA desde una única API",
+
+  category: "Desarrollo",
+
+  description:
+    "OpenRouter permite acceder a modelos de inteligencia artificial de OpenAI, Anthropic, Google, Mistral, Meta y muchos otros mediante una única API compatible con OpenAI.",
+
+  pricing: "Pago por uso",
+  website: "https://openrouter.ai",
+  logo: "OR",
+
+  rating: 4.9,
+  reviewCount: 9800,
+
+  company: "OpenRouter",
+  launchYear: "2023",
+  platforms: "API, Web",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Una sola API para cientos de modelos",
+    "Muy utilizada por desarrolladores",
+    "Pago por uso",
+    "Gran disponibilidad",
+  ],
+
+  cons: [
+    "Pensado para desarrolladores",
+    "Necesita conocimientos de APIs",
+    "Algunos modelos son de pago",
+  ],
+
+  features: [
+    "API",
+    "LLMs",
+    "Model Routing",
+    "OpenAI Compatible",
+    "Playground",
+  ],
+
+  useCases: [
+    "Desarrollo",
+    "Startups",
+    "Aplicaciones IA",
+    "Empresas",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "empresas",
+    "startups",
+    "ia",
+  ],
+
+  similarTech: [
+    "OpenAI",
+    "Anthropic",
+    "Mistral AI",
+  ],
+
+  relatedTools: [
+    "chatgpt",
+    "claude",
+    "gemini",
+  ],
+
+  featured: true,
+
+  seoTitle: "OpenRouter: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos OpenRouter, la plataforma para acceder a cientos de modelos de IA desde una única API.",
+
+  keywords: [
+    "openrouter",
+    "llm api",
+    "ai api",
+    "openrouter ai",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 2,
+  speed: 5,
+  easeOfUse: 4,
+  privacy: 5,
+},{
+  id: "fal-ai",
+  slug: "fal-ai",
+  name: "Fal.ai",
+  tagline: "Ejecuta modelos de IA generativa mediante APIs ultrarrápidas",
+
+  category: "Desarrollo",
+
+  description:
+    "Fal.ai es una plataforma para ejecutar modelos de inteligencia artificial de imagen, vídeo, audio y lenguaje mediante APIs de alto rendimiento, utilizada por miles de aplicaciones de IA.",
+
+  pricing: "Pago por uso",
+  website: "https://fal.ai",
+  logo: "FA",
+
+  rating: 4.8,
+  reviewCount: 5400,
+
+  company: "Fal.ai",
+  launchYear: "2023",
+  platforms: "API, Web",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Muy rápida",
+    "Gran catálogo de modelos",
+    "Excelente documentación",
+    "Escalable",
+  ],
+
+  cons: [
+    "Orientada a desarrolladores",
+    "Los modelos avanzados tienen coste",
+    "Requiere conocimientos técnicos",
+  ],
+
+  features: [
+    "APIs IA",
+    "Imagen",
+    "Vídeo",
+    "Audio",
+    "Inferencia",
+  ],
+
+  useCases: [
+    "Startups",
+    "Empresas",
+    "Aplicaciones IA",
+    "Desarrollo",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "startups",
+    "empresas",
+    "ia",
+  ],
+
+  similarTech: [
+    "Replicate",
+    "OpenRouter",
+    "Hugging Face",
+  ],
+
+  relatedTools: [
+    "openrouter",
+  ],
+
+  featured: true,
+
+  seoTitle: "Fal.ai: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Fal.ai, la plataforma para ejecutar modelos de IA mediante APIs de alto rendimiento.",
+
+  keywords: [
+    "fal ai",
+    "fal.ai",
+    "api ia",
+    "model inference",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 3,
+  speed: 5,
+  easeOfUse: 3,
+  privacy: 5,
+},{
+  id: "replicate",
+  slug: "replicate",
+  name: "Replicate",
+  tagline: "Ejecuta miles de modelos de IA mediante una API sencilla",
+
+  category: "Desarrollo",
+
+  description:
+    "Replicate es una plataforma que permite ejecutar modelos de inteligencia artificial mediante API sin necesidad de configurar infraestructura. Ofrece acceso a miles de modelos de imagen, vídeo, audio y lenguaje creados por la comunidad y empresas líderes.",
+
+  pricing: "Pago por uso",
+  website: "https://replicate.com",
+  logo: "RP",
+
+  rating: 4.9,
+  reviewCount: 11200,
+
+  company: "Replicate",
+  launchYear: "2020",
+  platforms: "Web, API",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Miles de modelos disponibles",
+    "API muy sencilla",
+    "Excelente documentación",
+    "Pago únicamente por uso",
+  ],
+
+  cons: [
+    "Los modelos avanzados tienen coste",
+    "Orientado a desarrolladores",
+    "Los precios dependen del modelo utilizado",
+  ],
+
+  features: [
+    "Modelos IA",
+    "API",
+    "Imagen",
+    "Vídeo",
+    "Audio",
+  ],
+
+  useCases: [
+    "Desarrollo",
+    "Startups",
+    "Aplicaciones IA",
+    "Empresas",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "startups",
+    "empresas",
+    "ia",
+  ],
+
+  similarTech: [
+    "Fal.ai",
+    "OpenRouter",
+    "Hugging Face",
+  ],
+
+  relatedTools: [
+    "fal-ai",
+    "openrouter",
+  ],
+
+  featured: true,
+
+  seoTitle: "Replicate: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Replicate, la plataforma para ejecutar miles de modelos de inteligencia artificial mediante API.",
+
+  keywords: [
+    "replicate",
+    "replicate ai",
+    "ai api",
+    "modelos ia",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 3,
+  speed: 5,
+  easeOfUse: 4,
+  privacy: 5,
+},{
+  id: "mistral-ai",
+  slug: "mistral-ai",
+  name: "Mistral AI",
+  tagline: "Modelos de lenguaje abiertos desarrollados en Europa",
+
+  category: "Chatbots",
+
+  description:
+    "Mistral AI desarrolla algunos de los modelos de lenguaje abiertos más potentes del mercado. Sus modelos destacan por su velocidad, rendimiento y enfoque europeo, siendo utilizados tanto por empresas como por desarrolladores.",
+
+  pricing: "Freemium",
+  website: "https://mistral.ai",
+  logo: "MS",
+
+  rating: 4.9,
+  reviewCount: 14900,
+
+  company: "Mistral AI",
+  launchYear: "2023",
+  platforms: "Web, API",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Modelos muy rápidos",
+    "Excelente rendimiento",
+    "API potente",
+    "Desarrollado en Europa",
+  ],
+
+  cons: [
+    "Algunas funciones requieren pago",
+    "Menor ecosistema que OpenAI",
+    "Más orientado a usuarios técnicos",
+  ],
+
+  features: [
+    "Chat IA",
+    "LLMs",
+    "API",
+    "Modelos abiertos",
+    "Programación",
+  ],
+
+  useCases: [
+    "Empresas",
+    "Programación",
+    "Investigación",
+    "Productividad",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "empresas",
+    "programadores",
+    "ia",
+  ],
+
+  similarTech: [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "DeepSeek",
+  ],
+
+  relatedTools: [
+    "chatgpt",
+    "claude",
+    "deepseek",
+    "gemini",
+  ],
+
+  featured: true,
+
+  seoTitle: "Mistral AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Mistral AI, la empresa europea detrás de algunos de los modelos de lenguaje más avanzados.",
+
+  keywords: [
+    "mistral ai",
+    "mistral",
+    "llm",
+    "chat ia",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 4,
+  speed: 5,
+  easeOfUse: 4,
+  privacy: 5,
+},{
+  id: "genspark",
+  slug: "genspark",
+  name: "Genspark",
+  tagline: "Buscador con inteligencia artificial que crea páginas de resultados dinámicas",
+
+  category: "Investigación",
+
+  description:
+    "Genspark es un buscador impulsado por inteligencia artificial que genera páginas de resultados dinámicas llamadas Sparkpages, combinando información de múltiples fuentes para ofrecer respuestas completas y estructuradas.",
+
+  pricing: "Freemium",
+  website: "https://www.genspark.ai",
+  logo: "GS",
+
+  rating: 4.8,
+  reviewCount: 5100,
+
+  company: "Genspark",
+  launchYear: "2024",
+  platforms: "Web",
+  api: "No",
+  freePlan: "Sí",
+
+  pros: [
+    "Resultados muy completos",
+    "Excelente para investigar",
+    "Interfaz moderna",
+    "Organiza la información automáticamente",
+  ],
+
+  cons: [
+    "Sin API pública",
+    "Menos conocido que Perplexity",
+    "Algunas funciones son premium",
+  ],
+
+  features: [
+    "Buscador IA",
+    "Investigación",
+    "Resúmenes",
+    "Sparkpages",
+    "Fuentes web",
+  ],
+
+  useCases: [
+    "Investigación",
+    "Estudiantes",
+    "Empresas",
+    "Productividad",
+  ],
+
+  bestFor: [
+    "estudiantes",
+    "investigadores",
+    "empresas",
+    "productividad",
+  ],
+
+  similarTech: [
+    "Perplexity",
+    "NotebookLM",
+    "Tavily",
+  ],
+
+  relatedTools: [
+    "perplexity",
+    "notebooklm",
+    "tavily",
+  ],
+
+  featured: true,
+
+  seoTitle: "Genspark: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Genspark, el buscador con inteligencia artificial que organiza automáticamente la información.",
+
+  keywords: [
+    "genspark",
+    "genspark ai",
+    "buscador ia",
+    "sparkpages",
+  ],
+
+  responseQuality: 5,
+  programming: 2,
+  creativity: 4,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "llamaindex",
+  slug: "llamaindex",
+  name: "LlamaIndex",
+  tagline: "Framework para conectar modelos de IA con tus datos",
+
+  category: "Desarrollo",
+
+  description:
+    "LlamaIndex es un framework de código abierto que facilita conectar modelos de lenguaje con documentos, bases de datos y APIs. Es una de las herramientas más utilizadas para crear sistemas RAG y asistentes de IA empresariales.",
+
+  pricing: "Freemium",
+  website: "https://www.llamaindex.ai",
+  logo: "LI",
+
+  rating: 4.9,
+  reviewCount: 12100,
+
+  company: "LlamaIndex",
+  launchYear: "2023",
+  platforms: "Python",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Muy potente para RAG",
+    "Gran comunidad",
+    "Compatible con cientos de LLMs",
+    "Open source",
+  ],
+
+  cons: [
+    "Orientado a desarrolladores",
+    "Curva de aprendizaje",
+    "Requiere conocimientos de Python",
+  ],
+
+  features: [
+    "RAG",
+    "Documentos",
+    "Vector DB",
+    "API",
+    "Open Source",
+  ],
+
+  useCases: [
+    "Empresas",
+    "Chatbots",
+    "Investigación",
+    "Desarrollo",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "empresas",
+    "ia",
+    "automatización",
+  ],
+
+  similarTech: [
+    "LangChain",
+    "AnythingLLM",
+    "NotebookLM",
+  ],
+
+  relatedTools: [
+    "anythingllm",
+    "notebooklm",
+  ],
+
+  featured: true,
+
+  seoTitle: "LlamaIndex: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre LlamaIndex, uno de los frameworks más utilizados para crear aplicaciones con inteligencia artificial.",
+
+  keywords: [
+    "llamaindex",
+    "rag",
+    "python ai",
+    "llm framework",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 3,
+  speed: 5,
+  easeOfUse: 3,
+  privacy: 5,
+},{
+  id: "langflow",
+  slug: "langflow",
+  name: "Langflow",
+  tagline: "Diseña aplicaciones de IA mediante una interfaz visual basada en nodos",
+
+  category: "Desarrollo",
+
+  description:
+    "Langflow es una plataforma open source que permite crear aplicaciones de inteligencia artificial utilizando una interfaz visual. Facilita el desarrollo de flujos con modelos de lenguaje sin necesidad de escribir grandes cantidades de código.",
+
+  pricing: "Gratis",
+  website: "https://www.langflow.org",
+  logo: "LF",
+
+  rating: 4.8,
+  reviewCount: 6900,
+
+  company: "Langflow",
+  launchYear: "2023",
+  platforms: "Web",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Interfaz visual",
+    "Open source",
+    "Muy flexible",
+    "Compatible con LangChain",
+  ],
+
+  cons: [
+    "Pensado para usuarios técnicos",
+    "Necesita configuración inicial",
+    "Algunas funciones requieren conocimientos de IA",
+  ],
+
+  features: [
+    "Flujos IA",
+    "RAG",
+    "Drag & Drop",
+    "API",
+    "Open Source",
+  ],
+
+  useCases: [
+    "Automatización",
+    "Empresas",
+    "Chatbots",
+    "Desarrollo",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "empresas",
+    "automatización",
+    "startups",
+  ],
+
+  similarTech: [
+    "n8n",
+    "LlamaIndex",
+    "LangChain",
+  ],
+
+  relatedTools: [
+    "n8n",
+    "llamaindex",
+  ],
+
+  featured: true,
+
+  seoTitle: "Langflow: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Langflow, la plataforma visual para crear aplicaciones de inteligencia artificial.",
+
+  keywords: [
+    "langflow",
+    "langflow ai",
+    "rag",
+    "workflow ia",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 3,
+  speed: 5,
+  easeOfUse: 4,
+  privacy: 5,
+},{
+  id: "continue",
+  slug: "continue",
+  name: "Continue",
+  tagline: "Asistente open source para programar con inteligencia artificial",
+
+  category: "Desarrollo",
+
+  description:
+    "Continue es una extensión open source para Visual Studio Code y JetBrains que permite utilizar modelos de inteligencia artificial para escribir código, refactorizar proyectos y automatizar tareas de programación.",
+
+  pricing: "Gratis",
+  website: "https://www.continue.dev",
+  logo: "CT",
+
+  rating: 4.8,
+  reviewCount: 7800,
+
+  company: "Continue",
+  launchYear: "2023",
+  platforms: "VS Code, JetBrains",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Open source",
+    "Compatible con múltiples modelos",
+    "Excelente integración con IDEs",
+    "Muy personalizable",
+  ],
+
+  cons: [
+    "Necesita API propia en algunos casos",
+    "Orientado a desarrolladores",
+    "Configuración inicial necesaria",
+  ],
+
+  features: [
+    "Autocompletado",
+    "Chat IA",
+    "Refactorización",
+    "Programación",
+    "Open Source",
+  ],
+
+  useCases: [
+    "Desarrollo",
+    "Programación",
+    "Empresas",
+    "Productividad",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "programadores",
+    "startups",
+    "empresas",
+  ],
+
+  similarTech: [
+    "Cursor",
+    "Cline",
+    "Codeium",
+  ],
+
+  relatedTools: [
+    "cursor",
+    "cline",
+    "codeium",
+  ],
+
+  featured: true,
+
+  seoTitle: "Continue: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Continue, el asistente open source para programar con inteligencia artificial.",
+
+  keywords: [
+    "continue dev",
+    "continue ai",
+    "vs code ai",
+    "coding assistant",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 3,
+  speed: 5,
+  easeOfUse: 4,
+  privacy: 5,
+},{
+  id: "groq",
+  slug: "groq",
+  name: "Groq",
+  tagline: "Ejecuta modelos de IA con una velocidad de inferencia excepcional",
+
+  category: "Chatbots",
+
+  description:
+    "Groq es una plataforma de inteligencia artificial especializada en inferencia ultrarrápida para modelos de lenguaje. Gracias a su hardware propio (LPU), ofrece respuestas casi instantáneas y acceso a modelos abiertos mediante API y chat.",
+
+  pricing: "Freemium",
+  website: "https://groq.com",
+  logo: "GQ",
+
+  rating: 4.9,
+  reviewCount: 11300,
+
+  company: "Groq",
+  launchYear: "2024",
+  platforms: "Web, API",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Velocidad extremadamente alta",
+    "API sencilla",
+    "Excelente para desarrolladores",
+    "Modelos abiertos",
+  ],
+
+  cons: [
+    "Menos modelos que algunos competidores",
+    "Funciones avanzadas de pago",
+    "Orientado al ecosistema de desarrollo",
+  ],
+
+  features: [
+    "Chat IA",
+    "API",
+    "LLMs",
+    "Inferencia rápida",
+    "Modelos abiertos",
+  ],
+
+  useCases: [
+    "Programación",
+    "Empresas",
+    "Aplicaciones IA",
+    "Productividad",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "empresas",
+    "startups",
+    "programadores",
+  ],
+
+  similarTech: [
+    "OpenRouter",
+    "Mistral AI",
+    "ChatGPT",
+  ],
+
+  relatedTools: [
+    "openrouter",
+    "mistral-ai",
+    "chatgpt",
+  ],
+
+  featured: true,
+
+  seoTitle: "Groq: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Groq, la plataforma de IA conocida por su increíble velocidad de respuesta.",
+
+  keywords: [
+    "groq",
+    "groq ai",
+    "groq api",
+    "llm",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 3,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 5,
+},{
+  id: "pinecone",
+  slug: "pinecone",
+  name: "Pinecone",
+  tagline: "Base de datos vectorial para aplicaciones con inteligencia artificial",
+
+  category: "Desarrollo",
+
+  description:
+    "Pinecone es una base de datos vectorial gestionada que permite almacenar y buscar embeddings de forma eficiente. Es una de las soluciones más utilizadas para crear sistemas RAG, buscadores inteligentes y asistentes basados en IA.",
+
+  pricing: "Freemium",
+  website: "https://www.pinecone.io",
+  logo: "PC",
+
+  rating: 4.8,
+  reviewCount: 8700,
+
+  company: "Pinecone",
+  launchYear: "2021",
+  platforms: "API, Web",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Muy escalable",
+    "Excelente rendimiento",
+    "Ideal para RAG",
+    "API sencilla",
+  ],
+
+  cons: [
+    "Pensado para desarrolladores",
+    "Los planes avanzados tienen coste",
+    "No es una herramienta para usuarios finales",
+  ],
+
+  features: [
+    "Vector Database",
+    "Embeddings",
+    "API",
+    "RAG",
+    "Búsqueda semántica",
+  ],
+
+  useCases: [
+    "Empresas",
+    "Chatbots",
+    "Buscadores",
+    "Desarrollo",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "empresas",
+    "ia",
+    "startups",
+  ],
+
+  similarTech: [
+    "LlamaIndex",
+    "Weaviate",
+    "Chroma",
+  ],
+
+  relatedTools: [
+    "llamaindex",
+  ],
+
+  featured: true,
+
+  seoTitle: "Pinecone: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Pinecone, una de las bases de datos vectoriales más utilizadas para inteligencia artificial.",
+
+  keywords: [
+    "pinecone",
+    "vector database",
+    "rag",
+    "embeddings",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 2,
+  speed: 5,
+  easeOfUse: 3,
+  privacy: 5,
+},{
+  id: "cohere",
+  slug: "cohere",
+  name: "Cohere",
+  tagline: "Modelos de lenguaje y búsqueda empresarial con inteligencia artificial",
+
+  category: "Chatbots",
+
+  description:
+    "Cohere desarrolla modelos de lenguaje y soluciones de inteligencia artificial para empresas. Sus modelos destacan por tareas de generación de texto, clasificación, búsqueda semántica y aplicaciones empresariales.",
+
+  pricing: "Freemium",
+  website: "https://cohere.com",
+  logo: "CH",
+
+  rating: 4.8,
+  reviewCount: 9400,
+
+  company: "Cohere",
+  launchYear: "2019",
+  platforms: "Web, API",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Excelente para empresas",
+    "API potente",
+    "Muy buen rendimiento",
+    "Modelos especializados",
+  ],
+
+  cons: [
+    "Menos conocido que OpenAI",
+    "Funciones avanzadas de pago",
+    "Más orientado a empresas",
+  ],
+
+  features: [
+    "LLMs",
+    "API",
+    "Generación de texto",
+    "Embeddings",
+    "Búsqueda semántica",
+  ],
+
+  useCases: [
+    "Empresas",
+    "Chatbots",
+    "Automatización",
+    "Análisis de texto",
+  ],
+
+  bestFor: [
+    "empresas",
+    "desarrolladores",
+    "automatización",
+    "ia",
+  ],
+
+  similarTech: [
+    "OpenAI",
+    "Mistral AI",
+    "Anthropic",
+  ],
+
+  relatedTools: [
+    "chatgpt",
+    "mistral-ai",
+    "claude",
+  ],
+
+  featured: true,
+
+  seoTitle: "Cohere: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Cohere, una de las principales empresas de inteligencia artificial para organizaciones.",
+
+  keywords: [
+    "cohere",
+    "cohere ai",
+    "llm",
+    "embeddings",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 3,
+  speed: 5,
+  easeOfUse: 4,
+  privacy: 5,
+},{
+  id: "assemblyai",
+  slug: "assemblyai",
+  name: "AssemblyAI",
+  tagline: "Convierte voz en texto mediante inteligencia artificial",
+
+  category: "Audio",
+
+  description:
+    "AssemblyAI es una plataforma especializada en reconocimiento de voz mediante inteligencia artificial. Permite transcribir audios y vídeos con gran precisión, detectar hablantes, generar resúmenes y analizar conversaciones mediante API.",
+
+  pricing: "Freemium",
+  website: "https://www.assemblyai.com",
+  logo: "AA",
+
+  rating: 4.8,
+  reviewCount: 8900,
+
+  company: "AssemblyAI",
+  launchYear: "2017",
+  platforms: "Web, API",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Transcripciones muy precisas",
+    "API excelente",
+    "Compatible con muchos idiomas",
+    "Muy rápida",
+  ],
+
+  cons: [
+    "Orientada a desarrolladores",
+    "Las funciones premium tienen coste",
+    "No está pensada para edición de audio",
+  ],
+
+  features: [
+    "Speech to Text",
+    "API",
+    "Resumen IA",
+    "Detección de hablantes",
+    "Análisis de audio",
+  ],
+
+  useCases: [
+    "Podcast",
+    "Empresas",
+    "Subtítulos",
+    "Automatización",
+  ],
+
+  bestFor: [
+    "empresas",
+    "desarrolladores",
+    "creadores",
+    "podcasters",
+  ],
+
+  similarTech: [
+    "ElevenLabs",
+    "Whisper",
+    "Deepgram",
+  ],
+
+  relatedTools: [
+    "elevenlabs",
+  ],
+
+  featured: true,
+
+  seoTitle: "AssemblyAI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre AssemblyAI, una de las mejores plataformas para transcribir audio mediante inteligencia artificial.",
+
+  keywords: [
+    "assemblyai",
+    "speech to text",
+    "transcripcion ia",
+    "assembly ai",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 2,
+  speed: 5,
+  easeOfUse: 4,
+  privacy: 5,
+},{
+  id: "weights-biases",
+  slug: "weights-biases",
+  name: "Weights & Biases",
+
+  tagline: "Plataforma para entrenar, monitorizar y evaluar modelos de IA",
+
+  category: "Desarrollo",
+
+  description:
+    "Weights & Biases (W&B) es una plataforma para monitorizar experimentos de machine learning, entrenar modelos y colaborar en proyectos de inteligencia artificial. Es utilizada por miles de empresas y laboratorios de investigación.",
+
+  pricing: "Freemium",
+  website: "https://wandb.ai",
+  logo: "WB",
+
+  rating: 4.9,
+  reviewCount: 10400,
+
+  company: "Weights & Biases",
+  launchYear: "2018",
+  platforms: "Web",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Estándar de la industria",
+    "Muy útil para entrenar modelos",
+    "Excelente visualización",
+    "Gran comunidad",
+  ],
+
+  cons: [
+    "Pensada para desarrolladores",
+    "Curva de aprendizaje",
+    "Funciones avanzadas de pago",
+  ],
+
+  features: [
+    "Machine Learning",
+    "Experimentos",
+    "Visualización",
+    "API",
+    "MLOps",
+  ],
+
+  useCases: [
+    "Empresas",
+    "Machine Learning",
+    "Investigación",
+    "Desarrollo",
+  ],
+
+  bestFor: [
+    "cientificos de datos",
+    "desarrolladores",
+    "empresas",
+    "machine learning",
+  ],
+
+  similarTech: [
+    "MLflow",
+    "TensorBoard",
+    "Hugging Face",
+  ],
+
+  relatedTools: [],
+
+  featured: true,
+
+  seoTitle: "Weights & Biases: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Weights & Biases, la plataforma líder para entrenar y monitorizar modelos de inteligencia artificial.",
+
+  keywords: [
+    "weights and biases",
+    "wandb",
+    "machine learning",
+    "mlops",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 2,
+  speed: 5,
+  easeOfUse: 3,
+  privacy: 5,
+},{
+  id: "weaviate",
+  slug: "weaviate",
+  name: "Weaviate",
+
+  tagline: "Base de datos vectorial open source para aplicaciones con IA",
+
+  category: "Desarrollo",
+
+  description:
+    "Weaviate es una base de datos vectorial open source diseñada para almacenar embeddings y realizar búsquedas semánticas. Es una alternativa muy popular a Pinecone para construir aplicaciones basadas en RAG e inteligencia artificial.",
+
+  pricing: "Freemium",
+  website: "https://weaviate.io",
+  logo: "WV",
+
+  rating: 4.8,
+  reviewCount: 7600,
+
+  company: "Weaviate",
+  launchYear: "2019",
+  platforms: "Web, Docker",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Open source",
+    "Muy escalable",
+    "Excelente para RAG",
+    "Compatible con múltiples modelos",
+  ],
+
+  cons: [
+    "Orientada a desarrolladores",
+    "Requiere configuración",
+    "Curva de aprendizaje",
+  ],
+
+  features: [
+    "Vector Database",
+    "Embeddings",
+    "Open Source",
+    "API",
+    "Búsqueda semántica",
+  ],
+
+  useCases: [
+    "Empresas",
+    "Chatbots",
+    "RAG",
+    "Desarrollo",
+  ],
+
+  bestFor: [
+    "desarrolladores",
+    "empresas",
+    "machine learning",
+    "ia",
+  ],
+
+  similarTech: [
+    "Pinecone",
+    "Chroma",
+    "LlamaIndex",
+  ],
+
+  relatedTools: [
+    "pinecone",
+    "llamaindex",
+  ],
+
+  featured: true,
+
+  seoTitle: "Weaviate: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Weaviate, una de las bases de datos vectoriales open source más utilizadas para inteligencia artificial.",
+
+  keywords: [
+    "weaviate",
+    "vector database",
+    "rag",
+    "embeddings",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 2,
+  speed: 5,
+  easeOfUse: 3,
+  privacy: 5,
+},{
+  id: "whisper",
+  slug: "whisper",
+  name: "Whisper",
+
+  tagline: "El modelo de OpenAI para transcribir audio con inteligencia artificial",
+
+  category: "Audio",
+
+  description:
+    "Whisper es el modelo de reconocimiento de voz desarrollado por OpenAI. Permite convertir audio en texto con gran precisión, detectar idiomas y generar subtítulos automáticos para vídeos y podcasts.",
+
+  pricing: "Gratis",
+  website: "https://openai.com/research/whisper",
+  logo: "WH",
+
+  rating: 4.9,
+  reviewCount: 18300,
+
+  company: "OpenAI",
+  launchYear: "2022",
+  platforms: "API, Python",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Muy preciso",
+    "Compatible con muchos idiomas",
+    "Open source",
+    "Excelente para subtítulos",
+  ],
+
+  cons: [
+    "Necesita recursos para ejecutarlo localmente",
+    "No tiene interfaz propia",
+    "Orientado a desarrolladores",
+  ],
+
+  features: [
+    "Speech to Text",
+    "Traducción",
+    "Detección de idioma",
+    "Subtítulos",
+    "Open Source",
+  ],
+
+  useCases: [
+    "Podcast",
+    "Vídeo",
+    "Subtítulos",
+    "Empresas",
+  ],
+
+  bestFor: [
+    "creadores",
+    "empresas",
+    "desarrolladores",
+    "podcasters",
+  ],
+
+  similarTech: [
+    "AssemblyAI",
+    "Deepgram",
+    "ElevenLabs",
+  ],
+
+  relatedTools: [
+    "assemblyai",
+    "elevenlabs",
+  ],
+
+  featured: true,
+
+  seoTitle: "Whisper de OpenAI: análisis y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Whisper, el modelo de OpenAI para convertir voz en texto mediante inteligencia artificial.",
+
+  keywords: [
+    "whisper",
+    "openai whisper",
+    "speech to text",
+    "transcribir audio",
+  ],
+
+  responseQuality: 5,
+  programming: 4,
+  creativity: 2,
+  speed: 5,
+  easeOfUse: 4,
+  privacy: 5,
+},{
+  id: "deepgram",
+  slug: "deepgram",
+  name: "Deepgram",
+
+  tagline: "API de voz para transcripción y comprensión de audio mediante IA",
+
+  category: "Audio",
+
+  description:
+    "Deepgram es una plataforma especializada en reconocimiento y comprensión de voz mediante inteligencia artificial. Ofrece APIs para transcribir llamadas, reuniones, vídeos y asistentes de voz con baja latencia.",
+
+  pricing: "Freemium",
+  website: "https://deepgram.com",
+  logo: "DG",
+
+  rating: 4.8,
+  reviewCount: 7200,
+
+  company: "Deepgram",
+  launchYear: "2015",
+  platforms: "API, Web",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Muy rápida",
+    "Alta precisión",
+    "Excelente API",
+    "Pensada para empresas",
+  ],
+
+  cons: [
+    "Orientada a desarrolladores",
+    "Planes avanzados de pago",
+    "Sin editor integrado",
+  ],
+
+  features: [
+    "Speech to Text",
+    "API",
+    "Detección de hablantes",
+    "Análisis de audio",
+    "Tiempo real",
+  ],
+
+  useCases: [
+    "Call Centers",
+    "Podcast",
+    "Empresas",
+    "Automatización",
+  ],
+
+  bestFor: [
+    "empresas",
+    "desarrolladores",
+    "podcasters",
+    "automatización",
+  ],
+
+  similarTech: [
+    "Whisper",
+    "AssemblyAI",
+    "ElevenLabs",
+  ],
+
+  relatedTools: [
+    "whisper",
+    "assemblyai",
+  ],
+
+  featured: true,
+
+  seoTitle: "Deepgram: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Deepgram, una de las APIs de reconocimiento de voz más utilizadas del mercado.",
+
+  keywords: [
+    "deepgram",
+    "speech to text",
+    "transcripcion ia",
+    "deepgram api",
+  ],
+
+  responseQuality: 5,
+  programming: 5,
+  creativity: 2,
+  speed: 5,
+  easeOfUse: 4,
+  privacy: 5,
+},{
+  id: "invideo-ai",
+  slug: "invideo-ai",
+  name: "InVideo AI",
+
+  tagline: "Genera vídeos completos con inteligencia artificial en minutos",
+
+  category: "Vídeo",
+
+  description:
+    "InVideo AI permite crear vídeos completos a partir de una simple descripción en texto. Genera guiones, imágenes, voz, música y edición automáticamente para redes sociales, YouTube y marketing.",
+
+  pricing: "Freemium",
+  website: "https://invideo.io",
+  logo: "IV",
+
+  rating: 4.8,
+  reviewCount: 28600,
+
+  company: "InVideo",
+  launchYear: "2024",
+  platforms: "Web",
+  api: "No",
+  freePlan: "Sí",
+
+  pros: [
+    "Muy fácil de usar",
+    "Genera vídeos completos",
+    "Ideal para redes sociales",
+    "Gran biblioteca multimedia",
+  ],
+
+  cons: [
+    "Los vídeos gratuitos tienen marca de agua",
+    "Algunas voces requieren pago",
+    "Opciones avanzadas limitadas",
+  ],
+
+  features: [
+    "Texto a vídeo",
+    "Narración IA",
+    "Edición automática",
+    "Plantillas",
+    "Vídeos para redes sociales",
+  ],
+
+  useCases: [
+    "YouTube",
+    "TikTok",
+    "Marketing",
+    "Empresas",
+  ],
+
+  bestFor: [
+    "creadores",
+    "empresas",
+    "marketing",
+    "youtube",
+  ],
+
+  similarTech: [
+    "Runway",
+    "Pika",
+    "HeyGen",
+    "Synthesia",
+  ],
+
+  relatedTools: [
+    "runway",
+    "pika",
+    "heygen",
+    "synthesia",
+  ],
+
+  featured: true,
+
+  seoTitle: "InVideo AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre InVideo AI, la plataforma para crear vídeos completos con inteligencia artificial.",
+
+  keywords: [
+    "invideo ai",
+    "invideo",
+    "crear videos ia",
+    "texto a video",
+  ],
+
+  responseQuality: 5,
+  programming: 1,
+  creativity: 5,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "opus-clip",
+  slug: "opus-clip",
+  name: "Opus Clip",
+
+  tagline: "Convierte vídeos largos en Shorts, Reels y TikToks automáticamente",
+
+  category: "Vídeo",
+
+  description:
+    "Opus Clip utiliza inteligencia artificial para transformar vídeos largos en clips virales optimizados para TikTok, YouTube Shorts e Instagram Reels. Detecta automáticamente los mejores momentos, añade subtítulos y adapta el formato para redes sociales.",
+
+  pricing: "Freemium",
+  website: "https://www.opus.pro",
+  logo: "OC",
+
+  rating: 4.9,
+  reviewCount: 35200,
+
+  company: "Opus Clip",
+  launchYear: "2023",
+  platforms: "Web",
+  api: "No",
+  freePlan: "Sí",
+
+  pros: [
+    "Ahorra horas de edición",
+    "Subtítulos automáticos",
+    "Detecta los mejores momentos",
+    "Ideal para redes sociales",
+  ],
+
+  cons: [
+    "El plan gratuito tiene límites",
+    "Algunas funciones son premium",
+    "Necesita vídeos de buena calidad para mejores resultados",
+  ],
+
+  features: [
+    "Clips automáticos",
+    "Subtítulos IA",
+    "Detección de momentos virales",
+    "Formato vertical",
+    "Edición automática",
+  ],
+
+  useCases: [
+    "TikTok",
+    "YouTube Shorts",
+    "Instagram Reels",
+    "Marketing",
+  ],
+
+  bestFor: [
+    "creadores",
+    "youtube",
+    "marketing",
+    "empresas",
+  ],
+
+  similarTech: [
+    "Descript",
+    "CapCut",
+    "InVideo AI",
+  ],
+
+  relatedTools: [
+    "descript",
+    "invideo-ai",
+  ],
+
+  featured: true,
+
+  seoTitle: "Opus Clip: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Opus Clip, la IA que convierte vídeos largos en Shorts, Reels y TikToks automáticamente.",
+
+  keywords: [
+    "opus clip",
+    "opus ai",
+    "youtube shorts ai",
+    "clips ia",
+  ],
+
+  responseQuality: 5,
+  programming: 1,
+  creativity: 5,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "fireflies-ai",
+  slug: "fireflies-ai",
+  name: "Fireflies.ai",
+
+  tagline: "Graba, transcribe y resume reuniones automáticamente",
+
+  category: "Productividad",
+
+  description:
+    "Fireflies.ai es un asistente de reuniones que graba conversaciones, genera transcripciones, crea resúmenes automáticos y extrae las acciones más importantes de videollamadas y reuniones.",
+
+  pricing: "Freemium",
+  website: "https://fireflies.ai",
+  logo: "FF",
+
+  rating: 4.8,
+  reviewCount: 19800,
+
+  company: "Fireflies.ai",
+  launchYear: "2019",
+  platforms: "Web",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Excelente para reuniones",
+    "Transcripciones automáticas",
+    "Compatible con Zoom, Meet y Teams",
+    "Resúmenes mediante IA",
+  ],
+
+  cons: [
+    "Funciones premium de pago",
+    "Depende de la calidad del audio",
+    "No sustituye una revisión manual",
+  ],
+
+  features: [
+    "Transcripción",
+    "Resumen IA",
+    "Notas",
+    "Integraciones",
+    "Búsqueda",
+  ],
+
+  useCases: [
+    "Empresas",
+    "Ventas",
+    "Reuniones",
+    "Productividad",
+  ],
+
+  bestFor: [
+    "empresas",
+    "equipos",
+    "ventas",
+    "productividad",
+  ],
+
+  similarTech: [
+    "Otter.ai",
+    "AssemblyAI",
+    "Whisper",
+  ],
+
+  relatedTools: [
+    "otter-ai",
+    "assemblyai",
+    "whisper",
+  ],
+
+  featured: true,
+
+  seoTitle: "Fireflies.ai: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Fireflies.ai, el asistente para grabar, transcribir y resumir reuniones automáticamente.",
+
+  keywords: [
+    "fireflies ai",
+    "transcribir reuniones",
+    "meeting ai",
+    "fireflies",
+  ],
+
+  responseQuality: 5,
+  programming: 2,
+  creativity: 2,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "otter-ai",
+  slug: "otter-ai",
+  name: "Otter.ai",
+
+  tagline: "Toma notas automáticas y transcribe reuniones con IA",
+
+  category: "Productividad",
+
+  description:
+    "Otter.ai convierte conversaciones y reuniones en notas organizadas mediante inteligencia artificial. Transcribe en tiempo real, identifica hablantes y genera resúmenes automáticos para mejorar la productividad.",
+
+  pricing: "Freemium",
+  website: "https://otter.ai",
+  logo: "OT",
+
+  rating: 4.8,
+  reviewCount: 28400,
+
+  company: "Otter.ai",
+  launchYear: "2016",
+  platforms: "Web, Android, iOS",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Muy preciso",
+    "Notas automáticas",
+    "Excelente para reuniones",
+    "Interfaz sencilla",
+  ],
+
+  cons: [
+    "El plan gratuito tiene límites",
+    "Más orientado al inglés",
+    "Funciones avanzadas de pago",
+  ],
+
+  features: [
+    "Transcripción",
+    "Notas IA",
+    "Resumen",
+    "Reconocimiento de hablantes",
+    "Sincronización",
+  ],
+
+  useCases: [
+    "Empresas",
+    "Estudiantes",
+    "Reuniones",
+    "Productividad",
+  ],
+
+  bestFor: [
+    "estudiantes",
+    "empresas",
+    "equipos",
+    "productividad",
+  ],
+
+  similarTech: [
+    "Fireflies.ai",
+    "Whisper",
+    "AssemblyAI",
+  ],
+
+  relatedTools: [
+    "fireflies-ai",
+    "whisper",
+    "assemblyai",
+  ],
+
+  featured: true,
+
+  seoTitle: "Otter.ai: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Otter.ai, una de las mejores herramientas para transcribir reuniones y generar notas automáticamente.",
+
+  keywords: [
+    "otter ai",
+    "otter",
+    "transcribir reuniones",
+    "notas ia",
+  ],
+
+  responseQuality: 5,
+  programming: 2,
+  creativity: 2,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "capcut-ai",
+  slug: "capcut-ai",
+  name: "CapCut AI",
+
+  tagline: "Edita vídeos con inteligencia artificial de forma rápida y profesional",
+
+  category: "Vídeo",
+
+  description:
+    "CapCut AI incorpora herramientas de inteligencia artificial para editar vídeos automáticamente, eliminar fondos, generar subtítulos, crear avatares, mejorar el audio y producir contenido para redes sociales en pocos minutos.",
+
+  pricing: "Freemium",
+  website: "https://www.capcut.com",
+  logo: "CC",
+
+  rating: 4.9,
+  reviewCount: 68500,
+
+  company: "ByteDance",
+  launchYear: "2023",
+  platforms: "Web, Windows, macOS, Android, iOS",
+  api: "No",
+  freePlan: "Sí",
+
+  pros: [
+    "Muy fácil de usar",
+    "Gran cantidad de herramientas IA",
+    "Ideal para TikTok y Reels",
+    "Versión gratuita muy completa",
+  ],
+
+  cons: [
+    "Algunas funciones requieren Pro",
+    "Marca de agua en ciertas opciones",
+    "Depende de Internet para varias funciones IA",
+  ],
+
+  features: [
+    "Subtítulos automáticos",
+    "Eliminación de fondo",
+    "Avatares IA",
+    "Texto a voz",
+    "Edición automática",
+  ],
+
+  useCases: [
+    "TikTok",
+    "YouTube",
+    "Instagram",
+    "Marketing",
+  ],
+
+  bestFor: [
+    "creadores",
+    "marketing",
+    "youtube",
+    "redes sociales",
+  ],
+
+  similarTech: [
+    "InVideo AI",
+    "Descript",
+    "Opus Clip",
+  ],
+
+  relatedTools: [
+    "invideo-ai",
+    "descript",
+    "opus-clip",
+  ],
+
+  featured: true,
+
+  seoTitle: "CapCut AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre todas las funciones de inteligencia artificial de CapCut para editar vídeos automáticamente.",
+
+  keywords: [
+    "capcut ai",
+    "capcut inteligencia artificial",
+    "editar videos ia",
+    "capcut",
+  ],
+
+  responseQuality: 5,
+  programming: 1,
+  creativity: 5,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "beautiful-ai",
+  slug: "beautiful-ai",
+  name: "Beautiful.ai",
+
+  tagline: "Crea presentaciones profesionales con ayuda de la inteligencia artificial",
+
+  category: "Productividad",
+
+  description:
+    "Beautiful.ai es una plataforma que utiliza inteligencia artificial para diseñar presentaciones profesionales automáticamente. Ajusta el diseño de las diapositivas en tiempo real y facilita crear presentaciones atractivas sin conocimientos de diseño.",
+
+  pricing: "Freemium",
+  website: "https://www.beautiful.ai",
+  logo: "BA",
+
+  rating: 4.8,
+  reviewCount: 17600,
+
+  company: "Beautiful.ai",
+  launchYear: "2018",
+  platforms: "Web",
+  api: "No",
+  freePlan: "Sí",
+
+  pros: [
+    "Presentaciones profesionales",
+    "Muy fácil de utilizar",
+    "Plantillas modernas",
+    "Ahorra mucho tiempo",
+  ],
+
+  cons: [
+    "Más limitado que PowerPoint",
+    "Funciones premium de pago",
+    "Requiere conexión a Internet",
+  ],
+
+  features: [
+    "Presentaciones",
+    "Plantillas",
+    "Diseño automático",
+    "IA generativa",
+    "Colaboración",
+  ],
+
+  useCases: [
+    "Empresas",
+    "Educación",
+    "Ventas",
+    "Marketing",
+  ],
+
+  bestFor: [
+    "empresas",
+    "estudiantes",
+    "marketing",
+    "ventas",
+  ],
+
+  similarTech: [
+    "Gamma",
+    "Canva AI",
+    "Microsoft Copilot",
+  ],
+
+  relatedTools: [
+    "gamma",
+    "canva-ai",
+    "copilot",
+  ],
+
+  featured: true,
+
+  seoTitle: "Beautiful.ai: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Beautiful.ai, una plataforma para crear presentaciones con inteligencia artificial.",
+
+  keywords: [
+    "beautiful ai",
+    "presentaciones ia",
+    "beautiful.ai",
+    "powerpoint ia",
+  ],
+
+  responseQuality: 5,
+  programming: 1,
+  creativity: 4,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "magicschool",
+  slug: "magicschool",
+  name: "MagicSchool AI",
+
+  tagline: "La plataforma de inteligencia artificial diseñada para docentes",
+
+  category: "Educación",
+
+  description:
+    "MagicSchool AI ayuda a profesores y centros educativos a crear actividades, exámenes, rúbricas, planes de clase, correcciones y materiales didácticos utilizando inteligencia artificial.",
+
+  pricing: "Freemium",
+  website: "https://www.magicschool.ai",
+  logo: "MS",
+
+  rating: 4.9,
+  reviewCount: 22400,
+
+  company: "MagicSchool",
+  launchYear: "2023",
+  platforms: "Web",
+  api: "No",
+  freePlan: "Sí",
+
+  pros: [
+    "Especializada en educación",
+    "Ahorra mucho tiempo a los docentes",
+    "Gran cantidad de herramientas",
+    "Muy fácil de usar",
+  ],
+
+  cons: [
+    "Pensada principalmente para profesores",
+    "Funciones premium de pago",
+    "Algunas herramientas están solo en inglés",
+  ],
+
+  features: [
+    "Planes de clase",
+    "Exámenes",
+    "Rúbricas",
+    "Corrección",
+    "Material educativo",
+  ],
+
+  useCases: [
+    "Educación",
+    "Profesores",
+    "Escuelas",
+    "Universidades",
+  ],
+
+  bestFor: [
+    "profesores",
+    "centros educativos",
+    "universidades",
+    "educación",
+  ],
+
+  similarTech: [
+    "ChatGPT",
+    "NotebookLM",
+    "Gemini",
+  ],
+
+  relatedTools: [
+    "chatgpt",
+    "notebooklm",
+    "gemini",
+  ],
+
+  featured: true,
+
+  seoTitle: "MagicSchool AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre MagicSchool AI, la plataforma de inteligencia artificial para profesores y centros educativos.",
+
+  keywords: [
+    "magicschool ai",
+    "ia para profesores",
+    "educacion ia",
+    "magicschool",
+  ],
+
+  responseQuality: 5,
+  programming: 1,
+  creativity: 4,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "jasper-ai",
+  slug: "jasper-ai",
+  name: "Jasper AI",
+
+  tagline: "Genera contenido para marketing, blogs y redes sociales con IA",
+
+  category: "Escritura",
+
+  description:
+    "Jasper AI es una plataforma de inteligencia artificial especializada en la creación de contenido para empresas y equipos de marketing. Permite generar artículos, anuncios, emails, publicaciones para redes sociales y mucho más utilizando modelos avanzados de IA.",
+
+  pricing: "De pago",
+  website: "https://www.jasper.ai",
+  logo: "JA",
+
+  rating: 4.8,
+  reviewCount: 31800,
+
+  company: "Jasper",
+  launchYear: "2021",
+  platforms: "Web",
+  api: "Sí",
+  freePlan: "No",
+
+  pros: [
+    "Excelente calidad de escritura",
+    "Pensado para marketing",
+    "Muchas plantillas",
+    "Muy fácil de utilizar",
+  ],
+
+  cons: [
+    "No dispone de plan gratuito",
+    "Precio elevado",
+    "Algunas funciones requieren configuración",
+  ],
+
+  features: [
+    "Redacción IA",
+    "Marketing",
+    "SEO",
+    "Emails",
+    "Blogs",
+  ],
+
+  useCases: [
+    "Marketing",
+    "Empresas",
+    "Copywriting",
+    "SEO",
+  ],
+
+  bestFor: [
+    "marketers",
+    "empresas",
+    "copywriters",
+    "agencias",
+  ],
+
+  similarTech: [
+    "Copy.ai",
+    "Writesonic",
+    "ChatGPT",
+  ],
+
+  relatedTools: [
+    "chatgpt",
+  ],
+
+  featured: true,
+
+  seoTitle: "Jasper AI: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Jasper AI, una de las plataformas más populares para crear contenido con inteligencia artificial.",
+
+  keywords: [
+    "jasper ai",
+    "jasper",
+    "copywriting ia",
+    "marketing ia",
+  ],
+
+  responseQuality: 5,
+  programming: 1,
+  creativity: 5,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "copy-ai",
+  slug: "copy-ai",
+  name: "Copy.ai",
+
+  tagline: "Automatiza la creación de contenido y tareas de ventas mediante IA",
+
+  category: "Escritura",
+
+  description:
+    "Copy.ai ayuda a empresas y profesionales a generar contenido para blogs, anuncios, emails, descripciones de productos y procesos comerciales mediante inteligencia artificial.",
+
+  pricing: "Freemium",
+  website: "https://www.copy.ai",
+  logo: "CP",
+
+  rating: 4.8,
+  reviewCount: 27100,
+
+  company: "Copy.ai",
+  launchYear: "2020",
+  platforms: "Web",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Muy fácil de usar",
+    "Gran variedad de plantillas",
+    "Ideal para ventas",
+    "Plan gratuito disponible",
+  ],
+
+  cons: [
+    "Las mejores funciones son de pago",
+    "Puede requerir edición manual",
+    "Menos personalizable que otras soluciones",
+  ],
+
+  features: [
+    "Copywriting",
+    "Emails",
+    "Marketing",
+    "Automatización",
+    "Ventas",
+  ],
+
+  useCases: [
+    "Marketing",
+    "Empresas",
+    "SEO",
+    "Ventas",
+  ],
+
+  bestFor: [
+    "empresas",
+    "marketers",
+    "copywriters",
+    "startups",
+  ],
+
+  similarTech: [
+    "Jasper AI",
+    "Writesonic",
+    "ChatGPT",
+  ],
+
+  relatedTools: [
+    "jasper-ai",
+    "chatgpt",
+  ],
+
+  featured: true,
+
+  seoTitle: "Copy.ai: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Analizamos Copy.ai, una plataforma para generar contenido y automatizar tareas mediante inteligencia artificial.",
+
+  keywords: [
+    "copy ai",
+    "copy.ai",
+    "copywriting",
+    "marketing ai",
+  ],
+
+  responseQuality: 5,
+  programming: 2,
+  creativity: 5,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},{
+  id: "writesonic",
+  slug: "writesonic",
+  name: "Writesonic",
+
+  tagline: "Crea artículos, anuncios y contenido SEO con inteligencia artificial",
+
+  category: "Escritura",
+
+  description:
+    "Writesonic es una plataforma de IA diseñada para generar artículos optimizados para SEO, anuncios, landing pages, emails y contenido para redes sociales de forma rápida y sencilla.",
+
+  pricing: "Freemium",
+  website: "https://writesonic.com",
+  logo: "WS",
+
+  rating: 4.8,
+  reviewCount: 29600,
+
+  company: "Writesonic",
+  launchYear: "2021",
+  platforms: "Web",
+  api: "Sí",
+  freePlan: "Sí",
+
+  pros: [
+    "Muy buena calidad SEO",
+    "Interfaz sencilla",
+    "Generación rápida",
+    "Muchas herramientas integradas",
+  ],
+
+  cons: [
+    "El plan gratuito tiene límites",
+    "Las funciones premium son de pago",
+    "Puede necesitar revisión humana",
+  ],
+
+  features: [
+    "SEO",
+    "Artículos",
+    "Blogs",
+    "Copywriting",
+    "Chat IA",
+  ],
+
+  useCases: [
+    "SEO",
+    "Marketing",
+    "Empresas",
+    "Blogs",
+  ],
+
+  bestFor: [
+    "bloggers",
+    "marketers",
+    "empresas",
+    "seo",
+  ],
+
+  similarTech: [
+    "Jasper AI",
+    "Copy.ai",
+    "ChatGPT",
+  ],
+
+  relatedTools: [
+    "jasper-ai",
+    "copy-ai",
+    "chatgpt",
+  ],
+
+  featured: true,
+
+  seoTitle: "Writesonic: análisis, precio y opiniones (2026)",
+
+  seoDescription:
+    "Descubre Writesonic, una plataforma para generar contenido SEO mediante inteligencia artificial.",
+
+  keywords: [
+    "writesonic",
+    "seo ai",
+    "escribir con ia",
+    "copywriting",
+  ],
+
+  responseQuality: 5,
+  programming: 2,
+  creativity: 5,
+  speed: 5,
+  easeOfUse: 5,
+  privacy: 4,
+},
 ];
 
 console.log("TOOLS:", tools.map(t => t.id));
