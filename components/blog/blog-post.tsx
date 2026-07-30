@@ -39,7 +39,7 @@ export default function BlogPost({ content }: BlogPostProps) {
         </p>
 
         <a
-          href="/herramientas"
+          href="/"
           className="inline-flex rounded-xl bg-black px-5 py-3 text-white dark:bg-white dark:text-black font-medium"
         >
           Ver todas las herramientas →
