@@ -1,3 +1,4 @@
+import { blogPosts } from "@/data/blog";
 import { tools } from "@/data/tools";
 import { MetadataRoute } from "next";
 
@@ -22,6 +23,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "weekly" as const,
     priority: 0.8,
   }));
+  const blogPages = blogPosts.map((post) => ({
+  url: `${BASE_URL}/blog/${post.slug}`,
+  lastModified: new Date(post.publishedAt),
+  changeFrequency: "monthly" as const,
+  priority: 0.7,
+}));
 
   return [
     {

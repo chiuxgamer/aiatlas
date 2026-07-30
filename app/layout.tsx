@@ -16,11 +16,60 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AIAtlas — Directorio de herramientas de IA",
+  metadataBase: new URL("https://aiatlas.es"),
+
+  title: {
+    default: "AIAtlas | Descubre las mejores herramientas de IA",
+    template: "%s | AIAtlas",
+  },
+
   description:
-    "Descubre, compara y aprende sobre las mejores herramientas de inteligencia artificial.",
+    "Descubre, compara y aprende sobre las mejores herramientas de inteligencia artificial. Encuentra IA para estudiar, programar, escribir, crear imágenes, vídeo y mucho más.",
+
+  keywords: [
+    "IA",
+    "Inteligencia Artificial",
+    "Herramientas IA",
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Midjourney",
+    "IA gratis",
+    "Mejores IA",
+  ],
+
+  authors: [
+    {
+      name: "AIAtlas",
+      url: "https://aiatlas.es",
+    },
+  ],
+
+  creator: "AIAtlas",
+
   verification: {
     google: "YpsRdVN3yEN1f_fwNYUDoCVff-YYxPLmerkzjFwX8yg",
+  },
+
+  openGraph: {
+    type: "website",
+    locale: "es_ES",
+    url: "https://aiatlas.es",
+    title: "AIAtlas | Descubre las mejores herramientas de IA",
+    description:
+      "Descubre, compara y aprende sobre las mejores herramientas de inteligencia artificial.",
+    siteName: "AIAtlas",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "AIAtlas | Descubre las mejores herramientas de IA",
+    description:
+      "Descubre, compara y aprende sobre las mejores herramientas de inteligencia artificial.",
+  },
+
+  alternates: {
+    canonical: "https://aiatlas.es",
   },
 };
 
